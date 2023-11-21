@@ -1,0 +1,5 @@
+DATASET:
+  TRAIN_FILE : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCOtrain.json"
+  TRAIN_IMG_FOLDER : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCO_train2014"
+  TEST_FILE : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCOval.json"
+  TEST_IMG_FOLDER : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCO_val2014"
