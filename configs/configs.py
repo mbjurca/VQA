@@ -6,13 +6,11 @@ _C = CN()
 _C.DATASET = CN()
 _C.DATASET.TRAIN_FILE = ""
 _C.DATASET.TRAIN_IMG_FOLDER = ""
-_C.DATASET.TEST_FILE = ""
-_C.DATASET.TEST_IMG_FOLDER = ""
-
-
+_C.DATASET.VAL_FILE = ""
+_C.DATASET.VAL_IMG_FOLDER = ""
+_C.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER = ""
 
 _C.TRAIN = CN()
-
 
 
 def update_configs(cfg, model_file_path, dataset_file_path, training_file_path):
