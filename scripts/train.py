@@ -20,8 +20,15 @@ def main():
     cfg = get_configs()
     update_configs(cfg, MODEL_CFG_FILE, DATASET_CFG_FILE, TRAIN_CFG_FILE)
 
-    train_dataset = VQA_dataset(cfg.DATASET.TRAIN_FILE, cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER)
-    validation_dataset = VQA_dataset(cfg.DATASET.VAL_FILE, cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER)
+    train_dataset = VQA_dataset(dataset_file=cfg.DATASET.TRAIN_FILE,
+                                labels_file=cfg.DATASET.LABELS,
+                                vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
+                                image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER)
+    
+    validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
+                                    labels_file=cfg.DATASET.LABELS,
+                                    vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
+                                    image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER)
 
 
     train_dataloader = DataLoader(train_dataset, 
@@ -34,7 +41,9 @@ def main():
     
     
     for j, batch in enumerate(train_dataloader):
-        print(batch)
+        img_embedding, text_embeddings, label, image_name, question_text = batch
+        print(img_embedding.shape, text_embeddings.shape, label.shape)
+
             
     
 
