@@ -6,23 +6,27 @@ import re
 import numpy as np
 import os
 from collections import Counter
+import yaml
 
 class VQA_dataset(data.Dataset):
 
     def __init__(self,
                  dataset_file, 
+                 labels_file,
+                 vocabulary_file,
                  image_embedding_folder, 
-                 min_word_frequancy):
+                 max_len_text_embedding=15):
         
         self.image_embedding_folder = image_embedding_folder
+        self.max_len_text_embedding = max_len_text_embedding
         
         with open(dataset_file) as f:
             self.data = json.load(f)
 
-        self.labels_dict = self.labels2answers(self.data)
+        self.labels_dict = self.load_labels(labels_file)
         self.len_answers = len(self.labels_dict.keys())
 
-        self.word_dict = self.create_question_vocabulary(self.data)
+        self.word_dict = self.load_vocabulary(vocabulary_file)
         self.len_word_dict = len(self.word_dict.keys())
 
 
@@ -37,20 +41,19 @@ class VQA_dataset(data.Dataset):
 
         # get image embedding
         img_embedding = self.get_image_embedding(image_id)
-        text_embeddings = self.get_text_embeddings(question_text)
+        text_embeddings = torch.tensor(self.get_text_embeddings(question_text))
         label = self.compute_label(answers)
 
-        print(img_embedding.shape, text_embeddings.shape, label.shape)
-
-        return img_embedding, label
+        return img_embedding, text_embeddings, label, image_name, question_text
     
     def compute_label(self, answers):
 
-        label = np.zeros((self.len_answers))
+        label = np.zeros(self.len_answers)
         set_answers = set(answers)
 
         for answer in set_answers:
             count = answers.count(answer)
+            print(self.labels_dict[answer], answer, count, self.len_answers)
             if count >= 4:
                 label[self.labels_dict[answer]] = 1.
             elif count == 3:
@@ -72,44 +75,36 @@ class VQA_dataset(data.Dataset):
 
         question = re.sub(r'[^\w\s]', '', question_text.lower())
         words = question.split()
-        words_idx = [self.word_dict[word] for word in words]
+        words_token = [self.word_dict.get(word, self.word_dict['<unk>']) for word in words]
 
-        embeddings = np.zeros((len(words), self.len_word_dict))
-        embeddings[:, words_idx] = 1
+        embedding = [self.word_dict['<start>']] + words_token[:self.max_len_text_embedding-2] + \
+                    [self.word_dict['<pad>']] * (self.max_len_text_embedding - len(words_token) - 2) + \
+                    [self.word_dict['<end>']]
 
-        return embeddings
+        return embedding
 
-    def labels2answers(self, data):
+    def load_labels(self, labels_file):
 
-        answers = []
-        for _, values in data.items():
-            answers.extend(values['answers'])
-
-        answers = set(answers)
-        labels = {answer : index for index, answer in enumerate(answers)}
+        with open(labels_file) as f:
+            labels = yaml.safe_load(f)
 
         return labels
     
-    def create_question_vocabulary(self, data):
-        words_list = []
-        for keys, values in data.items():
-            question = values['question']
-            question = re.sub(r'[^\w\s]', '', question.lower())
-            words = question.split()
-            words_list.extend(words)
+    def load_vocabulary(self, vocabulary_file):
 
-        words = set(words_list)
-        labels = {word : index for index, word in enumerate(words)}
+        with open(vocabulary_file) as f:
+            vocabulary = yaml.safe_load(f)
 
-        return labels
+        return vocabulary
+
     
     def __len__(self):
         return len(list(self.data))
 
     def __getitem__(self, index):
 
-        img_embedding, label = self.generate_sample(index)
+        img_embedding, text_embeddings, label, image_name, question_text = self.generate_sample(index)
 
-        return  img_embedding, label
+        return  img_embedding, text_embeddings, label, image_name, question_text
 
 

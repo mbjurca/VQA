@@ -1,0 +1,4258 @@
+'0': 408
+'001': 2625
+'011617': 766
+'023236': 332
+'0575': 573
+'1': 912
+'10': 883
+10 pm: 4044
+'101': 1297
+11 pm: 2629
+'1197': 755
+'1219': 4021
+'13': 3369
+'14': 1295
+'143': 1065
+'145': 3065
+'15': 16
+'16': 2057
+'178': 508
+'18': 0
+'184': 2159
+'1908': 2005
+'194': 2958
+'195': 2477
+'1:45': 330
+'2': 3952
+2 birds: 650
+2 burner: 2063
+2 piece: 3619
+2 twins: 2179
+'20': 3092
+'200': 3686
+'2000': 1835
+2000 block: 4100
+2000 n: 5
+'2010': 3840
+'2012': 895
+'2013': 3889
+'23': 4022
+'24': 1399
+'2405': 3362
+'25': 2797
+'257': 3866
+'28': 2203
+'283': 2720
+'29': 1602
+2nd: 3429
+2nd trunk: 2413
+'3': 2259
+3 out of 4 do: 2908
+3 zebras: 3013
+'3086': 2386
+32 degrees: 2022
+'323': 959
+'34': 581
+'34359': 1694
+35 degrees: 2098
+35a: 2409
+'365': 4057
+'372': 3588
+'377': 2030
+'38': 2562
+3;39: 4220
+'4': 2986
+4 hundred thirty 6: 2319
+4 lane: 1112
+4 way: 2499
+4 wheeler: 1215
+'404': 3105
+'405': 1052
+405c: 3064
+'42': 2786
+'427': 3505
+'436': 4079
+'45': 138
+'49': 653
+'5': 1129
+5 ft: 3995
+'50': 2883
+50 years: 2929
+50000 feet: 1651
+'5008': 2618
+'506': 3746
+'513': 2452
+'53': 3782
+'537': 177
+'545': 4000
+'55': 2525
+'5863': 4092
+'5:05': 3315
+'6': 3378
+6 or more: 649
+'60803': 4026
+'625': 3932
+'64': 1970
+'655': 3221
+'66': 210
+6th: 1082
+'7': 1821
+'71': 3326
+'75': 3778
+75 years old: 1383
+'754': 972
+'81': 3948
+85a: 1191
+'86': 1302
+'870': 2231
+'8:50': 1335
+'9': 72
+'90': 3755
+'904': 1541
+'91714': 3033
+9:00 pm: 765
+9pm: 2828
+;yes: 473
+'?': 2134
+???: 541
+\living room: 687
+'`': 1862
+a: 1175
+about to eat banana: 1143
+about to surf: 1169
+above: 1234
+above water: 3131
+absolutely: 1132
+accent: 4108
+accident: 407
+accrington: 2956
+acer: 2803
+acne: 737
+across street: 270
+acrylic: 340
+addington village: 2577
+adidas: 494
+admiring view on skis: 3697
+adult: 2865
+adult dog: 2422
+adult male: 2719
+africa: 1256
+african: 3380
+african american: 2744
+african-american: 4104
+after: 3458
+afternoon: 1130
+air: 190
+air canada: 104
+air canadian: 4064
+air force: 3093
+air france: 3851
+air national guard: 2541
+airliner: 525
+airplane: 3008
+airplane bathroom: 514
+airplane seats: 2123
+airplane walking: 3302
+airplanes: 2886
+airport: 3420
+airport baggage claim: 4082
+airport luggage carousel: 1092
+airport runway: 4194
+airport terminal: 2868
+alaska: 3929
+alaskan bear: 4080
+alcohol: 2374
+alcohol/beer: 2743
+alcoholic: 3316
+all but 2: 2418
+all parts: 2970
+almond: 244
+almonds: 1829
+almost: 1296
+alone: 92
+aluminum: 1980
+amateur: 2082
+ambulance: 2544
+america: 1802
+american: 283
+american flag: 713
+american football: 55
+amtrain: 2198
+amtrak: 240
+amtran: 1060
+android: 2340
+angular: 2272
+animal: 1477
+animal park: 1810
+anniversary: 434
+antique: 826
+antique store: 221
+antique white: 385
+any: 3844dataset_train_file
+apartment: 2325
+appears to be basketball: 3260
+apple: 3415
+apple and orange: 3313
+apple carrot tomato: 2559
+apple laptop: 1316
+apple macbook: 705
+apples: 1323
+archway station: 623
+archway street: 2019
+are tomatoes used on this pizza?: 849
+arm: 3606
+army: 1223
+army uniform: 2801
+around neck: 378
+arranging food: 1899
+arriving: 2296
+art: 3788
+art museum: 2593
+arugula: 3464
+ascending: 2940
+asia: 3472
+asian: 665
+asian english: 747
+asian food: 2642
+asiatic: 537
+asparagus: 2676
+asphalt: 2661
+asus: 2384
+at airport: 3563
+at beach: 982
+at church: 3877
+at dinner table: 181
+at park: 3655
+at school: 2006
+at skate park: 415
+at zoo: 2437
+athletic shoes: 157
+attic: 2095
+audi: 3750
+aussie: 2819
+australia: 2260
+australian shepherd: 2036
+autumn: 2520
+available light: 587
+awake: 3576
+award: 264
+away: 1218
+azalea: 1926
+ba: 3674
+baanveger: 1614
+baboon: 692
+baby: 1713
+baby and man: 1389
+baby carrots: 3971
+baby cat: 1963
+baby chair: 769
+baby elephant: 2775
+baby playroom: 2705
+baby shower: 761
+baby zebra: 1044
+back: 96
+backhand: 3097
+backswing: 4120
+backward: 3930
+backwards: 341
+bacon: 3332
+bad: 2268
+badger: 3738
+badminton: 1185
+bag: 858
+bagel: 3284
+baggage claim: 2199
+baggage claim at airport: 2877
+bags: 968
+bahamas: 574
+bailing: 2789
+baked chicken: 729
+baked crust parts: 1219
+bakery: 629
+baking: 1150
+balancing: 889
+bald eagle: 420
+ball: 2389
+ball field: 1260
+baltimore: 2428
+bamboo: 2903
+banana: 2550
+banana kiwi: 481
+bananas: 770
+bandana: 3314
+bands: 907
+bar: 1610
+bar/pub: 2686
+baran: 2581
+barbed wire: 2944
+barber shop: 2285
+barbershop: 1791
+barefoot water skiing: 3742
+barn: 3342
+barn grass and trees: 2188
+barney: 2124
+base: 3919
+baseball: 4244
+baseball bat: 1435
+baseball bats: 666
+baseball cap: 4132
+baseball cleats: 3821
+baseball field: 2563
+baseball game: 88
+baseball hat: 3565
+baseball little league: 793
+baseball or t-ball: 198
+baseball player: 3126
+baseball team: 2920
+baseball uniforms: 1222
+baseball;;: 411
+baseballs: 3066
+based: 1535
+basement: 1410
+basil: 746
+basket: 3597
+basketball: 1812
+bat: 2915
+bath: 2605
+bath and shower: 1772
+bath restroom toilet: 112
+bathing: 3036
+bathing suit: 606
+bathrobe: 1266
+bathroom: 3245
+bathroom sink: 1250
+bats: 1378
+batter: 2953
+batter wearing helmet?: 321
+batting: 3644
+batting helmet: 1176
+battle: 942
+bay: 417
+bbq beef: 3006
+beach: 1949
+beach resort: 3902
+beach sand: 2154
+beach scene: 3120
+beach soccer: 1794
+beach volleyball: 3328
+beachfront: 128
+beagle: 4148
+beanie: 2448
+beans: 326
+bear: 1625
+bear costume: 3906
+bear cub: 3433
+beard: 3084
+beard and mustache: 1608
+bears: 3233
+bearskin: 1921
+because he needs to know time: 2368
+because of almond: 1229
+bed: 3533
+bed dressing: 3712
+bedroom: 2251
+bedroom shoes: 2989
+bedspread: 3164
+beef: 1561
+beer: 142
+beer and lemonade: 1593
+beer bottles: 3863
+beer frisbee: 1346
+beer, lemonade: 3592
+beer, wine: 2049
+beers: 4006
+beet: 2475
+beetroot: 4246
+beets: 3616
+begging: 395
+behind: 804
+behind camera: 873
+behind his back: 3613
+beige shorts: 4047
+bell: 3219
+bell bottoms: 612
+bell peppers: 3454
+below: 3946
+below shoulder: 2174
+bench: 2965
+bending down: 530
+bengal: 73
+benh: 2143
+berne: 2523
+bethel rd: 569
+biathlon: 180
+bib overalls: 1431
+bicycle: 4151
+bicycle shop: 2394
+bicycles: 196
+big: 3629
+big ben: 3794
+big fluffy kitty: 3714
+big one: 3110
+bigger: 2002
+bike: 120
+bike helmet: 4181
+bikes: 2282
+biking: 3793
+bikini: 1470
+biplanes: 2195
+bird: 3790
+birds: 282
+birds and flowers: 3871
+birds on branch: 2442
+birthday: 4109
+birthday cake: 2641
+birthday for edward: 3216
+birthday party: 1855
+biscuit: 2516
+biting: 672
+black: 2498
+black and white: 2853
+black and white stripey: 2010
+black bear: 1716
+black bears: 855
+black eyed susan: 3654
+black leather: 1841
+black olives: 667
+black one: 3396
+black suit: 374
+black tennis shoes: 2941
+black white: 1350
+black, white: 271
+black/white: 2261
+blackberry: 807
+blanket: 725
+bleachers: 2884
+blender: 3630
+blimp: 1753
+blind: 2472
+blinds: 1038
+blonde: 175
+blondie: 1245
+blood orange: 2349
+blue: 4002
+blue and cloudy: 3085
+blue and orange: 2151
+blue and white: 1800
+blue asbestos: 3743
+blue ball: 2015
+blue bird: 1592
+blue jay: 8
+blue jeans: 3786
+blue macaw: 2513
+blueberries and peaches: 3795
+bluebird: 3055
+blurry: 648
+blurry cat: 2215
+blurry picture: 2104
+bo: 2753
+board: 2587
+board jumping: 1118
+board skating: 2731
+boarding: 307
+boat: 2619
+boat riding: 1432
+boating: 957
+boats: 1412
+bob wire: 1871
+body surfing: 4217
+bodyboarding: 1640
+bodysuit: 159
+bologna: 1613
+boogie board: 471
+boogie boarding: 3722
+book: 3894
+books: 3289
+bookshelves: 2712
+bookstore: 2210
+boot: 709
+boots: 3218
+boston: 1696
+boston cream pie: 870
+boston terrier: 1738
+both: 1540
+bottle: 3831
+bottled drink: 2070
+bottled water: 848
+bottles: 2427
+bottom: 3498
+boulders: 463
+bovine: 1920
+bow: 2978
+bow and arrow: 3296
+bowl: 811
+bowler: 2537
+bowling: 772
+box: 928
+boxer: 3338
+boxes: 927
+boy: 3797
+boy is skating: 1577
+boyds: 1795
+boyle: 1183
+bracelet: 2798
+brahman cattle: 2748
+brain: 258
+branch: 865
+branches: 1127
+brandy glass: 1123
+brass: 2557
+brat: 2451
+braun: 570
+bread: 3010
+bread with cucumber on it: 3082
+break room: 206
+breakfast: 2871
+breakfast food: 2657
+breakroom: 2583
+breast: 1850
+breath: 1174
+brick: 1819
+brick and steel: 2262
+brick sidewalk: 3855
+brick walls and tile floors: 2032
+bricks: 2647
+bridal shower: 1018
+bridge: 3474
+bright: 1730
+bright blue: 1172
+brioche: 3733
+british: 1007
+british airlines: 3841
+british airways: 2405
+broadway: 917
+broccoli: 2107
+broccoli and peas and chicken: 3683
+broccoli and scallions: 3267
+broccoli and shrimp: 4243
+broccoli florets: 3014
+broccoli rabe: 839
+broccoli soup: 117
+bronze: 2293
+brookwood: 3476
+broome: 1961
+brown: 2492
+brown and white: 2160
+brown bear: 3516
+brown grizzly bear: 2112
+brownie: 3460
+brownies: 3993
+brunette: 3234
+brush: 2423
+brush teeth: 3990
+brushing: 1546
+brushing her teeth: 2137
+brushing his teeth: 2283
+brushing teeth: 3324
+brushing their teeth: 1565
+brussel sprouts: 3689
+brut: 1629
+bucket: 3297
+bucket stool: 3450
+bud light: 152
+budget: 3
+building 20: 3497
+bull: 4054
+bull catching: 2067
+bulldog: 1133
+bulleen: 2040
+bulleen 200: 3625
+bullet train: 2401
+bullfight: 3046
+bullfighting: 3901
+bums: 161
+bunk: 2280
+bunk bed: 568
+bunny: 787
+bunt: 4036
+bunt ball: 3639
+burchell's: 2777
+burd: 3257
+burger: 502
+burger king crown: 925
+burmese: 1196
+burrito: 485
+burton: 3571
+bus: 1109
+bus and car: 3485
+bus number is 18: 3483
+bus station: 29
+bus stop: 2382
+bus terminal: 107
+bus, car: 3872
+buses: 3280
+bush: 3118
+bushes: 3206
+business: 1163
+busses: 914
+busy: 2612
+butcher knife: 1367
+butter cups: 3696
+butter knife: 1458
+button: 426
+buttoned: 2481
+buzz lightyear from toy story: 2239
+by its pattern: 1254
+by make of car it appears to be vintage picture: 255
+by sea: 3244
+by standing: 3719
+cab: 2576
+cabinet: 3005
+cabinets: 2050
+cable: 1664
+caboose: 3414
+cacti: 3765
+cactus: 1301
+caddie: 290
+caesar: 3522
+cafe: 1414
+cake: 706
+cake and ice cream: 3147
+cake cutting at wedding: 671
+cake day: 2738
+cake frosting: 2129
+cakes: 1173
+calendar: 1553
+calf: 696
+calico: 2329
+california: 2721
+calling someone: 2131
+calm: 1951
+calves: 2603
+calzone: 1911
+cambridge road: 1265
+camel: 227
+camera: 2617
+camo: 262
+camouflage: 2267
+camp chair: 309
+camper: 3942
+camping: 2202
+campus: 3815
+can: 1391
+can be: 3239
+can't see floor: 3611
+can't tell: 891
+can't tell from photo: 4230
+canada donut: 899
+canadian: 136
+canadian bacon: 102
+candles: 1673
+candy: 2118
+cane: 3649
+cannot be sure: 1048
+cannot tell: 976
+canoe: 3145
+canoeing: 1735
+canon: 1849
+canopies: 4196
+cap: 3961
+capital building: 3307
+cappuccino: 1384
+captivity: 3734
+car: 2406
+car race: 3176
+caramel glazed: 536
+cardboard: 1017
+cardboard boxes: 3427
+cardinal: 1769
+cardinals: 1569
+cards: 3998
+cargo: 654
+cargo or both: 630
+carnation: 1299
+carpet: 602
+carpet and wood: 904
+carpeted: 1064
+carpeting: 3711
+carriage: 1004
+carriage rides: 225
+carrot: 491
+carrot cake: 3791
+carrot sticks: 250
+carrots: 3716
+carrots & potato: 1739
+carrots/potatoes: 668
+carrying briefcase: 3220
+carrying pan: 1105
+carrying snowboard: 3628
+cars: 4083
+cart: 2996
+case: 3377
+case with sticker: 1872
+casserole: 2034
+castle bedroom: 1603
+casual: 3306
+cat: 3578
+cat and box: 356
+cat and dog: 2347
+cat and goat: 4123
+cat and lamb: 3133
+cat food: 2700
+cat in window: 4069
+cat, box: 3796
+catamaran: 1674
+catch: 1989
+catch frisbee: 3637
+catch frisbee in sea: 333
+catcher: 1528
+catching: 522
+catching fish: 640
+catching frisbee: 2573
+cathedral: 809
+cats: 495
+cats are resting: 2841
+cats eating: 2395
+catsup: 2016
+cattle: 3651
+caucasian: 2468
+cauliflower: 300
+cauliflower, green beans, soup, lima beans: 1278
+caution: 278
+celebrating: 1220
+celebration: 1843
+celery: 2867
+celery, arugula: 3854
+cell: 2955
+cell phone: 1406
+cell phone and dog leash: 1375
+cement: 1398
+ceramic: 3318
+ceramic tile: 2318
+ceramic tiles: 3242
+ceramic top: 1551
+ceramics: 239
+chain: 3029
+chain link: 447
+chain-link: 2288
+chair: 3964
+chair back: 293
+chairs: 2213
+champagne: 1493
+chance of it: 3843
+chandelier: 3203
+chandler: 3572
+chapel: 2791
+chase: 1413
+chawawa: 337
+check: 595
+checked: 2844
+checker: 2192
+checkered: 2257
+checking email: 145
+checks: 840
+cheddar: 3664
+cheese: 1831
+cheese and peppers: 4160
+cheese pizza: 2417
+cheese sauce: 2404
+cheesecake: 4008
+cheesesteak: 76
+chef: 3566
+chefs: 3409
+chest: 1423
+chicago: 2274
+chickasaw: 4130
+chicken: 450
+chicken and broccoli: 1181
+chicken and vegetables: 1644
+chicken sandwich: 1789
+chicken with rice and vegetables: 2842
+chickens: 4209
+chihuahua: 2497
+child: 4122
+child's bed: 371
+child's bedroom: 877
+child's room: 966
+children: 3355
+children's bedroom: 2925
+childs: 3361
+chili dog: 1251
+chili dogs: 2946
+chillin: 4031
+china: 1039
+chinatown: 3603
+chinese: 1882
+chinese characters: 185
+chinese food: 701
+chiquita: 3295
+chiwawa: 2051
+cho: 1010
+chocolate: 1275
+chocolate and vanilla: 690
+chocolate cake: 4048
+chocolate chip cookie: 200
+chocolate chip ice cream: 3080
+chocolate cream: 6
+choo choo: 2062
+chopped olives: 3067
+chopping: 279
+chopping food: 3770
+chopsticks: 3585
+christleton: 252
+christmas: 3936
+christmas hat: 1568
+christmas lights: 3140
+christmas time: 3073
+christmas tree: 2588
+christmas trees: 2766
+christmas/winter: 2634
+church: 4062
+churches: 2053
+cigarette: 1103
+cigarettes: 3982
+cinema: 3983
+circus: 513
+citrus fruit: 3591
+city: 3103
+city bus: 3914
+city campus: 2859
+class: 3817
+classroom: 4153
+clay: 1165
+clay tennis court: 3959
+clean: 2375
+cleaning: 961
+cleaning room/ slop room: 4145
+cleaning teeth: 2584
+cleaning up: 4202
+clear: 3638
+clear and blue: 1078
+clear and sunny: 3271
+clear blue: 1922
+clear plastic: 2892
+cleated: 3108
+cleats: 2316
+clementine: 3938
+clets: 2916
+climbing: 1009
+climbing pole: 80
+clock: 1122
+clock tower: 3405
+clocktower: 834
+clogs: 2204
+closed: 1128
+cloth: 2880
+clothes: 4097
+clouds: 3529
+cloudy: 1386
+cloudy and bright: 3026
+clowning around: 3596
+club: 625
+clustered donuts: 3584
+cluttered: 2235
+clydesdale: 878
+coach tours: 633
+coat: 3853
+cobblestone: 320
+coca cola: 4118
+coca-cola: 444
+cockatoo: 3970
+cocker spaniel: 1837
+cocktail: 4088
+cocktails and water: 1
+coconut: 274
+cod: 3101
+coffee: 4105
+coffee and donut: 2055
+coffee table: 1359
+coins: 2196
+coke: 1790
+cola: 2574
+cold: 1597
+cold and raining: 1605
+colgate: 3698
+college: 626
+college dorm room: 1660
+collie: 2169
+color: 1632
+colorado: 1365
+colors in this photo: 3299
+comfort room: 2596
+coming: 3885
+commercial: 814
+commercial airplane: 1823
+commercial kitchen: 1513
+commercial plane: 1081
+commercial vehicle: 2359
+commuter train: 2454
+competing: 3114
+composite wood floors: 4127
+computer: 2276
+computer camera: 1272
+computer desk: 2038
+computer room: 1468
+computing: 3650
+concrete: 132
+condos: 1775
+conductor: 2945
+cones: 222
+conference: 1066
+conference room: 165
+container holding hot dog: 3231
+continental: 3197
+controller: 509
+convection: 2348
+convenience store: 771
+cook: 1703
+cook, eat and do laundry: 3349
+cookie: 2626
+cookies: 1045
+cooking: 2735
+cooking and preparing food: 1141
+cooking and storing food: 1024
+cooking eggs: 3071
+cooking show: 774
+cool: 777
+cooler: 3575
+cooper: 1197
+copper: 3557
+cordless phone: 3774
+corn: 440
+cosmo: 1376
+costume jewelry: 1013
+cotton: 2854
+couch: 1728
+could be: 2910
+could be either or: 2338
+counter: 2872
+country: 3258
+country setting: 1161
+country sitting: 3740
+countryside: 4232
+court: 1480
+courtyard: 403
+coveralls: 3784
+cow: 1332
+cow, sheep, horse: 459
+cow, zebra: 2360
+cowboy: 1994
+cowboy boots: 1390
+cowboy hat: 3213
+cows: 4072
+cqt: 2433
+crab: 1233
+crane: 1452
+crane game: 41
+crashing burning: 2103
+crawford: 553
+cream: 2729
+cream pastry: 1727
+creek: 211
+creme brulee: 416
+crescent roll: 3250
+crest: 1978
+crete: 1319
+crew: 1549
+crew cut: 2568
+crib: 3109
+cricket: 1864
+crocodiles: 1604
+crocs: 1774
+croissant: 146
+cropped tail: 893
+croquet: 3960
+cross: 3623
+cross country: 1896
+cross country skiing: 2212
+cross skiing: 2087
+cross-country: 4059
+cross-country skiing: 781
+crossing: 443
+crossing street: 2682
+crosswalk: 704
+crow: 2546
+crown: 346
+crows: 2928
+cruiser: 2279
+crystal: 428
+ct: 670
+cuban: 1098
+cubicle: 2800
+cucumber: 3816
+cucumbers: 3718
+cultured: 3115
+cupboard: 2846
+cupcake: 504
+cupcakes: 2943
+curb: 1700
+curbed: 779
+curly: 3011
+current: 3545
+cursive: 909
+curtain: 1460
+curtains: 1701
+curve: 2294
+curved: 1159
+cut: 1576
+cut banana on plate: 2951
+cut in half: 1717
+cutlery: 2649
+cutting: 3044
+cutting cake: 2765
+cutting food: 3617
+cutting hair: 2610
+cutting his food up: 2768
+cutting into cake for his 50th birthday: 106
+cutting meat: 237
+cutting person's hair: 767
+cutting wedding cake: 2794
+cycling: 1712
+dachshund: 1886
+daffodil: 3039
+daffodils: 2827
+daisies: 2538
+daisy: 4035
+daisy's: 960
+dalmatian: 1107
+dalmation: 59
+dance: 1079
+dancing: 2933
+dark: 4248
+dark green: 1153
+dark slacks: 1705
+dawn: 2313
+day: 3579
+day time: 3477
+daytime: 2936
+dc: 4164
+de-contamination chamber: 1360
+decker: 1649
+decorating cupcakes: 2484
+deep dish pepperoni: 2527
+deep dish pizza: 3419
+del am: 3776
+delam: 3251
+delamere: 557
+deli: 3003
+deli sandwich: 140
+delicious: 2164
+delivery truck: 2692
+dell: 17
+dell laptop: 464
+delta: 4110
+den: 1478
+denim: 2598
+denim jeans: 3537
+departing: 2029
+depends on state: 992
+depot: 3068
+derby: 1019
+desert: 3962
+desk: 2312
+desktop: 2927
+desktop computer: 3706
+dessert: 1046
+desserts: 2505
+destroyed: 3179
+detroit: 3838
+diesel: 1747
+diet: 802
+diet coke: 1670
+different team: 2835
+digging: 3898
+digging in sand: 4042
+diner: 1523
+dining: 1429
+dining and living rooms: 1012
+dining room: 363
+dinner: 1622
+dinner table: 60
+dinosaur: 986
+dinosaurs: 1213
+dirt: 2127
+dirt bike: 731
+dirt field: 1554
+dirt ground: 3468
+dirt road: 4156
+dirty: 1536
+disc: 1956
+disc golf: 391
+disc-golf: 110
+discus: 1947
+discus throw: 852
+dish soap: 2592
+disk frisbee: 3658
+divider: 655
+diving: 1379
+diving to catch: 242
+diwali: 383
+do not know: 673
+do not walk: 3949
+doberman: 306
+dock: 1005
+docking: 1861
+dodge: 2834
+dodgeball: 1509
+dodger: 3293
+dodgers: 4115
+does not say: 4166
+doesn't seem old: 3725
+dog: 3988
+dog and cat: 2554
+dog and frisbee: 1714
+dog and trees: 3980
+dog is sitting on surfboard: 111
+dog training: 1496
+dogs: 4233
+dole: 3956
+dome: 695
+don't know: 1889
+donkey: 1874
+donut: 2680
+donut and coffee: 2256
+donut truck: 70
+donuts: 795
+doomed: 4218
+door: 3049
+door open?: 3132
+doretta l: 1321
+dorm: 3921
+dorm room: 1531
+double: 1363
+double deck: 1743
+double decked bus: 3583
+double decker: 2655
+double decker bus: 1503
+double decker tourist: 1740
+double ham: 2147
+double-decker: 3397
+double-decker bus: 3515
+doubles: 3707
+doubles match: 3353
+doubles tennis: 1905
+doughnut: 1968
+doughnuts: 886
+dove: 3155
+dover: 3963
+doves: 3600
+down: 256
+downhill: 3167
+downhill skiing: 1876
+downtown: 3329
+dr pepper: 2644
+dr who cake: 1620
+dragon boat: 1318
+drain pipe: 3309
+drawing: 1648
+dress: 3406
+driftwood: 1491
+drink: 4185
+drinking: 4190
+drinking out of cup: 4176
+drinking tea: 3227
+drinking water: 2960
+drinking water for dog: 3908
+drinks: 1307
+driving: 2773
+driving boat: 299
+driving motor boat: 2839
+drone: 286
+dry: 566
+dual: 2918
+ducat: 797
+ducati: 37
+duck: 2278
+ducks: 3410
+dump: 3253
+dump truck: 4216
+dunkin donuts: 1950
+dunkin' donuts: 1170
+dunny: 285
+duo: 3656
+duplicate: 3053
+dusk: 1239
+dutch: 2021
+e: 1089
+each other: 4207
+eagle: 325
+eagles: 2664
+ealing broadway: 448
+ear: 3957
+earrings: 515
+east: 2178
+easter: 3356
+eating: 2222
+eating and drinking: 693
+eating and looking: 2569
+eating and looking at smartphone: 4228
+eating and talking: 1583
+eating at restaurant: 3502
+eating branches: 2335
+eating breakfast: 2314
+eating cake: 1885
+eating cookie: 2890
+eating dessert: 3837
+eating dinner: 2684
+eating donut: 1325
+eating donuts: 1311
+eating doughnut: 3175
+eating doughnuts: 3018
+eating food from street: 1932
+eating from hand: 3779
+eating giant bagel: 683
+eating grass: 4189
+eating hay: 1436
+eating hot dog: 2613
+eating leaves: 2779
+eating leaves off tree: 2711
+eating lunch: 1663
+eating meal: 2385
+eating nuts: 2461
+eating on boat: 2654
+eating peanuts: 2426
+eating pizza: 2465
+eating sandwich: 2351
+eating seeds: 253
+eating soup: 3196
+eating sub: 4149
+eating twig: 3703
+edinburgh: 1168
+egg and ham: 2460
+egg rolls: 1702
+egg sandwich: 739
+eggplant squash: 3944
+eggs: 2205
+either: 1276
+electric: 3246
+electric flat top: 1036
+electric gas: 2399
+electric guitar: 2383
+electric toothbrush: 4147
+electronic toothbrush: 3805
+elephant: 1444
+elephant and horse: 375
+elephant leg: 3739
+elephant's leg: 3635
+elephants: 1799
+emergency: 1878
+emirates: 615
+empty: 1954
+emu: 2521
+enclosure: 3323
+end of winter: 3488
+endare: 4201
+endorse: 3466
+energy: 2322
+energy drink: 2315
+energy drinks: 967
+engine: 2091
+england: 1908
+english: 3100
+english bulldog: 609
+english national opera: 4204
+enjoying surfing: 2302
+entertainment: 3432
+entrance: 4186
+equestrian: 1506
+ern: 1475
+es: 2089
+europe: 2832
+evening: 2702
+evergreen: 4053
+evergreens: 913
+everything: 4124
+excalibur: 401
+exchanging greetings: 4086
+existing: 2081
+exit: 577
+express: 389
+extra cheese: 2660
+extreme frisbee: 3331
+extreme skateboarding: 1621
+eyeglasses: 689
+eyes: 168
+f: 232
+fabric fibers: 1424
+face: 599
+facial hair: 1715
+factory: 2
+fair: 2650
+fake: 2646
+fake wood: 1377
+faked: 144
+fall: 2085
+falling: 1659
+family: 1900
+family room: 445
+fan: 3676
+fancy: 948
+fanta: 1579
+farm: 472
+farm route: 735
+farmer: 838
+fast: 1983
+fast food: 2471
+fat: 3553
+fed-ex: 1665
+fedex: 1940
+fedora: 3492
+feeding: 4193
+feeding animal: 2434
+feeding bird: 2392
+feeding each other: 2370
+feeding giraffe: 1588
+feeding giraffes: 2041
+feeding horse: 32
+feet: 935
+female: 2737
+females: 2882
+fence: 1893
+fern: 3559
+ferret: 2300
+fetch: 295
+fiat: 1003
+field: 1755
+field of rolling hill: 4227
+field trip: 1164
+fighting: 3161
+finch: 3519
+fine: 1935
+fingers in pot: 2381
+fir: 800
+fire: 2857
+fire engine: 3262
+fire hydrant: 1682
+fire track: 2416
+fire truck: 3509
+firefighter: 1573
+fireman: 2988
+fireplace: 817
+fires: 2815
+fish: 2902
+fisher: 10
+fishing: 552
+fishing boat: 682
+fishing boats: 3345
+fixing plates: 3550
+flag: 2560
+flag football: 4236
+flamingo: 2699
+flannel: 754
+flat: 380
+flat screen: 3154
+flatbread: 822
+flip: 4039
+flip flop: 3586
+flip flops: 3229
+flipping: 1206
+floating: 2825
+flocking: 2177
+floor: 167
+floral: 3657
+floral pattern: 1328
+flower: 45
+flower pot: 2190
+flowered: 174
+flowers: 431
+fluorescent: 3056
+flush: 1193
+fly birdie: 3580
+fly kite: 3263
+flying: 657
+flying balloons: 3311
+flying disc: 1258
+flying frog: 1069
+flying kite: 588
+flying kites: 2099
+flying kites,: 3798
+flying object: 2387
+flying parachute: 2714
+flying plane: 3744
+flying plate: 1852
+flying pro kite: 3363
+foal: 3869
+fog: 2843
+fogging: 2156
+foggy: 554
+folding chairs: 4198
+follow leader: 2459
+following snowmobile tracks: 780
+food: 2669
+food truck: 3209
+football: 562
+football (soccer): 2470
+football cleat: 3223
+football nets: 3880
+for: 3940
+for business: 1731
+ford: 620
+ford ranger: 18
+foreground: 405
+foreign language: 2372
+fork: 2043
+fork and knife: 2971
+fork, knives: 493
+forks: 2542
+formal: 1270
+formica: 3325
+forward: 1487
+four aeroplanes: 228
+fox: 1486
+france: 2802
+free: 224
+freebie: 1514
+freesbie: 289
+freese: 234
+freestyle skiing: 2168
+freeway: 1869
+freezbe: 3063
+freeze: 549
+freezebee: 4155
+freight: 1815
+french: 2069
+french fries: 3518
+fresh: 1785
+fridge: 1095
+fries: 2173
+frisbee: 126
+frisbee clothes: 743
+frisbee football: 3713
+frisbee golf: 3391
+frisbee is being played: 2529
+frisbee tag: 979
+frisbee throwing: 1637
+frisbee toss: 2534
+frisbeeing: 3574
+frisbees: 2788
+frisbey: 4251
+frisbie: 3496
+frisby: 3183
+frisee: 1917
+frizz bee: 4173
+frog: 3224
+from above: 825
+from outside: 1537
+front of mirror: 757
+front room: 902
+frosted cake: 556
+fruit: 229
+fruit and vegetables: 67
+fruit bowl: 4040
+fruit salad: 1494
+fruit stand: 413
+fruits: 2725
+fruits and vegetables: 1498
+frying bananas: 199
+fucks: 2242
+full: 3158
+full size: 1358
+funnel cake: 1916
+fur: 661
+furniture: 2818
+furniture store: 1309
+futbol: 4215
+futsal: 1884
+gaining air: 3769
+gallery: 1803
+galloping: 1421
+game: 3122
+game room: 4150
+game show: 1936
+gaming: 1529
+gannet: 1047
+garage: 441
+garage door: 3546
+garage sale: 2326
+garbage: 1653
+garden: 3981
+garfee: 1228
+garfield: 4131
+garland: 1685
+garlic bread: 3862
+gas: 2000
+gas and coca cola: 3078
+gas station: 1676
+gasoline: 2899
+gate: 3994
+gateway: 880
+ge: 1252
+geese: 4231
+georgetown: 659
+german: 2963
+german shepherd: 3646
+german sheppard: 1032
+germany: 3200
+getting food: 543
+getting on bus: 3436
+ghan: 3849
+ghana: 3781
+giants: 339
+gibson: 2905
+gin: 794
+giraffe: 2281
+giraffe and zebras: 1992
+giraffes: 4119
+girl: 605
+girl is moving fast: 2848
+girl//no: 390
+giving haircut: 220
+glass: 916
+glass and metal: 2631
+glass is full: 4016
+glass vase: 4249
+glasses: 3762
+glazed: 3104
+glazed donut: 446
+gliding: 3130
+gliding on water: 3347
+glover park: 2332
+gloves: 572
+go: 4081
+goa: 3801
+goat: 2674
+goatee: 2144
+goats: 4222
+goggles: 1846
+going: 133
+going down: 319
+going for walk: 2193
+going surfing: 3810
+going to ta fire: 775
+going to work: 2666
+gold: 2695
+golden gate: 3527
+golden gate bridge: 2599
+golden retriever: 2658
+golf: 51
+golf shoes: 3581
+golfing: 658
+good: 4205
+good food: 1599
+good luck: 2357
+goofy: 1340
+googles: 2028
+goose: 3395
+gorilla: 268
+gota: 486
+gouda: 2245
+government: 4113
+graffiti: 2934
+grandfather: 425
+grandfather clock: 1686
+granite: 1449
+grape: 3168
+grapefruit: 1405
+grapes: 2838
+grass: 1062
+grass ground: 1277
+grasslands: 3836
+grassy: 204
+gravel: 3692
+gray: 3699
+gray, white and black: 1557
+grazing: 1892
+great dane: 2957
+great horned owl: 3504
+green: 54
+green apple: 1482
+green grass: 2116
+green meter: 872
+green pepper: 2352
+greyhound: 2975
+greyhound bus: 856
+grilled chicken: 2823
+grinding: 2967
+grip: 1312
+grizzly: 350
+grizzly bear: 2938
+groceries: 2331
+grocery bags: 575
+grocery sacks: 276
+ground: 1286
+guest: 343
+guitar: 2412
+gull: 952
+gulls: 970
+gunn: 3976
+guy: 1226
+hackney central: 77
+haggling: 1757
+hair: 39
+hairband: 2182
+hairbrush: 3892
+half eaten: 1759
+half pipe skateboard aerial: 2110
+hall: 147
+halloween: 1202
+hallway: 2450
+ham: 2888
+hamburger: 1578
+hand: 950
+hand skateboard attempt: 2100
+handball: 624
+hands: 2799
+hang glide: 3645
+hanging: 1688
+hanging on wall: 3523
+hanukkah: 2106
+happy: 638
+hardwood: 559
+hardwood floor: 610
+hardwood flooring: 34
+hardwood or fake hardwood: 857
+harley: 99
+harley davidson: 3418
+harley-davidson: 540
+hat: 3667
+hatchback: 3799
+have: 4114
+having fun: 1249
+hawaiian: 2830
+hawk: 782
+hay: 2690
+hazy: 2096
+he does: 1057
+he does have them spread: 2790
+he is left handed: 3254
+he is skateboarding: 2455
+he is walking: 2197
+he looks strong: 3530
+he's playing soccer: 1555
+head: 2810
+head and neck: 3812
+head, neck, and part of front leg: 3680
+headband: 3823
+healthy: 2248
+hearts: 2710
+heater: 43
+heating food: 3510
+heifer: 931
+heineken beer: 2396
+helicopter: 756
+hello kitty: 3060
+helmet: 4161
+helmet and vest: 2862
+helmut: 3449
+hen: 347
+her foot: 1915
+her skirt: 1600
+herding: 2171
+herding cattle: 1816
+heron: 3341
+herons: 3620
+"he\u2019s": 4171
+hibiscus: 3399
+high: 3178
+high chair: 1310
+high speed train: 1372
+high tops: 3508
+highly unlikely: 2120
+highly; scuffle ball: 1764
+highway: 2570
+hike: 3934
+hiking: 1472
+hill: 3968
+hilly: 1446
+hippo: 3772
+hippopotamus: 1243
+hips: 2017
+his: 1028
+his hip: 212
+his left: 301
+his right: 3088
+his right hand: 3189
+his skateboard: 2990
+hispanic: 1125
+history is wild ride: 7
+hitchhiking: 2004
+hitter: 2752
+hitting: 1709
+hitting rock: 1601
+hitting tennis ball: 1626
+ho: 3386
+hoagie: 1706
+hockey: 594
+hockey central: 3539
+holding baby: 1195
+holding child: 910
+holding kite: 644
+holding knife: 2380
+holding sandwich: 3685
+holding surfboard: 1962
+holding umbrella: 1083
+holding up phone: 3043
+home: 2011
+home office: 1721
+home plate: 983
+home stove: 2968
+homerton hospital: 598
+honda: 3890
+hong kong: 2284
+hood: 1080
+hooks: 3931
+hookwood: 875
+horizontal: 582
+horse: 1766
+horse bath: 528
+horse hockey: 2208
+horse is shown: 79
+horse race: 1538
+horse racing: 1227
+horse riding: 751
+horse wagon: 2073
+horses: 1719
+horses and goats: 52
+hospital: 1146
+hospital bed: 3366
+hospital infant care: 327
+hospital room: 3475
+hostel: 263
+hot: 3632
+hot dog: 1965
+hot dog and bun: 619
+hot dog biscuits: 1801
+hot dog on roll: 3835
+hot dogs: 2983
+hot kind: 1393
+hot outside: 113
+hotel: 2907
+hotel accommodation: 1658
+hotel bedroom: 414
+hotel room: 1645
+hotel room suite: 2677
+hound dog: 911
+house: 287
+house cat: 1030
+house slippers: 189
+houses: 4165
+housing: 742
+houston hospital: 3241
+hoverboarding: 783
+how many animals are there?: 2047
+how many bears are there?: 1157
+how many giraffes are there?: 209
+how many men are there?: 1944
+how many people are walking?: 1400
+how many toilet paper rolls are there?: 1745
+hp: 2072
+htc: 1500
+huge rocks: 1403
+hugging: 3079
+human: 4142
+hummer: 2424
+humming: 3070
+hummingbird: 1690
+hunting: 3021
+husky: 1618
+husky is my best guess: 2707
+hyak: 2445
+hydrant: 1317
+hyundai: 2500
+i can't honestly: 3811
+i don't know: 2444
+i have no idea: 3248
+i hope so: 2079
+i think it's adult: 750
+ibex: 1167
+ibis: 2076
+ibm: 2869
+ice: 2266
+ice bear: 3513
+ice boarding: 2291
+ice cream: 2219
+ice cream cake: 2564
+ice skating: 2539
+iced cream: 399
+iced tea: 3759
+if you put it in: 2763
+imac: 674
+in: 2796
+in 2 thousand 10: 95
+in afternoon: 2287
+in bathroom: 963
+in beach: 4093
+in bedroom: 1751
+in bounds: 932
+in fridge: 1867
+in front of: 3820
+in front of mirror: 3490
+in giraffe's cage: 3199
+in hot climate: 977
+in house: 1111
+in kitchen: 3040
+in living room: 675
+in motion: 2932
+in park: 832
+in restaurant: 4116
+in restaurant kitchen: 3424
+in sink: 402
+in suitcase: 3022
+in water: 1526
+india: 2734
+indian: 2643
+indoor: 2688
+indoors: 3945
+industrial kitchen: 1972
+informal: 2701
+inside: 1063
+inside airport: 1008
+inside house: 2708
+inside motorhome: 2770
+inspecting: 1437
+instrument case: 482
+intercom: 3867
+iphone: 611
+ipod: 2379
+ipod shuffle: 1416
+ipswich: 372
+iran: 1054
+iris: 3471
+irish: 2948
+iron: 2575
+irrational: 2949
+is: 2670
+is it cloudy day?: 1635
+is this military airplane?: 4067
+is this summer day?: 2189
+is window no: 863
+ish: 734
+isuzu: 2969
+it airport?: 1331
+it appears to be: 2122
+it called surfing: 881
+it does not look safe: 3174
+it is animal: 1288
+it is apple: 3920
+it is baseball: 699
+it is bathroom: 1580
+it is behind clouds: 2745
+it is birthday: 3051
+it is christmas: 4135
+it is family event: 2061
+it is frisbee: 2292
+it is going to archway station: 3634
+it is hot dog: 150
+it is kitchen: 3020
+it is kitten: 3137
+it is nighttime: 1623
+it is not food: 3675
+it is old, maybe: 23
+it is on left: 2105
+it is overcast: 2342
+it is parrot: 3152
+it is picture: 2166
+it is pizza: 1368
+it is restroom: 458
+it is snowboarding: 63
+it is stuffed dog: 862
+it is tile: 1589
+it is woman: 3780
+it looks like it: 1073
+it looks like so: 1687
+it looks recent: 788
+it would be good: 323
+it's bathroom: 3813
+it's dusk: 2515
+it's fashionable: 1152
+it's outdoors: 2364
+italian: 3702
+italian cheese: 3365
+italian food: 3390
+italian ice: 2354
+itemization: 3874
+jack russell: 4179
+jacket: 758
+jacket, shirt and tie: 3368
+jai alai: 2874
+jal: 1572
+japan: 3893
+japanese: 2391
+jean: 2432
+jeans: 2809
+jeep: 1914
+jellyfish: 3121
+jet: 999
+jet ski: 535
+jet skiing: 565
+jet-skiing: 1517
+jewish: 1547
+jml: 1612
+jockey: 1828
+jogging: 760
+john deere: 2130
+jones: 3440
+jorts: 2746
+jp morgan: 933
+jpmorgan: 2097
+jug: 3069
+juggle: 2493
+juggling: 919
+juice: 1253
+july 4: 2180
+july 4th: 3598
+jump: 2068
+jump rope: 1020
+jumping: 2506
+jumping fence: 4117
+jumping fences: 2065
+jumping hurdle: 3358
+jumping obstacle: 4177
+jumping on sidewalk with umbrella in his hand: 3482
+jumping on skis: 2757
+jumping on snowboard: 501
+jumping over: 2132
+jumping over boards: 3001
+jumping over obstacle with skateboard: 854
+jumping over rail: 3300
+jumping over sign: 894
+jumping skateboard: 1720
+jumping skateboards: 1072
+jumping with single ski: 1960
+jumping, near rim: 3083
+jungle: 924
+just: 3237
+just keep going: 3290
+k62 003: 1407
+kale: 3334
+karaoke: 1999
+karate: 2672
+karma: 730
+kayak: 3417
+kayaking: 1298
+keep away: 818
+keep balance: 379
+kennedy: 498
+ketchup: 4200
+keyboard: 882
+khaki shorts: 3626
+kia: 1448
+kickball: 949
+kickflip: 1560
+kickflipping: 642
+kickstand: 1362
+kid: 218
+kids: 2847
+kids playroom: 40
+kids room: 4005
+kids surfing: 3491
+kind: 381
+kind of: 1284
+king: 790
+kirchen: 2637
+kissenkino: 3117
+kissing: 1120
+kit: 1056
+kitch: 517
+kitch room: 718
+kitchen: 3621
+kitchen and living room items: 1834
+kitchen at restaurant: 511
+kitchen in house: 89
+kitchen living room: 1484
+kitchen table: 2227
+kitchen/dining: 1832
+kitchen/dining area: 208
+kitchen/dining room: 3388
+kitchenette: 2861
+kitchens: 2723
+kitchenware: 898
+kite: 3177
+kite and flag: 547
+kite building: 3489
+kite fly: 801
+kite flying: 3279
+kite handle: 727
+kite string: 2696
+kite strings: 1241
+kite-flying: 2901
+kites: 487
+kiting: 1455
+kitten: 2246
+kitting: 1883
+kitty: 3141
+kitty cat: 2511
+kiwi: 1027
+knee: 533
+knee injury: 1469
+knee pads: 1040
+kneeling: 3653
+knife: 1710
+knit: 3684
+knives: 2037
+koala: 1084
+korea: 1034
+korean: 2060
+krispy kreme: 603
+la: 1135
+lab: 720
+labrador: 3763
+lacrosse: 1741
+ladder: 3870
+ladder truck: 4046
+ladle: 2532
+lake: 2135
+lake shore: 1672
+lakehead: 1804
+lamb: 3157
+lambs: 3917
+laminate: 1907
+laminate hardwood: 921
+lamp: 4
+land: 314
+landing: 121
+landscape: 3943
+lap: 2704
+laptop: 784
+laptop computer: 338
+laptop keyboard: 2269
+large: 3446
+lasagna: 3339
+lasagna/pizza: 108
+latch: 3394
+late evening: 1059
+launching kite: 3548
+laundry: 3057
+laundry room: 4001
+lavatory: 3564
+lawn: 1247
+lawn tennis: 2974
+laying: 1595
+laying down: 195
+laying on bed: 2271
+laying on benches: 715
+leaf: 1942
+leaning on counter: 11
+leapfrog: 1267
+leaping: 1326
+learning: 3593
+learning to ski: 4102
+leather: 3282
+leather jacket: 1748
+leaves: 1225
+leaving: 4180
+left: 465
+left to right: 1996
+left woman: 2616
+left wrist: 2821
+lefty: 697
+lego palm tree: 1654
+lemon: 2767
+lentil: 2558
+leopard: 61
+letters: 2636
+lettuce: 2937
+lettuce leaves: 3291
+lettuces: 579
+lg: 1678
+library: 507
+licking: 3169
+licking cupcake: 953
+licking food: 2145
+lid: 2787
+life jacket: 958
+light: 1598
+light green: 2244
+light rail: 2400
+light tower: 1558
+lighthouse: 627
+lighting: 2003
+lighting birthday candles: 3605
+lighting candle: 2548
+lighting candles: 3185
+lightning rail: 1154
+lights: 3881
+lights, calendar: 3972
+lilac: 708
+lilies: 845
+lilys: 618
+lining room: 1939
+linoleum: 1953
+lion: 1336
+lion cub: 2727
+lion/horse: 1976
+lions: 2769
+lip trick: 710
+listening: 1737
+little: 712
+little bit: 3190
+little girl is not sitting: 4073
+little league: 988
+liverpool: 1136
+liverpool st: 2608
+liverpool street: 1467
+living: 1255
+living and dining: 2919
+living area: 2730
+living room: 3439
+living room and dining room: 1077
+living room or family room: 3618
+living/dining area: 2008
+living/dining room: 82
+llama: 1001
+loafers: 316
+lobby: 2148
+lobster: 1933
+location is zoo: 1115
+lockheed: 3985
+locomotive: 3587
+lodging: 1552
+log: 1355
+logitech: 2792
+london: 467
+long: 662
+long boots with heels: 1303
+long grain rice: 3582
+long hair: 1782
+long skateboard: 3212
+long sleeve: 3764
+long sleeves: 3551
+longboard: 421
+longboarding: 1627
+longboat: 3423
+look of surprise: 2447
+looking: 2623
+looking at book: 3255
+looking at camera: 3283
+looking at child's teeth: 3907
+looking at computer: 1207
+looking at dog: 42
+looking at ground: 1964
+looking at her phone: 997
+looking at kite: 1746
+looking at owner: 3673
+looking at people: 3481
+looking at phone: 497
+looking at photographer: 975
+looking at photos: 1726
+looking at tablet: 3500
+looking at tv: 2440
+looking food: 1051
+looking for food: 3383
+looking out window: 1324
+looking outside: 759
+looking over fence: 3321
+looking up: 3910
+lookout: 2139
+los angeles: 3909
+lotus: 3737
+loudspeaker: 3112
+louisiana: 539
+lounge: 2501
+lounging: 2931
+loveseat: 3461
+low: 677
+low tide: 261
+luggage: 3549
+luggage truck: 4229
+lunch: 2250
+lunch meal: 1320
+lunch room: 510
+lunchroom: 1754
+lung: 449
+lying down: 3536
+lying down on table: 591
+mac: 3292
+mac os: 4101
+macaque: 1973
+macbook: 2909
+macintosh: 1104
+macintosh/apple: 2228
+magazine: 3463
+mail: 3135
+main course: 2994
+make believe: 2224
+making bed: 2378
+making donuts: 1179
+making eggs: 2911
+making food: 4133
+making hand gestures: 519
+making his bed: 1315
+making igloo: 4203
+making pizza: 3679
+male: 1016
+males: 3166
+mall: 1585
+mammal: 1590
+mammals: 1787
+man: 2622
+man and two women: 69
+man in blue shirt probably has his eyes closed: 1199
+man is playing tennis: 3730
+man's beard and pants match: 1768
+man's hand has ring on it: 4112
+man, snowboard: 2878
+manchester: 1959
+mango: 1723
+mangoes: 2571
+manzanilla: 1530
+map: 3337
+maple: 900
+marble: 2206
+marble tile: 1075
+margaritas: 1809
+marine: 3861
+mario: 3642
+market: 2724
+marlin: 3320
+marriage: 1025
+martial arts: 923
+master bedroom: 3469
+masters: 1369
+matter of opinion: 1783
+mattress: 799
+maxwell depot: 312
+maxwell street: 864
+maxwell street depot: 2526
+maybe: 2045
+maybe, middle is smaller: 714
+maybe?: 2795
+maybelol: 2885
+mayonnaise: 49
+mayonnaise and grape jam: 3009
+mcdonald's: 1387
+me for you: 4077
+meat: 2811
+meat and herb sandwich and cookies: 2694
+meatball grinders: 2849
+mediterranean: 3252
+meeting location: 1988
+melon: 3479
+men: 1110
+men's: 3442
+men's room: 90
+menu: 3601
+meow: 1148
+mercedes: 3895
+mercedes benz: 437
+mercedes-benz: 2852
+merlot: 4099
+messy: 892
+metal: 2781
+metal & wood: 3951
+metal and glass: 2408
+metal bucket: 1499
+metal kitchen utensils: 2601
+metal wire: 97
+metro train: 1204
+mets: 1844
+mexican: 1443
+mexico: 3528
+micro: 2630
+microwave: 600
+microwave and flowerpot: 2736
+microwave ovens: 2572
+middle: 2851
+mild: 1847
+mildly: 1750
+military: 1888
+military truck: 1022
+milk: 2741
+miller beer: 4103
+miniature poodle: 3521
+miniature train: 2240
+minivan: 3933
+mint: 2024
+minton: 331
+mirror: 2084
+mirror image: 1752
+misty: 1958
+mitts: 1570
+mix breed: 3201
+mixed: 879
+mixer: 2486
+mixing: 3091
+mo: 353
+model: 3308
+modeling: 1345
+modern: 3276
+modern aircraft: 3991
+mohawk: 3348
+money: 4071
+monkey: 2959
+monster truck: 3573
+moped: 2273
+mopeds: 169
+morning: 732
+mosaic tile: 1401
+most likely: 4060
+mostly: 3819
+mostly clear: 2142
+mostly yes: 3599
+motel: 2896
+mother's day: 596
+motor: 1108
+motor boat: 2496
+motor boating: 2522
+motor scooter: 2323
+motorbike: 965
+motorboating: 3977
+motorcycle: 297
+motorcycle rally: 2473
+motorcycles: 184
+motorcycles, car: 3723
+motorcycles/cars/truck: 3077
+motorola: 2984
+mountain: 173
+mountain bike: 141
+mountain dew: 3672
+mountains: 1929
+mouse: 377
+movie room: 1352
+movie theater: 3037
+moving: 259
+moving on street: 2230
+mozzarella: 3047
+mp: 2954
+mt dew: 2979
+mudding: 1544
+muffins: 422
+mule: 2565
+multi-layered: 1338
+mumbai: 724
+mural: 563
+museum: 1912
+mushroom: 641
+mushrooms: 231
+music box: 1417
+muslim: 281
+mustache: 409
+mustard: 828
+my best guess is electric: 990
+my best guess is mumbai: 103
+my best guess is no: 291
+my best guess is yes: 2894
+n: 2301
+na: 738
+naan: 418
+nachos: 3671
+nail: 1257
+nail shop: 2059
+napa valley naturals: 3570
+napkin: 3000
+napping: 2411
+national guard: 700
+national opera: 2609
+national train day: 842
+nature: 2207
+navy: 791
+neck: 1000
+necklace: 64
+necklace, yes: 3735
+neckties: 2058
+nectarine: 1631
+neither: 2586
+neither blonde or brunette are in charge of chopping: 361
+net: 2628
+new: 1211
+new orleans: 1985
+new years: 2651
+new york: 1327
+new york city: 2410
+news: 998
+newspaper: 1235
+next stop: 1722
+ni: 798
+nice: 4212
+night: 4085
+night time: 4206
+nighttime: 516
+nike: 2665
+nikon: 2056
+nintendo: 2158
+nintendo wii: 3804
+nintendo wii 888888888: 2048
+nl: 248
+'no': 4045
+no - it's inverted: 2264
+no animal: 214
+no author: 1093
+no car: 2344
+no clear: 36
+no computer: 1208
+no crust: 622
+no dog: 2510
+no door: 1820
+no elephants shown: 1571
+no food: 2270
+no hat: 3265
+no he' happy: 4254
+no home: 2236
+no idea: 646
+no idea what freight train looks like: 3372
+no in america: 2993
+no indication: 192
+no is my best guess: 3052
+no it does not: 1532
+no it doesn't: 2850
+no it is not hotel room: 3351
+no it's not: 1090
+no it's sunny: 4056
+no laptop: 2528
+no man: 3511
+no man pictures: 3567
+no on his wrist: 2856
+no one: 3434
+no parking: 1415
+no parking sign: 3343
+no partly cloudy: 4257
+no person: 3808
+no person in picture: 1182
+no pic: 1216
+no pink: 524
+no pitcher: 4240
+no plane: 3398
+no sleeves: 2863
+no sunny: 1438
+no veg: 2071
+no women: 2476
+no zebra: 2784
+no, bananas: 1642
+no, black and white: 272
+no, clear: 122
+no, green: 3631
+no, happy: 1244
+no, it doesn't look like it: 978
+no, it isn't: 3647
+no, it looks sunny: 3751
+no, it's catching fish: 1770
+no, it's tennis: 3633
+no, looks like brand new kitchen: 1732
+no, meal is fatty?: 3832
+no, on his wrist: 3480
+no, only one: 678
+no, she is happy: 3753
+no, she is wearing tank top: 1334
+no, single vanity: 1904
+no, there are ripples in lake: 860
+no, train station: 4213
+no, water hose: 1806
+no; egg w/ cheese: 3426
+no?: 736
+nobody: 124
+nokia: 245
+none: 3360
+none shown: 3149
+none visible: 480
+noon: 2402
+nope: 470
+normal: 3186
+north america: 2373
+nose: 427
+not: 451
+not all: 3828
+not applicable: 1647
+not bus: 584
+not clear: 1439
+not completely: 810
+not elephants: 3916
+not job: 439
+not possible: 1941
+not really: 28
+not sandwich: 684
+not sure: 160
+not this: 628
+not valid question: 94
+not very: 2001
+nothing: 2238
+now: 26
+nowhere: 4129
+number pad: 3031
+numeral: 752
+nursery: 38
+ny: 2336
+ny city: 4121
+o: 3172
+oak: 1736
+oakland: 3139
+oar: 3814
+obama: 410
+observing: 1742
+obvious: 1189
+ocean: 2606
+octagon: 2808
+octopus: 2025
+'off': 230
+office: 1231
+office room: 433
+office/den: 74
+office/kitchen: 1851
+oil: 87
+oil truck: 3387
+okra: 188
+old: 1894
+old 66: 3681
+old 66 rd: 651
+old bathroom: 3662
+old house: 4019
+old truck: 1974
+older: 544
+olive: 3882
+olives: 3128
+ollie: 3999
+olympics: 1041
+'on': 901
+on beach: 4182
+on bed: 3437
+on computer: 3382
+on couch: 926
+on desert: 3887
+on desk: 1863
+on ground: 844
+on her phone: 1520
+on highway: 1445
+on hill: 1842
+on his face: 1505
+on laptop: 3156
+on left: 2218
+on phone: 1779
+on sand dune: 1858
+on surfboard: 1838
+on surfer: 1937
+on table: 1556
+on toilet: 1217
+on wall: 1689
+one is: 86
+one piece: 995
+one way: 936
+one-piece: 1704
+onion: 3900
+onion rings: 4089
+onions: 1451
+online game: 3622
+only eyebrow hair: 1711
+only star: 748
+open: 2463
+open door: 3495
+open faced: 1053
+open sandals: 2183
+opened: 3710
+opinion: 1396
+orange: 2044
+orange and banana: 1454
+orange and plantain: 1418
+orange bags: 3939
+orange juice: 148
+orange skin: 247
+orange tree: 955
+oranges: 3918
+orient: 478
+oriental: 183
+orioles: 1971
+orioles?: 4061
+ornamental: 3017
+ostrich: 1567
+out: 534
+outboard motor: 607
+outdoor: 2914
+outdoor concert: 3389
+outdoor scene: 2502
+outdoors: 1762
+outhouse: 3705
+outside: 3758
+outside at beach: 3188
+outside building: 905
+outside is not showing: 1230
+oven: 4003
+over: 1948
+over case: 2961
+over cats: 4225
+overalls: 1516
+overcast: 2252
+overcast with clouds: 2033
+owl: 896
+owner: 2074
+ox: 2449
+oxen: 2109
+oxford circus: 1681
+oyster: 302
+p: 3438
+p051: 3850
+pacific: 1290
+pacific ocean: 3847
+package of food: 2706
+paddle: 2747
+paddle ball: 2793
+paddleboard: 2930
+paddles: 3081
+paddling: 3050
+pads: 1283
+paeroa: 1707
+pain: 819
+paint: 135
+painted: 578
+painter's: 65
+painting: 3531
+paintings: 2668
+palm: 1813
+palm tree: 645
+palm trees: 4094
+palms: 3721
+pan: 2469
+pancakes: 1385
+panda: 944
+panther: 3170
+pantry: 3486
+pants: 1119
+paper: 1669
+paper and coin: 3404
+paper crown: 2755
+paper lips: 3456
+paper plates: 4074
+para-skiing: 2290
+parade: 1430
+parakeet: 3896
+parasailing: 3668
+pardalotte: 4247
+paris: 981
+park: 3392
+park bench: 3941
+parked: 4167
+parking: 2895
+parking lot: 1061
+parking meter: 1269
+parlor: 3304
+parmesan: 2764
+parquet: 57
+parrot: 3724
+parrot macaw: 3205
+parrott: 2150
+parsley: 3330
+parsnip: 1581
+partially: 2607
+partly: 4070
+partly cloudy: 521
+partly cloudy and about to storm: 2536
+partly sunny: 3127
+party: 305
+passenger: 3903
+passenger train: 3652
+passengers: 1023
+pasta: 275
+pastrami sandwich and slaw: 1902
+pastries: 4068
+pastry: 3787
+patio: 364
+pattern: 84
+patterned: 1293
+pavement: 81
+peace: 100
+peace sign: 2092
+peach: 1957
+peacock: 3709
+peanut: 4017
+peanut butter: 1151
+peanuts: 2980
+pear: 396
+pearl: 4075
+pears: 1086
+peas: 3542
+pecan: 829
+pecking: 1545
+pedestal: 529
+pedestal which in on desk: 1548
+pedestrian: 813
+pedestrians: 1990
+pekingese: 1839
+pelican: 2772
+penguin: 866
+penguins: 2253
+people: 3322
+pepper: 3803
+pepperoni: 835
+pepperoni and cheese: 4111
+pepperoni cheese: 2441
+peppers: 3752
+pepsi: 3852
+pepsi max: 3641
+performing skateboard trick: 1091
+pergo: 2774
+perhaps: 3663
+persian: 3208
+person: 3984
+person is holding knife: 109
+person is skiing: 3785
+person is surfing: 3275
+person is wearing jeans: 1761
+personal hygiene: 2415
+pet bed: 1643
+pet dog: 2209
+phaedra: 2361
+phillies: 2277
+philly cheesesteak: 1854
+phone: 3842
+photo: 3214
+photograph: 1339
+photographer: 1397
+photographing: 187
+photographs: 2771
+photography: 2551
+piano: 3294
+pick up truck: 1667
+pick-up truck: 3973
+picking trash: 1807
+pickle: 164
+pickup: 2223
+pickup truck: 2191
+picnic: 1563
+picnic table: 483
+picture: 3879
+picture frame: 3411
+picture on wall: 432
+pictures: 3825
+pidgin: 2088
+pie: 1366
+pie server: 1502
+pig: 3532
+pigeon: 1718
+pigeons: 1200
+pigs in blanket: 423
+pigtails: 3270
+pillow: 3453
+pilot: 2487
+pine: 2578
+pine tree: 1582
+pine trees: 4136
+pineapple: 503
+pineapple and apple: 3096
+pinehurst: 424
+pines: 1304
+ping pong: 368
+ping pong net: 2214
+pingon: 1088
+pink: 1562
+pink shirt: 1124
+pink swan: 3666
+pinking shears: 551
+pipes: 1611
+pirate: 694
+pirate ship: 492
+pita bread: 1102
+pita pizza: 2595
+pitbull: 1224
+pitcher: 3612
+pitcher's mound: 153
+pitchers mound: 2162
+pitching: 3875
+pitching baseball: 1533
+pizza: 2512
+pizza and broccoli: 2845
+pizza and samosa: 4139
+pizza box: 3041
+pizza bread: 2376
+pizza hut: 1330
+pizza is large size: 2341
+pizza server: 3868
+pizza stone: 1609
+pizza with white sauce: 4065
+pizzas: 3428
+placemat: 1427
+plaid: 351
+plain: 3473
+plain cheese: 1906
+plain food: 1559
+plains: 2343
+plam: 4199
+plane: 127
+planes: 154
+plant: 3969
+plantain: 2254
+plantains: 1147
+planter: 1776
+plants: 1818
+plasma: 2858
+plastic: 2365
+plastic fork: 1566
+plastic spoon: 1734
+plate: 1575
+plate throwing: 3165
+platform: 3800
+plating food: 2716
+play: 4223
+play frisbee: 3520
+playing: 3897
+playing ball: 753
+playing baseball: 3717
+playing frisbee: 681
+playing frisbee football: 2355
+playing game: 1636
+playing games: 4078
+playing guitar: 2632
+playing in snow: 1262
+playing on skateboard: 2249
+playing racquetball: 592
+playing soccer: 2627
+playing tennis: 2346
+playing video game: 2491
+playing video games: 2458
+playing wii: 131
+playing with cell phone: 1166
+playing with each other: 1481
+playing with food: 1997
+playing with kite: 2733
+playroom: 3756
+playtime: 3517
+pleasant: 707
+plug cord: 1814
+plums: 3687
+plus: 2921
+pm: 762
+pnc bank: 2345
+poet sleeves: 2490
+pointing: 201
+pointing left: 3826
+pointing to man: 3525
+polar: 359
+polar bear: 2443
+polar bears: 3729
+polaroid: 2184
+pole: 1848
+poles: 123
+police: 1305
+police officer: 3184
+political event: 874
+polo: 3373
+polyester: 3015
+polynesian: 1117
+pond: 3107
+ponies: 1058
+pony: 1450
+ponytail: 3560
+poodle: 3704
+poole: 1333
+pop: 1729
+poppy's: 47
+porcelain: 3340
+pork: 376
+portrait: 1076
+posey: 4052
+posing: 489
+posing for picture: 859
+posing on skateboard: 542
+posing with giraffe: 1877
+possible: 384
+possibly: 3113
+possibly yes: 3660
+possum: 1097
+posters: 3670
+pot: 2436
+potato: 1322
+potatoes: 3911
+pottery: 4221
+potty: 523
+pound: 20
+powder room: 1361
+practice: 2456
+practicing: 3034
+practicing tennis: 2398
+preparing: 614
+preparing food: 25
+preparing meal: 477
+preparing to cook: 1035
+preparing to snowboard: 3462
+pretty: 2297
+pretzel: 2906
+prickly fruit: 2814
+prime rib: 3312
+princess: 158
+private: 943
+probably: 3876
+probably not: 2836
+probably summer: 3002
+produce: 2891
+professional surfing: 745
+projection screen: 2078
+projector screen: 2754
+prom: 918
+promotion: 2972
+propane: 2759
+propeller: 1969
+public: 3648
+public bathroom: 2876
+public bus: 1522
+public park: 3873
+public restroom: 3024
+puffin: 1094
+puffy guy: 2464
+pug: 171
+pulling suitcase: 3336
+pumpernickel: 1238
+pumpkin: 219
+punch: 3173
+puppy: 2311
+purple: 1771
+purse: 1236
+pushing stroller: 560
+quail: 888
+queen: 2163
+quesadilla: 277
+quiche: 2014
+quiet: 1699
+quilt: 1131
+quilted: 3659
+rabbit: 2485
+raccoon: 2220
+racing: 613
+racing bike: 969
+racing his motorcycle: 3926
+racket: 1661
+racket sport: 954
+racquetball: 4028
+radiator: 1031
+rafting: 1798
+rail: 985
+railroad: 1180
+railroad crossing: 2947
+railroad station: 1501
+railway: 1354
+railway station: 304
+rain: 903
+rain boots: 2898
+rain showers: 4050
+rainbow: 3979
+raining: 4023
+rainy: 3413
+ram: 207
+ramirez: 906
+ramp: 308
+ranch: 994
+raspberries: 3547
+raspberry: 1793
+rats: 2758
+rattan: 1240
+raw: 466
+rc cola: 947
+reaching: 2533
+reaching for ball: 3833
+reading: 469
+reading book: 3076
+reading book in bed: 2517
+reading book, lying in bed: 2685
+reading cell phone: 3771
+reading map: 1471
+reading newspaper: 2217
+reading on subway: 267
+reading while sitting on bench: 728
+ready to ski: 3937
+real: 4137
+real sports: 2964
+realism: 119
+really: 2457
+rec: 2466
+recliner: 850
+recreational: 586
+rectangle: 1955
+red: 3333
+red and white: 3741
+red bird: 939
+red bull: 1434
+red bus: 3665
+red light: 2200
+red peppers: 1521
+red potatoes: 3809
+red roofed: 2778
+red roses: 1519
+red sox: 1134
+red truck: 1049
+red vehicle: 2133
+red velvet: 3102
+red wine: 3195
+red yellow and blue kite: 2715
+reese's peanut butter: 348
+refrigerator: 2479
+regular: 1261
+relaxing: 2013
+religious: 460
+remote: 1050
+remote control: 2620
+residences: 837
+residential: 3615
+residential area: 3827
+rest: 1457
+restaurant: 3272
+restaurant bathroom: 182
+restaurant kitchen: 3159
+resting: 2855
+restroom: 4029
+retriever: 2939
+reuben sandwich: 2751
+reunion: 555
+rice: 4245
+ride: 382
+riding: 3243
+riding bicycle: 973
+riding bike: 2524
+riding boat: 3789
+riding elephant: 2125
+riding horse: 3346
+riding motorcycle: 2419
+riding ocean waves: 3007
+riding skateboard: 1967
+riding ski: 186
+riding surfboard: 1006
+riding wave: 1100
+right: 815
+right hand: 3891
+right handed: 1824
+right side: 162
+right to left: 3818
+right,: 632
+ripe: 1773
+risbee: 2509
+river: 1474
+river boat: 369
+road: 1096
+roaming: 3857
+roast beef sandwich: 130
+robe: 3087
+robin: 2138
+rock: 601
+rock star: 2226
+rocking: 3210
+rocks: 2681
+rockstar: 2935
+rocky: 2917
+rodeo: 937
+rolex: 3402
+roll: 3062
+roller skating: 3367
+rollerblade: 3298
+rollerblades: 792
+rollerblading: 580
+romaine: 4125
+roman: 1214
+roman numeral: 2997
+roman numerals: 571
+room: 2101
+room wallpapered?: 1248
+rooster: 685
+root beer: 197
+rope: 1271
+rosary beads: 3678
+rose: 789
+rose flowers: 1910
+roses: 2232
+roses and carnations: 461
+roster: 3501
+rottweiler: 2286
+rough: 479
+rounded: 3503
+route 66: 1982
+row boat: 2923
+rowboat: 2950
+rowing: 3441
+rowing raft: 3303
+royal york south: 647
+rr crossing: 2172
+rubber: 3098
+rubber boots: 2304
+rubbish: 3726
+rug: 2638
+rugby: 2531
+run: 2519
+running: 3514
+running in herd: 3556
+runway: 4096
+rural: 637
+russian blue: 4007
+rust: 1348
+rutabaga: 2035
+rv: 2258
+ryanair: 2330
+rye: 722
+sad: 2083
+sad face: 4187
+safari: 3123
+safe: 546
+sail: 3455
+sailboat: 280
+sailboats: 1461
+sailing: 241
+sailing boat: 3773
+saint bernard, dog: 3568
+salad: 1453
+salami: 2693
+salmon: 1767
+samsung: 3393
+san francisco: 1616
+sand: 3019
+sand castle: 3493
+sand dish: 1607
+sandals: 4170
+sandpiper: 3198
+sandwich: 2474
+sandwich / lunch: 370
+sandwich and brussel sprouts: 2761
+sandwich and cookie: 1282
+sandwich and salad: 1691
+sandwich and vegetables: 703
+sandwiches: 2783
+sangria: 193
+santa: 387
+santa claus: 3694
+santa hat: 172
+sauce: 3354
+sauce, cheese, ham, mushrooms: 484
+sausage: 631
+sausages: 3484
+save & glo: 1930
+saving lives: 3470
+scallops: 260
+scarf: 3636
+scatting: 2653
+school: 1692
+school bus: 3435
+school buses: 3075
+schoolroom: 216
+schools: 355
+science: 1550
+scissors: 2812
+scone: 3669
+scooter: 808
+scooters: 3350
+screen: 4191
+scrubbing: 1071
+scuba: 318
+seafood: 4178
+seagull: 4154
+seagulls: 3235
+season is fall: 2066
+season is summer: 1425
+seat: 1866
+seating: 763
+seating on: 4140
+seats: 3732
+seattle: 1142
+second: 2102
+security: 1279
+sedan: 702
+see better: 2656
+seeds: 3400
+sek: 3643
+selfie: 1733
+selling things: 143
+selling wares: 3054
+semi: 2414
+semi truck: 823
+serving: 3614
+serving cake: 3775
+serving it: 1987
+sesame: 3236
+sesame seeds: 22
+set: 288
+setting: 2591
+sewing: 3240
+sex: 3129
+sf giants: 1188
+shade: 4095
+shades: 3319
+shaking: 3494
+shaking hands: 2181
+shallow: 1808
+sharp: 474
+shaving: 2307
+she: 2556
+she hasn't had it yet: 3845
+she is eating pizza: 179
+she is wearing bikini: 386
+she using cell phone?: 3028
+sheep: 4090
+sheep and cat: 4219
+sheep, rooster: 56
+sheepdog: 2697
+sheeps: 1508
+sheet: 2671
+shelf: 2673
+shelf in fridge: 1342
+shelling peas: 500
+shelton: 1596
+shelves: 2233
+shep: 3690
+shepard: 3124
+shepherd: 2026
+shire: 15
+shirt and tie: 129
+shoes: 462
+shop: 1656
+shopping bags: 2157
+shopping mall: 3888
+shore: 2327
+short: 1411
+short one: 3848
+shorts: 876
+shotley: 3099
+should it?: 2339
+show: 1087
+shower: 869
+shower room: 3569
+shrimp: 1534
+shut: 1055
+shutters: 3534
+shuttle: 1778
+siamese: 354
+siamese mix: 3153
+side: 987
+sidecar: 1758
+sidewalk: 3986
+siegel: 3691
+sightseeing: 1329
+sightseeing bus: 2614
+sign: 679
+signs: 1374
+silver: 1744
+similar: 1698
+singing: 4234
+single: 3045
+single engine: 2508
+singles: 455
+sink: 1337
+sink and toilet: 996
+sinking: 257
+sit on: 3777
+sitting: 4235
+sitting and drinking coffee: 3192
+sitting and talking: 836
+sitting at table in front of food: 938
+sitting down: 3222
+sitting on bench: 2713
+sitting on chairs: 1178
+sitting on desk: 4163
+sitting on dock: 3965
+sitting on ground: 3004
+sitting on lawn: 2170
+sitting on ledge: 4025
+sitting on mouse pad: 971
+sitting on surfboard: 2611
+sitting on truck: 3538
+sitting room: 2566
+skate: 3261
+skate jump: 1897
+skate park: 2128
+skate-boarding: 585
+skateboard: 2052
+skateboard flips: 1495
+skateboard jump: 335
+skateboard park: 2728
+skateboard polo: 2175
+skateboard ramp: 2111
+skateboard stunt: 1426
+skateboard trick: 2439
+skateboard trick slide: 313
+skateboard tricks: 176
+skateboarder: 1913
+skateboarding: 2749
+skateboarding and watching: 243
+skateboarding down railing: 44
+skateboarding on ice: 3974
+skateboarding on incline: 853
+skateboarding trick: 2086
+skateboards: 2298
+skatepark: 1564
+skating: 3364
+skating downhill: 2221
+skating on pole: 352
+skating on skateboard: 2816
+skating up and down ramp: 3058
+ski: 1186
+ski board: 1873
+ski boarding: 2652
+ski cross: 1145
+ski glasses: 3761
+ski goggles: 608
+ski jump: 134
+ski jumping: 773
+ski pole: 2826
+ski poles: 329
+ski racing: 2483
+ski shoes: 2216
+ski stick: 3089
+ski trick: 398
+ski tricks: 1587
+ski's: 964
+ski-ing: 3728
+skiboard tricks: 3430
+skiboarding: 3834
+skier: 1140
+skies: 885
+skii: 2864
+skii sticks: 2762
+skiing: 3264
+skiing and flipping: 2879
+skiing and snowboarding: 1388
+skiing around flag: 3116
+skiing down hill: 1160
+skiing freestyle: 3357
+skiing of some sort: 830
+skiing or snowboarding: 4146
+skiing pole: 929
+skiing slope: 2756
+skiing sticks: 2962
+skiing trails: 1344
+skiing with kite: 1684
+skiing, snowboarding: 4030
+skiing/snowboarding: 3042
+skijet: 2453
+skillet: 1364
+skimboard: 1977
+skipping: 2306
+skirt: 3607
+skis: 1349
+skull: 3512
+sky: 3507
+sky is cloudy outside: 2553
+skype: 1830
+skyscrapers: 3408
+slaloms: 2824
+sled: 908
+sledding: 2115
+sleep: 1294
+sleeping: 1289
+sleeping in tree: 676
+sleeping next to laptop: 2675
+sleeping nude: 1192
+sleeping on bench: 4055
+sleeveless: 4241
+slice of pizza: 1149
+sliced: 62
+slicing: 3090
+slides: 1657
+sliding: 2760
+sliding on rail: 4084
+sliding to base: 3232
+slight: 1201
+slightly: 1586
+slightly cloudy: 4014
+slip on: 3249
+slip on sandals: 2027
+slippers: 3878
+slouching: 1903
+slow: 345
+small: 3589
+small trees: 2430
+smaller: 733
+smelling: 3766
+smiley: 3552
+smiling: 2187
+smoking: 3412
+smoking and cooking: 4158
+smooth: 2976
+sneakers: 1190
+sneep: 476
+sniffing ground: 3996
+snout: 820
+snow: 2807
+snow gear: 634
+snow goggles: 1433
+snow skating: 590
+snow ski: 156
+snow ski sports: 4063
+snow skiing: 311
+snow skis: 1606
+snow walking: 741
+snowball fight: 841
+snowbird: 3207
+snowboard: 3695
+snowboard jump: 2782
+snowboard jumping: 3760
+snowboarder: 867
+snowboarding: 397
+snowboarding tricks: 166
+snowing: 2645
+snowshoeing: 520
+snowskating: 1515
+snowy owl: 3543
+soaring: 3467
+soccer: 217
+soccer (football): 3106
+soccer ball: 1300
+soccer balls: 4013
+soccer goal: 1139
+soccer is being played: 723
+social gathering: 1306
+social room: 236
+socks: 2870
+soda: 2582
+sofa: 1525
+sofa chair: 3259
+sofas and tv: 118
+soft: 1212
+soft drink: 3544
+softball: 3287
+solid: 3487
+some: 3829
+some are running: 2186
+some is: 3924
+some of them: 1237
+someone owns these cows: 2991
+someone's home: 406
+something asian: 296
+somewhat: 2299
+song: 4027
+songbird: 3194
+sonic: 1408
+sort of: 2739
+sorta: 1919
+soup: 2866
+south boston: 686
+southwest: 2420
+southwest airlines: 3401
+spa room: 2893
+spackling: 3074
+spaghetti: 3187
+spaghetti strings: 3927
+sparrow: 4169
+spartan: 24
+spatula: 2977
+speaker: 2356
+speaking on cell phone: 1479
+speed boat: 3727
+speed skating: 2621
+speedboat: 2108
+spicy mustard: 1796
+spider-man: 3540
+spiderman: 91
+spiked: 3288
+spinach: 2615
+spirit of st louis: 2080
+spon: 567
+spoon: 2514
+spoon collection: 1441
+spoons: 884
+sport: 3370
+sport is baseball: 2689
+sport of baseball: 1781
+spots: 4049
+spotted dick: 1002
+spray can: 488
+spray paint: 3950
+spray paint can: 2309
+spray water: 1014
+sprays: 1497
+spring: 2780
+sprite: 249
+square: 1853
+squash: 1945
+squash on pizza: 2897
+squatting: 3125
+squid: 3016
+squinting: 3602
+squire: 3443
+squirrel: 2594
+st andrews: 3403
+st louis: 3526
+st patrick's day: 2317
+staff room: 660
+stagecoach: 940
+stain glass: 202
+stained glass: 1817
+stained-glass: 941
+stairs: 284
+stand: 3682
+stand on street: 3374
+standing: 688
+standing around: 2966
+standing for picture: 3317
+standing in skis: 1422
+standing in water: 1221
+standing on skateboard: 740
+standing on skis: 2353
+standing on snow in skis: 48
+standing on snowboard: 1466
+stands: 2837
+staples: 616
+star: 2703
+starbucks: 1777
+starches: 1511
+staring: 4224
+state building: 3431
+state farm: 14
+station wagon: 322
+steak: 3627
+steak knife: 3757
+steam: 2604
+steamer: 3379
+steel: 2295
+steers: 3767
+stegosaurus: 4256
+stem: 2308
+step: 532
+stepladder: 1984
+steps: 2377
+stew: 1232
+stick: 2547
+stickball: 53
+sticks: 3151
+stir fry: 1895
+stir fry chicken: 2153
+stirring: 3561
+stomping: 1114
+stone: 1356
+stone wall: 137
+stones: 1788
+stool: 1966
+stop: 3136
+stop sign: 1857
+stop-sign: 518
+stopping: 394
+storage room: 2633
+store: 3966
+stormy: 3094
+stormy/overcast: 46
+stove: 1925
+stove, sink blinds: 2243
+stovepipe: 3864
+stpatrick's day: 3457
+straight: 1263
+straining food: 2540
+strange: 2362
+straw: 4138
+strawberries: 2241
+strawberry: 2691
+strawberry blonde: 846
+strawberry cheesecake: 3749
+strawberry salad, crackers: 3700
+stream: 251
+street: 3465
+street market: 2247
+street signs: 1860
+streetball: 1447
+stretching: 3992
+string: 2881
+striped: 1628
+stripes: 3558
+stripped: 680
+strips: 2225
+stroller: 1357
+stubbs: 4214
+stubs: 2913
+study: 531
+study room: 1268
+stuffed animals: 1184
+stuffed bear: 897
+stuffed crust: 71
+stuffed pizza: 215
+stump: 2018
+styrofoam: 1797
+sub: 3899
+sub sandwich: 2421
+subjective: 2328
+submarine: 945
+submerged: 2167
+suburban: 457
+subway: 2503
+subway train: 1805
+successful: 1285
+sugar cain: 4210
+sugar donut: 597
+sugar glazed: 561
+suit: 1395
+suit and tie: 2922
+suit, hat: 3023
+suitcase: 3745
+suitcases: 496
+suites: 1033
+summer: 4208
+summer dress: 851
+sun: 4175
+sun bear: 2785
+sun hat: 3856
+sun visor: 1353
+suncap: 749
+sunflower: 1155
+sunflowers: 3025
+sunglasses: 2555
+sunlight: 984
+sunny: 4162
+sunny day: 1068
+sunny with slight cloud cover: 785
+sunny, clear, nice day: 357
+sunrise: 4144
+sunroom: 1370
+sunset: 33
+suny: 1646
+supper: 3030
+supplies: 831
+sure: 358
+surf: 4197
+surf gear: 115
+surfboard: 360
+surfboarding: 1101
+surfboards: 4188
+surfer: 871
+surfin: 3506
+surfing: 4033
+surfing lesson: 1998
+surfing on waves: 35
+surging: 2155
+suring: 3661
+surprised: 30
+surviving: 1641
+sushi: 1880
+suspenders: 2998
+suv: 1952
+suzuki: 2597
+swallow: 1662
+swan: 2981
+swans: 2371
+swat band: 203
+sweatband: 3912
+sweater: 3268
+sweatpants: 2900
+sweatshirt: 393
+sweatshirt, tie, jeans: 294
+sweden: 2237
+sweeping: 2732
+sweet: 717
+sweet potatoes: 205
+sweetwater: 3134
+swimming: 1382
+swimsuit: 2121
+swing: 3445
+swinging: 170
+swiss: 75
+switzerland: 2146
+sword: 456
+swordfish: 3191
+t: 652
+t ball: 3061
+t shirt: 1373
+t-ball: 1881
+tab: 1428
+table: 2992
+table setter: 3954
+table tennis: 4098
+table, chair, sweatshirt, trash can: 2229
+table-extension: 2740
+tablet: 2602
+taco: 1725
+tag: 1619
+tag football: 1488
+tail: 3884
+taiwan: 2530
+take off in air: 388
+taking nap: 2683
+taking off: 3327
+taking photo: 233
+taking photograph: 1442
+taking photos: 1343
+taking picture: 3142
+taking picture of car: 3301
+taking picture with his phone: 847
+taking pictures: 4091
+taking selfie with mobile phone: 1518
+taking temperature: 3922
+talk show: 254
+talking: 1760
+talking and eating: 2904
+talking and skiing: 4058
+talking on cell phone: 125
+talking on phone: 1210
+talking to another man: 2310
+talking to each other: 3807
+tall hat: 2889
+tan: 365
+tangerine: 2549
+tangerines: 617
+tangerines, mandarins and bananas: 85
+tank: 2750
+tank top: 1420
+tanker: 2467
+target: 3228
+tarmac: 116
+taxi: 3859
+tea: 1765
+tea pot: 2995
+team: 1784
+team van: 816
+teapot: 920
+tech room: 2407
+teddy: 2999
+teddy bear: 4238
+teddy bear in airport: 776
+teddy bears: 4134
+tee ball: 1934
+teenagers: 2234
+teeth brushing: 2007
+telephone: 2639
+television: 2165
+telford campus: 589
+temperate: 716
+tending shop: 2982
+tenn: 1274
+tennessee: 1485
+tennis: 4159
+tennis ball: 2875
+tennis balls: 2435
+tennis court: 1121
+tennis match: 3913
+tennis player: 1887
+tennis racket: 1203
+tennis racquet: 4051
+tennis shoes: 334
+tennis team: 373
+tennis*: 317
+tense: 3947
+tent: 1011
+tent stake: 2805
+terminal: 2093
+terrier: 2012
+testing: 2667
+texas: 576
+texting: 2042
+texting while driving: 3144
+thai: 3038
+thanksgiving: 1724
+that flower?: 66
+that is living room: 400
+the: 2709
+theater: 4066
+there bums: 2320
+there is no man: 1868
+there is no zebra: 1156
+there isn't any: 2438
+there radiator in room?: 1242
+there scissors?: 2046
+they are not: 3335
+they are playing frisbee: 1483
+they are playing tennis: 3839
+they are playing with soccer ball: 824
+they are sheep: 2117
+they are skateboarding: 3447
+they are skiing: 861
+they put them on: 2820
+thick: 1634
+thick crust: 1021
+thin: 2366
+thin crust: 1986
+thinking: 2333
+thirsty: 1756
+this: 2393
+this building has clock: 1918
+this is bathroom: 3610
+this is bedroom: 1291
+this is cat: 1890
+this is event: 1991
+this is kitchen: 2742
+this is man: 4195
+this is zebra: 2176
+this person cutting cake?: 2952
+this person wearing glasses?: 21
+this person wearing wetsuit?: 1113
+this public restroom?: 4041
+this snow scene?: 235
+this sport is playing frisbee: 4183
+this sunny day?: 344
+those are cows: 3180
+three pictures: 764
+throw frisbee: 4004
+throwing: 3247
+throwing food: 3524
+throwing frisbee: 4018
+ticket: 711
+tie: 4255
+tie and jacket: 1822
+ties: 1875
+tiger: 1524
+tijuana: 3499
+tile: 2113
+tile flooring: 3035
+tiled: 4192
+tiles: 1859
+tille: 827
+timber: 324
+tired: 545
+tizer: 993
+to bulleen: 1116
+to carry things: 4107
+to left: 3086
+to let in light: 1489
+to next stop: 1459
+to right: 2324
+to sweat: 2822
+to west: 3997
+toast: 1652
+toaster: 3860
+toboggan: 2926
+toilet: 2567
+toilet room: 3407
+toilet seat: 2687
+toilet, sink, flowers: 328
+tokyo: 951
+tomato: 2478
+tomatoes, carrot, cucumber lettuce: 2635
+tonawanda: 3865
+tongs: 78
+tool: 4043
+tools: 3269
+toothbrush: 4009
+toothbrush holder: 3376
+toothbrushes: 4128
+top: 2806
+top hat: 1280
+top slice: 1313
+tortilla: 3577
+toshiba: 1490
+touching concrete: 194
+tour: 68
+tour bus: 404
+tourist: 1314
+tow: 1440
+tow truck: 2776
+toward: 1527
+toward camera: 3285
+towards: 1419
+towards camera: 1680
+towel: 1655
+towel cabinet: 2185
+tower: 438
+tower of london: 1246
+towing surfboard: 2640
+town: 2090
+toy: 4141
+toy box: 442
+toy car: 178
+toy fire truck: 3858
+toy panda: 564
+toy truck: 3967
+toyota: 962
+toys: 1943
+tractor: 367
+tractor trailer: 2942
+tradelink: 1292
+traffic light pole: 934
+trailer: 3225
+train: 3708
+train and car: 3925
+train car: 3448
+train engine: 2985
+train is not moving: 1792
+train platform: 1833
+train station: 3422
+transit bus: 4032
+transportation: 2817
+transportation terminal: 3230
+trash: 3768
+trash dumpster: 223
+travel bus: 3452
+traveling: 3273
+tray: 1099
+trdelnik: 2543
+treat: 2136
+tree: 2518
+tree branch: 2924
+tree stump: 163
+tree trunk: 3923
+trees: 4168
+trees are inside: 2263
+triangle: 226
+trick: 2126
+trick flying: 1615
+tricking: 3594
+tricks: 1281
+tricks on skateboard: 2031
+tripod: 3059
+trolley: 2265
+trotting: 4034
+truck: 3305
+trucks: 1037
+trunk: 726
+trunks: 1923
+trying to eat: 2648
+trying to surf on wave: 4010
+ttfm: 3416
+tulip: 2194
+tulips: 3193
+tuna: 2075
+tundra: 12
+tunnel: 2334
+turf: 1675
+turkey: 2987
+turning: 2488
+turning knob: 114
+tuxedo hat: 4172
+tv: 2403
+tv room: 1891
+twa: 3162
+tweed: 2600
+twin: 2425
+two: 2495
+two decker: 2367
+two way: 27
+typing: 3182
+typing on laptop: 3478
+uk: 989
+ukulele: 13
+ultimate: 868
+ultimate frisbee: 4239
+ultra frisbee: 2446
+umbrella: 155
+umbrella hat: 3590
+umbrellas: 1650
+unable to tell: 3886
+unanswerable: 2119
+unclear: 3171
+under: 1371
+union station: 980
+united: 3444
+united airlines: 3286
+united kingdom: 1539
+united states: 3266
+united states of america: 2429
+university: 2390
+unkempt: 1865
+unknowable: 3604
+unknown: 4152
+unknown / dawn: 1845
+unknown, some kind of wii game: 4087
+unsure: 1639
+unsure but possible: 1749
+untangle something: 1070
+up: 1825
+uphill: 1677
+upside down cake: 3822
+uptown: 1693
+urban: 1708
+urd: 3111
+urinating: 1928
+us: 4076
+us 66: 636
+us air force: 1492
+us navy: 4253
+us open: 3715
+usa: 550
+used: 3987
+using bathroom: 3953
+using cell phone: 3012
+using laptop: 1633
+using phone: 2369
+usually yes: 3905
+utensils: 2804
+utility: 2829
+utility room: 3935
+uxbridge: 298
+vacationing: 1473
+vace: 3978
+valentine: 1993
+valentine's: 2579
+valentine's day: 1879
+valley: 1404
+van: 1158
+van dyke: 1901
+vanilla: 3217
+vanilla and chocolate: 4237
+vanity: 3541
+vans: 435
+variety: 4024
+vase: 3274
+vases: 3277
+vegetable: 1668
+vegetable is tomato: 3928
+vegetable salad: 604
+vegetables: 315
+vegetables and broth: 3677
+vegetarian: 2397
+vegetarian pizza: 1981
+veggie: 3256
+vehicle: 336
+velcro: 1510
+velcro shoes: 213
+venetian blinds: 1137
+vent: 786
+very: 3975
+very cluttered: 2561
+vessel: 1259
+vest: 3371
+video: 805
+video game: 4037
+video game controller: 1927
+video game on wii: 1043
+video games: 1264
+view: 2211
+viewing what's in front: 3381
+vincent's: 821
+vintage: 1836
+vinyl: 1624
+visor: 2152
+vizsla: 2678
+volleyball: 1638
+volleyballs: 1042
+volunteering: 1938
+vulcan: 93
+vw: 2161
+vw bus: 1591
+wading: 412
+wagon: 3554
+waiter: 4143
+waiting: 956
+waiting on food: 490
+waiting to board plane: 2659
+wakeboarding: 1979
+walk: 890
+walking: 2255
+walking allowed: 2350
+walking and texting: 2094
+walking down sidewalk: 475
+walking down street: 362
+walking his dog while skateboarding: 1085
+walking in house: 452
+walking in ocean: 3595
+walking in snow: 4038
+walking in water: 430
+walking into ocean: 2718
+walking on beach: 429
+walking on sand: 1975
+walking on sidewalk: 2813
+walking on skis: 1287
+walking sticks: 635
+walking to left: 4252
+walking to ski: 303
+walking to surf: 2388
+walking uphill: 3384
+walking with surfboard: 538
+wall: 3806
+wall vase: 3215
+war: 2662
+warehouse: 1594
+warm: 2624
+warm and overcast: 2698
+warm and sunny: 3421
+warning: 3731
+warriors: 558
+warthog: 3555
+was: 721
+washing and eliminating waste: 1194
+washing dishes: 1198
+washington: 4020
+washington dc: 149
+washington, dc: 3459
+washroom: 3150
+washrooms: 2831
+watch: 922
+watching: 1995
+watching airplanes: 4157
+watching kites: 803
+watching ocean: 3451
+watching skater: 349
+watching ski jumper: 3955
+watching soccer: 643
+watching sunset: 419
+watching television: 3344
+watching tv: 2507
+watching video game: 2589
+watchtower: 2726
+water: 3359
+water board: 1671
+water bottle: 3148
+water bottles: 1463
+water bucket: 843
+water closet: 3562
+water skateboard: 1826
+water skiing: 1409
+water snowboarding: 2833
+water sports: 392
+water surfing: 1931
+waterboarding: 2912
+watermelon: 2140
+wave: 621
+waveboard: 454
+waves: 548
+wear: 1029
+webcam: 1697
+wedding: 246
+wedding cake: 2039
+wedding dress: 3211
+wedding gown: 3163
+wedding reception: 3915
+wedding shower: 3883
+weddings ng: 1909
+weimaraner: 2020
+weiner: 265
+weird: 1542
+west: 3385
+wet: 1074
+wetsuit: 512
+what animal is this?: 946
+what author?: 1381
+what color are player's hats in foreground?: 191
+what color is boy's hair?: 974
+what color is child's hat?: 1786
+what color is flush lever: 2462
+what color is her outfit?: 3824
+what color is locomotive?: 778
+what color is plate?: 2054
+what color is umbrella?: 3027
+what color sweater is person standing on right wearing?: 1476
+what is this fruit?: 691
+what is this person catching?: 3958
+what network is conducting interview?: 1870
+what room is this?: 2873
+what sport is he playing?: 238
+what sport is this?: 1465
+what utensils are in photo?: 3748
+what?: 3146
+wheat: 3352
+wheel: 3624
+wheelchair: 1811
+wheelchair basketball: 1683
+whipped: 3904
+white: 139
+white and black: 1392
+white and gray: 3693
+white bear: 1144
+white cheese: 2289
+white city: 4211
+white dog: 31
+white polar bear: 1187
+white pot: 1584
+white roses: 3792
+white wine: 499
+white/beige: 526
+wi: 3754
+wicker: 3226
+wicker basket: 3535
+wiffle ball: 930
+wifi: 1464
+wii: 3375
+wii baseball: 105
+wii bowling: 2717
+wii boxing: 3048
+wii game: 1341
+wii games: 3425
+wii gaming: 2489
+wii golf: 768
+wii remote: 1543
+wii remotes: 2535
+wii sports: 3989
+wii video game: 1138
+wii video game controller: 3802
+wiimote: 991
+wil: 4011
+wild: 2494
+wild rice: 833
+wild ride: 4242
+wild space: 656
+wildcats: 2431
+wildlife: 2363
+willesden: 1898
+wilson: 669
+wind: 3640
+window: 3701
+windows: 9
+windows laptop: 2480
+windy: 3830
+wine: 2840
+wine and water: 4015
+wine glass: 1394
+wine glasses: 3204
+wine tasting: 292
+winter: 639
+winter cap: 2201
+winter or spring: 1827
+winter sports: 3608
+winton: 266
+winton bournemouth: 4106
+wire: 3688
+wireless: 1273
+wolf: 1630
+woman: 593
+woman are cooking: 2973
+women: 2023
+woo: 3095
+wood: 2860
+wood and fabric: 1067
+wood and glass: 3783
+wood and metal: 887
+wood bench: 505
+wood floor: 663
+wood flooring: 1617
+wood floors: 1695
+wood laminate: 1380
+wood panels: 3846
+wood poles: 1780
+wood step: 98
+wooden: 744
+wooden and marble: 3032
+wooden bench: 1177
+woodpecker: 1840
+wool: 366
+wool hat: 698
+work: 3138
+work lounge: 2580
+work on window: 1026
+work pants: 2064
+working: 2141
+working in food service: 2077
+workplace: 1402
+worship: 2358
+wrench: 4174
+wrestling: 151
+wrestling and playing: 2585
+wright: 1924
+wrist: 1015
+writing: 2504
+wrought iron: 83
+x: 3238
+x 81: 453
+x games: 2482
+x64: 2305
+xbox: 3202
+xmas: 2887
+y: 3747
+yacht: 3278
+yak: 273
+yaks: 1209
+yamaha: 4012
+yami ha: 1666
+yard: 3143
+yeah: 1462
+yellow: 915
+yellow and white: 4126
+yellow bill: 3072
+yellow flowers: 3281
+yellow rose: 1456
+yep: 3310
+'yes': 3160
+yes ?: 4250
+yes and no: 2337
+yes animal is real: 2552
+yes he does: 719
+yes he is: 19
+yes it does: 3119
+yes it is: 1763
+yes it should be bright red: 1856
+yes on left: 2722
+yes one lady here: 269
+yes partly: 1106
+yes probably: 1679
+yes she is: 58
+yes shorthorns: 583
+yes skateboard is upside down: 527
+yes visibly: 1126
+yes white dressing: 806
+yes yes: 1162
+yes!: 1504
+yes,: 1512
+yes, baby has mother's finger in its mouth: 4184
+yes, bears weigh more than humans: 1308
+yes, bit: 2275
+yes, but skater is in shade: 2545
+yes, double decker bus: 2590
+yes, falling: 310
+yes, it does: 796
+yes, it is professional tennis match: 101
+yes, it's made of cotton: 1347
+yes, keyboard: 2679
+yes, little: 2303
+yes, on her left arm: 50
+yes, sausages and steak: 2114
+yes, she is making funny face: 1946
+yes, there is only one human race!: 506
+yesl: 1574
+yew: 3720
+yield: 4226
+yorkshire terrier: 2663
+you: 2009
+young: 1507
+young adult: 812
+your best guess: 2149
+youth: 1171
+zebra: 3736
+zebra and cow: 468
+zebra striped: 2321
+zebra, rhino, horse, and one other: 436
+zebras: 3181
+zebras, antelopes and deer: 1351
+zelda: 1205
+zero: 3609
+zoo: 664
+zucchini: 342

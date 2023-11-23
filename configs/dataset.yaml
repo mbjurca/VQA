@@ -4,3 +4,6 @@ DATASET:
   VAL_FILE : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCOval.json"
   VAL_IMG_FOLDER : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCO_val2014"
   TRAIN_VAL_IMG_EMBEDDINGS_FOLDER : "/home/mihnea/data/VQA_DL/img_embeddings"
+  LABELS: '/home/mihnea/vqa/configs/labels.yaml'
+  WORD_VOCABULARY: /home/mihnea/vqa/configs/word_vocabulary.yaml
+  WORD_VOCABULARY_SIZE: 4477
