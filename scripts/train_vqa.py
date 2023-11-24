@@ -4,6 +4,7 @@ sys.path.append('../configs/')
 sys.path.append('../datasets/')
 sys.path.append('../models/')
 sys.path.append('../lib/')
+sys.path.append('../utils/')
 
 import torch 
 from torch.utils.data import DataLoader
@@ -12,7 +13,10 @@ from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
 from criterion import L1
 from torch.utils.tensorboard import SummaryWriter
-
+from tqdm import tqdm
+from metrics import accuracy
+from ViT import ViT
+import torch.nn as nn
 
 DATASET_CFG_FILE = "../configs/dataset.yaml"
 MODEL_CFG_FILE = "../configs/model.yaml"
@@ -43,40 +47,70 @@ def main():
 
 
     train_dataloader = DataLoader(train_dataset, 
-                                  batch_size=16, 
+                                  batch_size=512, 
                                   num_workers=4, 
-                                  drop_last=True)
+                                  shuffle=True)
     
     validation_dataloader = DataLoader(validation_dataset, 
                                   batch_size=2, 
                                   num_workers=4, 
-                                  drop_last=True)
+                                  shuffle=True)
 
     model = VQA(input_size_text_rnn=cfg.MODEL.TEXT_RNN.INPUT_SIZE, 
                 hidden_size_text_rnn=cfg.MODEL.TEXT_RNN.HIDDEN_EMBEDDING_SIZE, 
+                no_in_features_vit=cfg.MODEL.VIT.NO_IN_FEATURES, 
+                no_out_features_vit=cfg.MODEL.VIT.NO_OUT_FEATURES, 
+                no_patches_vit=cfg.MODEL.VIT.NO_PATHES, 
+                no_transformer_blocks_vit=cfg.MODEL.VIT.NO_BLOCKS,
+                no_transformer_heads_vit=cfg.MODEL.VIT.NO_HEADS,
+                dropout_vit=cfg.MODEL.VIT.DROPOUT,
+                no_features_slm=cfg.MODEL.SLM.NO_FEATURES,
+                sequence_length_slm=cfg.MODEL.SLM.SEQUENCE_LENGTH,
+                no_transformer_blocks_slm=cfg.MODEL.SLM.NO_BLOCKS,
+                no_transformer_heads_slm=cfg.MODEL.SLM.NO_HEADS,
+                dropout_slm=cfg.MODEL.SLM.DROPOUT,
                 vocabulary_size=cfg.DATASET.WORD_VOCABULARY_SIZE, 
                 no_answers=train_dataset.len_answers, 
                 device = device).to(device)
     
     optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR)
-    criterion = torch.nn.L1Loss(reduction='sum')
-
-    model.train()
+    criterion = torch.nn.L1Loss(reduction='mean')
 
     for epoch in range(cfg.TRAIN.EPOCHS):
 
-        writer.add_scalar("Epoch", epoch)
-        for idx_batch, batch in enumerate(train_dataloader):
-            img_embedding, text_embeddings, labels, image_name, question_text = batch
+        model.train()
+        for idx_batch, train_batch in enumerate(tqdm(train_dataloader)):
+            img_embedding, text_embeddings, labels, image_name, question_text = train_batch
             text_embeddings = text_embeddings.to(device)
             
             optimizer.zero_grad()
-            logits = model(text_embeddings)
+            logits = model(text_embeddings, img_embedding)
             loss = criterion(logits, labels)
             loss.backward()
+
             optimizer.step()
 
-            writer.add_scalar("Train Loss", loss.item())
+            acc = accuracy(logits, labels)
+
+            writer.add_scalar("Epoch", epoch, epoch * len(train_dataloader) + idx_batch)
+            writer.add_scalar("Train Loss", loss.item(), epoch * len(train_dataloader) + idx_batch)
+            writer.add_scalar("Train Accuracy", acc, epoch * len(train_dataloader) + idx_batch)
+
+        # model.eval()
+        # for idx_batch, val_batch in enumerate(tqdm(validation_dataloader)):
+
+        #     img_embedding, text_embeddings, labels, image_name, question_text = val_batch
+        #     text_embeddings = text_embeddings.to(device)
+            
+        #     logits = model(text_embeddings, img_embedding)
+        #     loss = criterion(logits, labels)
+
+        #     acc = accuracy(logits, labels)
+
+        #     writer.add_scalar("Epoch", epoch, epoch * len(validation_dataloader) + idx_batch)
+        #     writer.add_scalar("Val Loss", loss.item(), epoch * len(validation_dataloader) + idx_batch)
+        #     writer.add_scalar("Val Accuracy", acc, epoch * len(validation_dataloader) + idx_batch)
+
 
 
 
