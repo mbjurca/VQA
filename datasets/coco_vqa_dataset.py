@@ -29,6 +29,8 @@ class VQA_dataset(data.Dataset):
         self.word_dict = self.load_vocabulary(vocabulary_file)
         self.len_word_dict = len(self.word_dict.keys())
 
+        print(len(list(self.data)))
+
 
     def generate_sample(self, index):
 
@@ -50,18 +52,17 @@ class VQA_dataset(data.Dataset):
 
         label = np.zeros(self.len_answers)
         set_answers = set(answers)
-
         for answer in set_answers:
-            count = answers.count(answer)
-            print(self.labels_dict[answer], answer, count, self.len_answers)
+            count = int(answers.count(answer))
             if count >= 4:
-                label[self.labels_dict[answer]] = 1.
+                label[self.labels_dict.get(answer, 0)] = 1.
             elif count == 3:
                 label[self.labels_dict[answer]] = 0.9
             elif count == 2:
                 label[self.labels_dict[answer]] = 0.6
             elif count == 1:
                 label[self.labels_dict[answer]] = 0.3
+                
 
         return label
 
@@ -99,7 +100,7 @@ class VQA_dataset(data.Dataset):
 
     
     def __len__(self):
-        return len(list(self.data))
+        return 23045
 
     def __getitem__(self, index):
 
