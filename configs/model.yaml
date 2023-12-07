@@ -6,7 +6,7 @@ MODEL:
   VIT:
     NO_IN_FEATURES : 2048
     NO_OUT_FEATURES : 512 
-    NO_PATHES : 36 
+    NO_PATCHES : 36 
     NO_BLOCKS : 3
     NO_HEADS : 8
     DROPOUT : 0.1

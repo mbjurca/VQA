@@ -23,8 +23,14 @@ class VQA_dataset(data.Dataset):
         with open(dataset_file) as f:
             self.data = json.load(f)
 
+        if not(os.path.isfile(labels_file)):
+            self.generate_labels(labels_file)
+            
         self.labels_dict = self.load_labels(labels_file)
         self.len_answers = len(self.labels_dict.keys())
+
+        if not(os.path.isfile(vocabulary_file)):
+            self.generate_vocabulary(vocabulary_file)
 
         self.word_dict = self.load_vocabulary(vocabulary_file)
         self.len_word_dict = len(self.word_dict.keys())
@@ -84,6 +90,24 @@ class VQA_dataset(data.Dataset):
 
         return embedding
 
+    def extract_labels(self):
+
+        answers = []
+        for _, values in self.data.items():
+            answers.extend(values['answers'])
+
+        answers = set(answers)
+        labels = {answer : index for index, answer in enumerate(answers)}
+
+        return labels
+    
+    def generate_labels(self, labels_file):
+
+        labels = self.extract_labels()
+
+        with open(labels_file, 'w') as outfile:
+            yaml.dump(labels, outfile)
+
     def load_labels(self, labels_file):
 
         with open(labels_file) as f:
@@ -91,6 +115,30 @@ class VQA_dataset(data.Dataset):
 
         return labels
     
+    def create_vocabulary(self):
+
+        words_list = []
+        for _, values in self.data.items():
+            question = values['question']
+            question = re.sub(r'[^\w\s]', '', question.lower())
+            words = question.split()
+            words_list.extend(words)
+
+        return set(words_list)
+    
+    def generate_vocabulary(self, vocabulary_file):
+
+        words = self.create_vocabulary()
+          
+        word_map = {word : idx + 1 for idx, word in enumerate(words)}
+        word_map['<unk>'] = len(words) + 1
+        word_map['<start>'] = len(words) + 1
+        word_map['<end>'] = len(words) + 1
+        word_map['<pad>'] = 0
+
+        with open(vocabulary_file, 'w') as outfile:
+            yaml.dump(word_map, outfile)
+
     def load_vocabulary(self, vocabulary_file):
 
         with open(vocabulary_file) as f:
@@ -107,5 +155,4 @@ class VQA_dataset(data.Dataset):
         img_embedding, text_embeddings, label, image_name, question_text = self.generate_sample(index)
 
         return  img_embedding, text_embeddings, label, image_name, question_text
-
 

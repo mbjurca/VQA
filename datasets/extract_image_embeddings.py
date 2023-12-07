@@ -11,8 +11,8 @@ import zlib
 import time
 import mmap
 
-input_dir = '/home/mihnea/data/VQA_DL/trainval_36/'
-output_dir = '/home/mihnea/data/VQA_DL/img_embeddings/'
+input_dir = '/home/diana/data/VQA_DL/trainval_36/'
+output_dir = '/home/diana/data/VQA_DL/img_embeddings/'
 
 
 csv.field_size_limit(sys.maxsize)

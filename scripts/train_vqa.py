@@ -60,7 +60,7 @@ def main():
                 hidden_size_text_rnn=cfg.MODEL.TEXT_RNN.HIDDEN_EMBEDDING_SIZE, 
                 no_in_features_vit=cfg.MODEL.VIT.NO_IN_FEATURES, 
                 no_out_features_vit=cfg.MODEL.VIT.NO_OUT_FEATURES, 
-                no_patches_vit=cfg.MODEL.VIT.NO_PATHES, 
+                no_patches_vit=cfg.MODEL.VIT.NO_PATCHES, 
                 no_transformer_blocks_vit=cfg.MODEL.VIT.NO_BLOCKS,
                 no_transformer_heads_vit=cfg.MODEL.VIT.NO_HEADS,
                 dropout_vit=cfg.MODEL.VIT.DROPOUT,
