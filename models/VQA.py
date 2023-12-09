@@ -1,8 +1,8 @@
 import torch
 from torch import nn
-from LSTM import LSTM
-from ViT import ViT
-from SLM import SLM
+from text import Text
+from image import Image
+from MLP import MLP
 
 class VQA(nn.Module):
 
@@ -22,7 +22,8 @@ class VQA(nn.Module):
                 dropout_slm,
                 vocabulary_size,
                 no_answers,
-                device):
+                device, 
+                config):
         super(VQA, self).__init__()
         self.input_size_text_rnn = input_size_text_rnn
         self.hidden_size_text_rnn = hidden_size_text_rnn
@@ -30,26 +31,24 @@ class VQA(nn.Module):
         self.device = device
         
         self.text_embedding = nn.Embedding(vocabulary_size, input_size_text_rnn)
-        self.text_rnn = LSTM(input_size=input_size_text_rnn, 
+        self.text_rnn = Text(input_size=input_size_text_rnn, 
                             hidden_size=hidden_size_text_rnn, 
-                            device=device)
+                            device=device,
+                            model_type = config.MODEL.TEXT.TYPE)
         
-        self.vit = ViT(
-            no_in_features=no_in_features_vit,
-            no_out_features=no_out_features_vit,
-            no_patches=no_patches_vit,
-            no_tranformer_blocks=no_transformer_blocks_vit,
-            no_heads=no_transformer_heads_vit,
-            dropout=dropout_vit
-        )
+        self.vit = Image(no_in_features=no_in_features_vit,
+                         no_out_features=no_out_features_vit,
+                         no_patches=no_patches_vit,
+                         no_transformer_blocks=no_transformer_blocks_vit,
+                         no_heads=no_transformer_heads_vit,
+                         dropout=dropout_vit,
+                         model_type = config.MODEL.IMAGE.TYPE)
 
-        self.slm = SLM(
-            no_features=no_features_slm,
-            sequence_length=sequence_length_slm,
-            no_tranformer_blocks=no_transformer_blocks_slm,
-            no_heads=no_transformer_heads_slm,
-            dropout=dropout_slm
-        )
+        self.slm = MLP(no_features=no_features_slm,
+                       sequence_length=sequence_length_slm,
+                       no_transformer_blocks=no_transformer_blocks_slm,
+                       no_heads=no_transformer_heads_slm,dropout=dropout_slm,
+                       model_type = config.MODEL.MLP.TYPE)
 
         # forget gate weights
         self.linear = nn.Linear(hidden_size_text_rnn+no_out_features_vit, no_answers)
