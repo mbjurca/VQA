@@ -1,3 +1,6 @@
 *.pyc
 scripts/runs/*
+runs/*
 .vscode/*
+configs/dataset.yaml
+#datasets/extract_image_embeddings.py
