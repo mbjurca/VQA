@@ -26,8 +26,9 @@ TRAIN_CFG_FILE = "../configs/train.yaml"
 def main():
     # set device 
 
-    # device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    device='cpu'
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    print(device)
+    #device='cpu'
 
     # create the config
     cfg = get_configs()
@@ -47,7 +48,7 @@ def main():
 
 
     train_dataloader = DataLoader(train_dataset, 
-                                  batch_size=512, 
+                                  batch_size=1, 
                                   num_workers=4, 
                                   shuffle=True)
     
@@ -82,6 +83,8 @@ def main():
         for idx_batch, train_batch in enumerate(tqdm(train_dataloader)):
             img_embedding, text_embeddings, labels, image_name, question_text = train_batch
             text_embeddings = text_embeddings.to(device)
+            img_embedding = img_embedding.to(device)
+            labels = labels.to(device)
             
             optimizer.zero_grad()
             logits = model(text_embeddings, img_embedding)
