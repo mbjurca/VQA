@@ -21,8 +21,6 @@ def main():
 
     # set device 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    print(device)
-    #device='cpu'
 
     # create the config
     cfg = get_configs()

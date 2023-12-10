@@ -8,10 +8,9 @@ from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 from metrics import accuracy
 
+writer = SummaryWriter()
 
 def train(train_dataloader, config, model, optimizer, criterion, device):
-
-    writer = SummaryWriter()
 
     for epoch in range(config.TRAIN.EPOCHS):
 
@@ -37,8 +36,6 @@ def train(train_dataloader, config, model, optimizer, criterion, device):
 
 
 def eval(validation_dataloader, config, model, criterion, device):
-
-    writer = SummaryWriter()
 
     for epoch in range(config.TRAIN.EPOCHS):
 

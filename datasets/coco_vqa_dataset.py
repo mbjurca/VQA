@@ -35,8 +35,6 @@ class VQA_dataset(data.Dataset):
         self.word_dict = self.load_vocabulary(vocabulary_file)
         self.len_word_dict = len(self.word_dict.keys())
 
-        print(len(list(self.data)))
-
 
     def generate_sample(self, index):
 
@@ -145,7 +143,6 @@ class VQA_dataset(data.Dataset):
             vocabulary = yaml.safe_load(f)
 
         return vocabulary
-
     
     def __len__(self):
         return 23045
