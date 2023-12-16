@@ -30,7 +30,8 @@ def main():
     validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
                                     labels_file=cfg.DATASET.LABELS,
                                     vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
-                                    image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER)
+                                    image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER
+                                    token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
     
     validation_dataloader = DataLoader(validation_dataset, 
                                   batch_size=2, 
