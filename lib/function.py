@@ -15,6 +15,8 @@ def train(train_dataloader, config, model, optimizer, criterion, device):
     for epoch in range(config.TRAIN.EPOCHS):
 
         model.train()
+        train_acc = []
+        train_loss = []
         for idx_batch, train_batch in enumerate(tqdm(train_dataloader)):
             img_embedding, text_embeddings, labels, image_name, question_text = train_batch
             text_embeddings = text_embeddings.to(device)
@@ -29,10 +31,12 @@ def train(train_dataloader, config, model, optimizer, criterion, device):
             optimizer.step()
 
             acc = accuracy(logits, labels)
+            train_acc.append(acc)
+            train_loss.append(loss.item())
 
-            writer.add_scalar("Epoch", epoch, epoch * len(train_dataloader) + idx_batch)
-            writer.add_scalar("Train Loss", loss.item(), epoch * len(train_dataloader) + idx_batch)
-            writer.add_scalar("Train Accuracy", acc, epoch * len(train_dataloader) + idx_batch)
+        writer.add_scalar("Epoch", epoch, epoch)
+        writer.add_scalar("Train Loss", torch.tensor(train_loss).mean(), epoch)
+        writer.add_scalar("Train Accuracy", torch.tensor(train_acc).mean(), epoch)
 
 
 def eval(validation_dataloader, config, model, criterion, device):
