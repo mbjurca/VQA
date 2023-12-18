@@ -15,7 +15,8 @@ class VQA_dataset(data.Dataset):
                  labels_file,
                  vocabulary_file,
                  image_embedding_folder, 
-                 max_len_text_embedding=15):
+                 max_len_text_embedding=15,
+                 token_type = "START_END"):
         
         self.image_embedding_folder = image_embedding_folder
         self.max_len_text_embedding = max_len_text_embedding
@@ -34,6 +35,7 @@ class VQA_dataset(data.Dataset):
 
         self.word_dict = self.load_vocabulary(vocabulary_file)
         self.len_word_dict = len(self.word_dict.keys())
+        self.token_type = token_type
 
 
     def generate_sample(self, index):
@@ -82,9 +84,13 @@ class VQA_dataset(data.Dataset):
         words = question.split()
         words_token = [self.word_dict.get(word, self.word_dict['<unk>']) for word in words]
 
-        embedding = [self.word_dict['<start>']] + words_token[:self.max_len_text_embedding-2] + \
-                    [self.word_dict['<pad>']] * (self.max_len_text_embedding - len(words_token) - 2) + \
-                    [self.word_dict['<end>']]
+        if self.token_type == "START_END":
+            embedding = [self.word_dict['<start>']] + words_token[:self.max_len_text_embedding-2] + \
+                        [self.word_dict['<pad>']] * (self.max_len_text_embedding - len(words_token) - 2) + \
+                        [self.word_dict['<end>']]
+            
+        elif self.token_type == "PAD_ONLY":
+            embedding = words_token[:self.max_len_text_embedding] + [self.word_dict['<pad>']] * (self.max_len_text_embedding - len(words_token))
 
         return embedding
 
