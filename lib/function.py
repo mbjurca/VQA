@@ -10,7 +10,7 @@ from metrics import accuracy
 
 writer = SummaryWriter()
 
-def train(train_dataloader, config, model, optimizer, criterion, device):
+def train(train_dataloader, config, model, optimizer, criterion, scheduler, device):
 
     for epoch in range(config.TRAIN.EPOCHS):
 
@@ -19,20 +19,34 @@ def train(train_dataloader, config, model, optimizer, criterion, device):
         train_loss = []
         for idx_batch, train_batch in enumerate(tqdm(train_dataloader)):
             img_embedding, text_embeddings, labels, image_name, question_text = train_batch
+            # print(question_text)
             text_embeddings = text_embeddings.to(device)
             img_embedding = img_embedding.to(device)
             labels = labels.to(device)
             
             optimizer.zero_grad()
             logits = model(text_embeddings, img_embedding)
+            # print(logits.shape, labels.shape)
             loss = criterion(logits, labels)
             loss.backward()
 
             optimizer.step()
+            scheduler.step()
 
-            acc = accuracy(logits, labels)
+            acc = accuracy(logits, labels.float())
             train_acc.append(acc)
             train_loss.append(loss.item())
+
+            # Find indices and values where logits > 0.1
+            # indices_greater_than_0_1 = (logits > 0.1).nonzero()
+            
+            # if indices_greater_than_0_1.numel() > 0:
+            #     print("Indices and values where logits > 0.1:")
+            #     for idx in indices_greater_than_0_1:
+            #         row, col = idx[0], idx[1]
+            #         value = logits[row, col]
+            #         print(f"Index ({row}, {col}): Value {value}")
+
 
         writer.add_scalar("Epoch", epoch, epoch)
         writer.add_scalar("Train Loss", torch.tensor(train_loss).mean(), epoch)

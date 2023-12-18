@@ -2,7 +2,8 @@ import torch
 from torch import nn
 from text import Text
 from image import Image
-from MLP import MLP
+from LanguageModel import LanguageModel
+import torch.nn.functional as F
 
 class VQA(nn.Module):
 
@@ -44,15 +45,20 @@ class VQA(nn.Module):
                          dropout=dropout_vit,
                          model_type = config.MODEL.IMAGE.TYPE)
 
-        self.slm = MLP(no_features=no_features_slm,
+        self.slm = LanguageModel(no_features=no_features_slm,
                        sequence_length=sequence_length_slm,
                        no_transformer_blocks=no_transformer_blocks_slm,
                        no_heads=no_transformer_heads_slm,dropout=dropout_slm,
-                       model_type = config.MODEL.MLP.TYPE)
+                       model_type = config.MODEL.LANGUAGE_MODEL.TYPE)
 
-        # forget gate weights
-        self.linear = nn.Linear(hidden_size_text_rnn+no_out_features_vit, no_answers)
-        self.sigmoid = nn.Sigmoid()
+        self.MLP = nn.Sequential(nn.Linear(hidden_size_text_rnn+no_out_features_vit, 1000), 
+                                 nn.Tanh(),
+                                 nn.Dropout(0.2),
+                                 nn.Linear(1000, 1000), 
+                                 nn.Tanh(),
+                                 nn.Dropout(0.2),
+                                 nn.Linear(1000, no_answers)
+                                 )
 
     def forward(self, x_text, x_image):
         
@@ -61,10 +67,8 @@ class VQA(nn.Module):
         x_text = self.slm(x_text)
 
         x_image = self.vit(x_image)
-
         x = torch.cat((x_text, x_image), dim=1)
-        x = self.linear(x)
-        x = self.sigmoid(x)
+        x = self.MLP(x)
 
         return x
 
