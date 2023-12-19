@@ -53,20 +53,22 @@ class VQA(nn.Module):
 
         self.MLP = nn.Sequential(nn.Linear(hidden_size_text_rnn+no_out_features_vit, 1000), 
                                  nn.Tanh(),
-                                 nn.Dropout(0.2),
+                                #  nn.Dropout(0.5),
                                  nn.Linear(1000, 1000), 
                                  nn.Tanh(),
-                                 nn.Dropout(0.2),
-                                 nn.Linear(1000, no_answers)
+                                #  nn.Dropout(0.),
+                                 nn.Linear(1000, no_answers),
+                                 nn.Sigmoid()
                                  )
 
     def forward(self, x_text, x_image):
         
         x_text = self.text_embedding(x_text)
         x_text = self.text_rnn(x_text) # batch_size, no_answers
-        x_text = self.slm(x_text)
 
+        x_text = self.slm(x_text)
         x_image = self.vit(x_image)
+
         x = torch.cat((x_text, x_image), dim=1)
         x = self.MLP(x)
 

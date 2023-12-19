@@ -7,7 +7,6 @@ MODEL:
     TOKEN_TYPE : "PAD_ONLY"
   IMAGE:
     TYPE : "VIT"
-    
     NO_IN_FEATURES : 2048
     NO_OUT_FEATURES : 512 
     NO_PATCHES : 36 

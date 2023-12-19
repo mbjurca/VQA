@@ -27,11 +27,13 @@ def train(train_dataloader, config, model, optimizer, criterion, scheduler, devi
             optimizer.zero_grad()
             logits = model(text_embeddings, img_embedding)
             # print(logits.shape, labels.shape)
-            loss = criterion(logits, labels)
+            loss = criterion(logits, labels.float())
             loss.backward()
 
+            clipping_value = .5 # arbitrary value of your choosing
+            torch.nn.utils.clip_grad_norm_(model.parameters(), clipping_value)
             optimizer.step()
-            scheduler.step()
+            # scheduler.step()
 
             acc = accuracy(logits, labels.float())
             train_acc.append(acc)

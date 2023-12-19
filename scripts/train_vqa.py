@@ -33,13 +33,14 @@ def main():
                                 image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                 token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
 
-    use_single_fixed_batch = False
+    use_single_fixed_batch = True
 
     if use_single_fixed_batch:
+        batch_size = 8
         train_dataloader = DataLoader(train_dataset, 
-                                      batch_size=64, 
+                                      batch_size=batch_size, 
                                       num_workers=4, 
-                                      sampler=SequentialSampler(list(range(64)))
+                                      sampler=SequentialSampler(list(range(batch_size)))
                                       )
     else:
         train_dataloader = DataLoader(train_dataset, 
@@ -65,9 +66,9 @@ def main():
                 device = device,
                 config = cfg).to(device)
     
-    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR)
-    criterion = torch.nn.CrossEntropyLoss()
-    scheduler = StepLR(optimizer, step_size=30, gamma=0.01)
+    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(0.9, 0.98))
+    criterion = torch.nn.BCELoss(reduction='sum')
+    scheduler = StepLR(optimizer, step_size=60, gamma=0.01)
 
     train(train_dataloader = train_dataloader,
           config = cfg, 
