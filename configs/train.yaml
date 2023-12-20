@@ -1,3 +1,3 @@
 TRAIN:
-  EPOCHS: 100
-  LR: 0.001
+  EPOCHS: 200
+  LR: 0.0001
