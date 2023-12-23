@@ -6,12 +6,11 @@ sys.path.append('../models/')
 sys.path.append('../lib/')
 
 import torch 
-from torch.utils.data import DataLoader, SequentialSampler
+from torch.utils.data import DataLoader
 from configs import update_configs, get_configs
 from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
 from function import train
-from torch.optim.lr_scheduler import StepLR
 
 DATASET_CFG_FILE = "../configs/dataset.yaml"
 MODEL_CFG_FILE = "../configs/model.yaml"
@@ -28,25 +27,16 @@ def main():
     update_configs(cfg, MODEL_CFG_FILE, DATASET_CFG_FILE, TRAIN_CFG_FILE)
 
     train_dataset = VQA_dataset(dataset_file=cfg.DATASET.TRAIN_FILE,
-                                labels_file=cfg.DATASET.LABELS,
+                                labels_to_ids_file=cfg.DATASET.LABELS_TO_IDS,
+                                ids_to_labels_file=cfg.DATASET.IDS_TO_LABELS,
                                 vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
                                 image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                 token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
 
-    use_single_fixed_batch = True
-
-    if use_single_fixed_batch:
-        batch_size = 8
-        train_dataloader = DataLoader(train_dataset, 
-                                      batch_size=batch_size, 
-                                      num_workers=4, 
-                                      sampler=SequentialSampler(list(range(batch_size)))
-                                      )
-    else:
-        train_dataloader = DataLoader(train_dataset, 
-                                      batch_size=512, 
-                                      num_workers=4, 
-                                      shuffle=True)
+    train_dataloader = DataLoader(train_dataset, 
+                                  batch_size=380,
+                                  num_workers=4, 
+                                  shuffle=True)
 
     model = VQA(input_size_text_rnn=cfg.MODEL.TEXT.INPUT_SIZE, 
                 hidden_size_text_rnn=cfg.MODEL.TEXT.HIDDEN_EMBEDDING_SIZE, 
@@ -56,27 +46,25 @@ def main():
                 no_transformer_blocks_vit=cfg.MODEL.IMAGE.NO_BLOCKS,
                 no_transformer_heads_vit=cfg.MODEL.IMAGE.NO_HEADS,
                 dropout_vit=cfg.MODEL.IMAGE.DROPOUT,
-                no_features_slm=cfg.MODEL.LANGUAGE_MODEL.NO_FEATURES,
-                sequence_length_slm=cfg.MODEL.LANGUAGE_MODEL.SEQUENCE_LENGTH,
-                no_transformer_blocks_slm=cfg.MODEL.LANGUAGE_MODEL.NO_BLOCKS,
-                no_transformer_heads_slm=cfg.MODEL.LANGUAGE_MODEL.NO_HEADS,
-                dropout_slm=cfg.MODEL.LANGUAGE_MODEL.DROPOUT,
+                no_features_slm=cfg.MODEL.MLP.NO_FEATURES,
+                sequence_length_slm=cfg.MODEL.MLP.SEQUENCE_LENGTH,
+                no_transformer_blocks_slm=cfg.MODEL.MLP.NO_BLOCKS,
+                no_transformer_heads_slm=cfg.MODEL.MLP.NO_HEADS,
+                dropout_slm=cfg.MODEL.MLP.DROPOUT,
                 vocabulary_size=cfg.DATASET.WORD_VOCABULARY_SIZE, 
                 no_answers=train_dataset.len_answers, 
                 device = device,
                 config = cfg).to(device)
     
-    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(0.9, 0.98))
-    criterion = torch.nn.BCELoss(reduction='sum')
-    scheduler = StepLR(optimizer, step_size=60, gamma=0.01)
+    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR)
+    criterion = torch.nn.CrossEntropyLoss()
 
     train(train_dataloader = train_dataloader,
           config = cfg, 
           model = model,
           optimizer = optimizer,
           criterion = criterion,
-          scheduler = scheduler,
-          device = device)
+          device = device,)
 
 
 if __name__ == '__main__':

@@ -12,9 +12,10 @@ class VQA_dataset(data.Dataset):
 
     def __init__(self,
                  dataset_file, 
-                 labels_file,
+                 labels_to_ids_file,
+                 ids_to_labels_file,
                  vocabulary_file,
-                 image_embedding_folder,
+                 image_embedding_folder, 
                  max_len_text_embedding=15,
                  token_type = "START_END"):
         
@@ -24,10 +25,10 @@ class VQA_dataset(data.Dataset):
         with open(dataset_file) as f:
             self.data = json.load(f)
 
-        if not(os.path.isfile(labels_file)):
-            self.generate_labels(labels_file)
+        if not(os.path.isfile(labels_to_ids_file)) or not(os.path.isfile(ids_to_labels_file)):
+            self.generate_labels(labels_to_ids_file, ids_to_labels_file)
             
-        self.labels_dict = self.load_labels(labels_file)
+        self.labels_dict = self.load_labels(labels_to_ids_file)
         self.len_answers = len(self.labels_dict.keys())
 
         if not(os.path.isfile(vocabulary_file)):
@@ -52,7 +53,7 @@ class VQA_dataset(data.Dataset):
         text_embeddings = torch.tensor(self.get_text_embeddings(question_text))
         label = self.compute_label(answers)
 
-        return img_embedding, text_embeddings, label, image_name, question_text
+        return img_embedding, text_embeddings, label, image_name, question_text, question_id
     
     def compute_label(self, answers):
 
@@ -61,7 +62,7 @@ class VQA_dataset(data.Dataset):
         for answer in set_answers:
             count = int(answers.count(answer))
             if count >= 4:
-                label[self.labels_dict[answer]] = 1.
+                label[self.labels_dict.get(answer, 0)] = 1.
             elif count == 3:
                 label[self.labels_dict[answer]] = 0.9
             elif count == 2:
@@ -69,6 +70,7 @@ class VQA_dataset(data.Dataset):
             elif count == 1:
                 label[self.labels_dict[answer]] = 0.3
                 
+
         return label
 
     def get_image_embedding(self, image_id):
@@ -100,16 +102,19 @@ class VQA_dataset(data.Dataset):
             answers.extend(values['answers'])
 
         answers = set(answers)
-        labels = {answer : index for index, answer in enumerate(answers)}
+        labels_to_ids = {answer: index for index, answer in enumerate(answers)}
+        ids_to_labels = {index: answer for index, answer in enumerate(answers)}
 
-        return labels
+        return labels_to_ids, ids_to_labels
     
-    def generate_labels(self, labels_file):
+    def generate_labels(self, labels_to_ids_file, ids_to_labels_file):
 
-        labels = self.extract_labels()
+        labels_to_ids, ids_to_labels = self.extract_labels()
 
-        with open(labels_file, 'w') as outfile:
-            yaml.dump(labels, outfile)
+        with open(labels_to_ids_file, 'w') as outfile:
+            yaml.dump(labels_to_ids, outfile)
+        with open(ids_to_labels_file, 'w') as outfile:
+            yaml.dump(ids_to_labels, outfile)
 
     def load_labels(self, labels_file):
 
@@ -135,8 +140,8 @@ class VQA_dataset(data.Dataset):
           
         word_map = {word : idx + 1 for idx, word in enumerate(words)}
         word_map['<unk>'] = len(words) + 1
-        word_map['<start>'] = len(words) + 2
-        word_map['<end>'] = len(words) + 3
+        word_map['<start>'] = len(words) + 1
+        word_map['<end>'] = len(words) + 1
         word_map['<pad>'] = 0
 
         with open(vocabulary_file, 'w') as outfile:
@@ -150,11 +155,10 @@ class VQA_dataset(data.Dataset):
         return vocabulary
     
     def __len__(self):
-        return 23045
+        return len(self.data)
 
     def __getitem__(self, index):
 
-        img_embedding, text_embeddings, label, image_name, question_text = self.generate_sample(index)
+        img_embedding, text_embeddings, label, image_name, question_text, question_id = self.generate_sample(index)
 
-        return  img_embedding, text_embeddings, label, image_name, question_text
-
+        return  img_embedding, text_embeddings, label, image_name, question_text, question_id
