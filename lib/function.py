@@ -6,11 +6,11 @@ sys.path.append('../utils/')
 import torch 
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
-from utils import accuracy
+from metrics import accuracy
 from utils.Evaluator import Evaluator
 from configs import update_configs, get_configs
 
-writer = SummaryWriter('../runs_0001')
+writer = SummaryWriter('../runs_complex_0001')
 
 def train(train_dataloader, config, model, optimizer, criterion, device):
 
@@ -45,16 +45,14 @@ def train(train_dataloader, config, model, optimizer, criterion, device):
                     "question_id": question_id
                 })
 
-        #todo: add this to config
-        annFile = '../data/miniCOCO_train_annotations.json'
-        quesFile = '../data/miniCOCO_train_questions.json'
-        evaluator = Evaluator(annFile, quesFile, config.DATASET.IDS_TO_LABELS, result_list)
-        evaluator.print_accuracies()
-
+        evaluator = Evaluator(config.TRAIN.ANNOTATIONS_FILE, config.TRAIN.QUESTIONS_FILE, config.DATASET.IDS_TO_LABELS, result_list)
+        acc = evaluator.get_overall_accuracy()
         writer.add_scalar("Epoch", epoch, epoch)
         writer.add_scalar("Train Loss", torch.tensor(train_loss).mean(), epoch)
-        writer.add_scalar("Train Accuracy", torch.tensor(train_acc).mean(), epoch)
-        print(f'Train Accuracy : {torch.tensor(train_acc).mean()}')
+        writer.add_scalar("Train old Accuracy", torch.tensor(train_acc).mean(), epoch)
+        writer.add_scalar("Train toolkit Accuracy", acc, epoch)
+        print(f'Train old Accuracy : {torch.tensor(train_acc).mean()}')
+        print(f'Train toolkit Accuracy : {acc}')
 
 
 def eval(validation_dataloader, config, model, criterion, device):

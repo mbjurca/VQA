@@ -1,7 +1,7 @@
 from torch import nn
 from SLM import SLM
 
-class MLP(nn.Module):
+class LanguageModel(nn.Module):
 
     def __init__(self,
                  no_features,
@@ -11,7 +11,7 @@ class MLP(nn.Module):
                  dropout,
                  model_type):
         
-        super(MLP, self).__init__()
+        super(LanguageModel, self).__init__()
 
         if model_type == "SLM":
             self.model = SLM(no_features,

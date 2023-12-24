@@ -153,7 +153,21 @@ class VQA_dataset(data.Dataset):
             vocabulary = yaml.safe_load(f)
 
         return vocabulary
-    
+
+    def get_top_k_answers(self, k):
+        answers_list = []
+        for keys, values in self.data.items():
+            answers = values['answers']
+            answers_list.extend(answers)
+
+        answers_freq = Counter(answers_list)
+        most_common_answers = dict(answers_freq.most_common(k))
+
+        return most_common_answers
+
+    def get_question_ids(self):
+        return list(self.data.keys())
+
     def __len__(self):
         return len(self.data)
 
