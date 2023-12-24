@@ -1,5 +1,4 @@
-import torch 
-from configs import update_configs, get_configs
+import torch
 from torch.utils import data
 import json
 import re
@@ -150,7 +149,7 @@ class VQA_dataset(data.Dataset):
         return vocabulary
     
     def __len__(self):
-        return 23045
+        return len(self.data)
 
     def __getitem__(self, index):
 
