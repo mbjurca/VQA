@@ -1,31 +1,39 @@
 import torch
 from torch import nn
+import math
 
 
-class LSTM(nn.Module):
+class LSTMLayer(nn.Module):
 
     def __init__(self, input_size, hidden_size, device):
 
-        super(LSTM, self).__init__()
+        super(LSTMLayer, self).__init__()
         self.hidden_size = hidden_size
         self.input_size = input_size
         self.device = device
 
-        # forget gate weights
+        # f_t: forget gate weights
         self.w_f = nn.Linear(input_size+hidden_size, hidden_size)
 
-        # input gate weights
+        # i_t: input gate weights
         self.w_i = nn.Linear(input_size+hidden_size, hidden_size)
         
-        # new memory
+        # c_t: new memory
         self.w_c = nn.Linear(input_size+hidden_size, hidden_size)
 
-        # output gate weights
+        # o_t: output gate weights
         self.w_o = nn.Linear(input_size+hidden_size, hidden_size)
 
         # activation functions
         self.sigmoid = nn.Sigmoid()
         self.tanh = nn.Tanh()
+
+        self.init_weights()
+        
+    def init_weights(self):
+        stdv = 1.0 / math.sqrt(self.hidden_size)
+        for weight in self.parameters():
+            weight.data.uniform_(-stdv, stdv)
 
     def forward(self, x):
 
@@ -34,15 +42,15 @@ class LSTM(nn.Module):
         h_t = torch.zeros(batch_size, self.hidden_size).to(self.device)
         c_t = torch.zeros(batch_size, self.hidden_size).to(self.device)
 
-        hidden_state_list = []
+        h_t_list = []
         c_t_list = []
 
         for t in range(sequence_length):
-
+            # get the input at the current timestep
             x_t = x[:, t, :]
 
             # run the LSTM cell
-            common_input = torch.cat((h_t, x_t), dim=1)
+            common_input = torch.cat([x_t,h_t], dim=1)
 
             # forget gate
             f_t = self.w_f(common_input)
@@ -65,51 +73,58 @@ class LSTM(nn.Module):
             # update the hidden state
             h_t = o_t * self.tanh(c_t)
 
-            hidden_state_list.append(h_t.unsqueeze(dim=1))
+            # save the hidden states and cell states
+            h_t_list.append(h_t.unsqueeze(dim=1))
             c_t_list.append(c_t.unsqueeze(dim=1))
 
-        hidden_state_list = torch.cat(hidden_state_list, dim=1) # batch_size, seqence_length, hidden_size
-        c_t_list = torch.cat(c_t_list, dim=1) # batch_size, seqence_length, hidden_size
+        h_t_list = torch.cat(h_t_list, dim=1) # batch_size, sequence_length, hidden_size
+        c_t_list = torch.cat(c_t_list, dim=1) # batch_size, sequence_length, hidden_size
 
-        return hidden_state_list, c_t_list
+        return h_t_list, c_t_list
 
-class CustomLSTM(nn.Module):
+
+class LSTM(nn.Module):
     def __init__(self, input_size, hidden_size, device):
-        super(CustomLSTM, self).__init__()
+        super(LSTM, self).__init__()
 
-        self.lstm = LSTM(input_size=input_size, hidden_size=hidden_size, device = device)
+        self.lstm_layer = LSTMLayer(input_size=input_size, hidden_size=hidden_size, device = device)
 
     def forward(self, x):
-        h_t, c_t = self.lstm(x)
-        return h_t, c_t
+        h_t, c_t = self.lstm_layer(x)
+        output = torch.cat((h_t, c_t), dim=2)
 
-class LSTMDeep(nn.Module):
+        return output
+
+
+class DeepLSTM(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, device):
-        super(LSTMDeep, self).__init__()
+        super(DeepLSTM, self).__init__()
 
         # LSTM layers
-        self.lstm_layer1 = CustomLSTM(input_size, hidden_size, device=device)
-        self.lstm_layer2 = CustomLSTM(hidden_size, hidden_size, device=device)
+        self.lstm_layer1 = LSTMLayer(input_size, hidden_size, device=device)
+        self.lstm_layer2 = LSTMLayer(hidden_size, hidden_size, device=device)
 
-        # Fully-connected layer
+        # fully-connected layer
         self.fc = nn.Linear(2 * 2 * hidden_size, output_size)
 
-        # Tanh activation function
+        # tanh activation function
         self.tanh = nn.Tanh()
 
     def forward(self, x):
         # LSTM layer 1
-        h1, c1 = self.lstm_layer1(x)
+        h_t_1, c_t_1 = self.lstm_layer1(x)
 
         # LSTM layer 2
-        h2, c2 = self.lstm_layer2(h1)
+        h_t_2, c_t_2 = self.lstm_layer2(h_t_1)
 
-        # Concatenate last cell state and last hidden state from each LSTM layer
-        concatenated_embedding = torch.cat([h1[:,-1,:], c1[:,-1,:], h2[:,-1,:], c2[:,-1,:]], dim=1)
+        # concatenate cell states and hidden states from each LSTM layer
+        # when using SLM
+        #concatenated_embedding = torch.cat((h_t_1, c_t_1, h_t_2, c_t_2), dim=2)
+        # without SLM        
+        concatenated_embedding = torch.cat([h_t_1[:,-1,:], c_t_1[:,-1,:], h_t_2[:,-1,:], c_t_2[:,-1,:]], dim=1)
 
-        # Fully-connected layer + tanh non-linearity
+        # fully-connected layer + tanh non-linearity
         output = self.tanh(self.fc(concatenated_embedding))
 
-        #print(output.shape)
-
-        return output        
+        return output
+    

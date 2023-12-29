@@ -30,10 +30,9 @@ class VQA(nn.Module):
         self.hidden_size_text_rnn = hidden_size_text_rnn
         self.no_answers = no_answers
         self.device = device
+        self.LSTM_type = config.MODEL.TEXT.TYPE
         
         self.text_embedding = nn.Embedding(vocabulary_size, input_size_text_rnn)
-        #self.linearlayer = nn.Linear(256, input_size_text_rnn)
-        #self.tanh_activation = nn.Tanh()
 
         self.text_rnn = Text(input_size=input_size_text_rnn, 
                             hidden_size=hidden_size_text_rnn, 
@@ -51,16 +50,9 @@ class VQA(nn.Module):
         self.slm = LanguageModel(no_features=no_features_slm,
                        sequence_length=sequence_length_slm,
                        no_transformer_blocks=no_transformer_blocks_slm,
-                       no_heads=no_transformer_heads_slm,dropout=dropout_slm,
-                       model_type = config.MODEL.LANGUAGE_MODEL.TYPE)
-        
-        self.text_transformer = Image(no_in_features=512,
-                         no_out_features=512,
-                         no_patches=15,
-                         no_transformer_blocks=3,
-                         no_heads=8,
-                         dropout=dropout_vit,
-                         model_type = config.MODEL.IMAGE.TYPE)       
+                       no_heads=no_transformer_heads_slm,
+                       dropout=dropout_slm,
+                       model_type = config.MODEL.LANGUAGE_MODEL.TYPE)    
 
         # self.MLP = nn.Sequential(nn.Linear(1024, 1000), 
         #                          nn.Tanh(),
@@ -72,51 +64,32 @@ class VQA(nn.Module):
         #                          nn.Sigmoid()
         #                          )
         
-        self.MLP = nn.Sequential(
-            nn.Linear(2048, no_answers),
-            nn.Sigmoid()
-            )
+        self.MLP = nn.Sequential(nn.Linear(no_features_slm+no_out_features_vit, no_answers),
+                                 nn.Sigmoid()
+                                 )
         
 
     def forward(self, x_text, x_image):
         
         x_text = self.text_embedding(x_text)
-        #linear_output = self.linearlayer(x_text)
-        #x_text = self.tanh_activation(linear_output)
+        x_text = self.text_rnn(x_text)
 
-        #x_text,_ = self.text_rnn(x_text) # batch_size, no_answers
+        if self.LSTM_type == "LSTM":
+            x_text = self.slm(x_text)
 
-        x_text = self.text_rnn(x_text) # batch_size, no_answers
-        #x_text = self.text_transformer(x_text)
-
-        #x_text = self.slm(x_text.view(128, 15, 1024))
         x_image = self.vit(x_image)
-        #print(x_text.shape)
-        #print(x_image.shape)
 
         # Normalize each batch of the text and image features
         x_text = torch.nn.functional.normalize(x_text, p=2, dim=1)
         x_image = torch.nn.functional.normalize(x_image, p=2, dim=1)
 
-        #x = x_text * x_image
         x = torch.cat((x_text, x_image), dim=1)
-        
-        #print(x.shape)
+
         x = self.MLP(x)
-        #x = x[:256,:]
-        #print(x.shape)
 
         return x
 
-# 20 epochs
-# var RNN (LSTM) + SLM / VIT => MLP (Linear, sigmoid) => 37.379
-# var RNN (LSTM) + VIT / VIT => MLP (Linear, sigmoid) => 39.518
-# 200 epochs
-# var RNN (DeepLSTM) / VIT => MLP (Linear, sigmoid) => 62.290
-# var RNN (DeepLSTM) + VIT / VIT => MLP (Linear, sigmoid) => 
-
-        
-
-
-
-
+# 200 epochs train
+# var LSTM + SLM / VIT => MLP (Linear, sigmoid) => ~52% acc
+# var DeepLSTM + SLM / VIT => MLP (Linear, sigmoid) => ~55% acc
+# var DeepLSTM / VIT => MLP (Linear, sigmoid) => ~59% acc

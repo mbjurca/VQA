@@ -56,7 +56,6 @@ def main():
                 device = device,
                 config = cfg).to(device)
     
-    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR)
     #criterion = torch.nn.L1Loss(reduction='mean')
     criterion = torch.nn.CrossEntropyLoss()
 

@@ -20,15 +20,22 @@ class VQA_dataset(data.Dataset):
         self.image_embedding_folder = image_embedding_folder
         self.max_len_text_embedding = max_len_text_embedding
         
+        # load dataset
         with open(dataset_file) as f:
             self.data = json.load(f)
 
+        # D: ar trebui sa le generam mereu pentru ca difera pe train/validation sau sa lasam un comment in README ca nu trebuie 
+        # sa existe inainte de train/val
+        # generate labels for answers
         if not(os.path.isfile(labels_file)):
             self.generate_labels(labels_file)
             
         self.labels_dict = self.load_labels(labels_file)
         self.len_answers = len(self.labels_dict.keys())
 
+        # D: ar trebui sa il generam mereu pentru ca difera pe train/validation sau sa lasam un comment in README ca nu trebuie 
+        # sa existe inainte de train/val
+        # generate word vocabulary
         if not(os.path.isfile(vocabulary_file)):
             self.generate_vocabulary(vocabulary_file)
 
@@ -39,6 +46,7 @@ class VQA_dataset(data.Dataset):
 
     def generate_sample(self, index):
 
+        # each sample is defined by an unique question id
         question_id = list(self.data)[index]
 
         question_text = self.data[question_id]['question']
@@ -48,13 +56,16 @@ class VQA_dataset(data.Dataset):
 
         # get image embedding
         img_embedding = self.get_image_embedding(image_id)
+        # get text embedding
         text_embeddings = torch.tensor(self.get_text_embeddings(question_text))
+        # compute labels for answers
         label = self.compute_label(answers)
 
         return img_embedding, text_embeddings, label, image_name, question_text
     
     def compute_label(self, answers):
 
+        # compute labels based on the number of occurrences for each answer
         label = np.zeros(self.len_answers)
         set_answers = set(answers)
         for answer in set_answers:
@@ -72,21 +83,24 @@ class VQA_dataset(data.Dataset):
 
     def get_image_embedding(self, image_id):
 
+        # load pre-computed features for image
         features = np.load(os.path.join(self.image_embedding_folder, f'{image_id}.npz'))['feat']
 
         return features
     
     def get_text_embeddings(self, question_text):
 
+        # split the question into lower-case words and map it using the word vocabulary
         question = re.sub(r'[^\w\s]', '', question_text.lower())
         words = question.split()
         words_token = [self.word_dict.get(word, self.word_dict['<unk>']) for word in words]
 
+        # a question is tokenized with start-end tokens and padding
         if self.token_type == "START_END":
             embedding = [self.word_dict['<start>']] + words_token[:self.max_len_text_embedding-2] + \
                         [self.word_dict['<pad>']] * (self.max_len_text_embedding - len(words_token) - 2) + \
                         [self.word_dict['<end>']]
-            
+        # a question is only padded
         elif self.token_type == "PAD_ONLY":
             embedding = words_token[:self.max_len_text_embedding] + [self.word_dict['<pad>']] * (self.max_len_text_embedding - len(words_token))
 
@@ -133,6 +147,7 @@ class VQA_dataset(data.Dataset):
         words = self.create_vocabulary()
           
         word_map = {word : idx + 1 for idx, word in enumerate(words)}
+        # define specific tokens for unknown words, start and end of a question and padding token
         word_map['<unk>'] = len(words) + 1
         word_map['<start>'] = len(words) + 2
         word_map['<end>'] = len(words) + 3
@@ -153,7 +168,7 @@ class VQA_dataset(data.Dataset):
 
     def __getitem__(self, index):
 
-        img_embedding, text_embeddings, label, image_name, question_text = self.generate_sample(index)
+        img_embedding, text_embedding, label, image_name, question_text = self.generate_sample(index)
 
-        return  img_embedding, text_embeddings, label, image_name, question_text
+        return  img_embedding, text_embedding, label, image_name, question_text
 

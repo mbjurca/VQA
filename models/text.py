@@ -1,5 +1,5 @@
 from torch import nn
-from LSTM import LSTM, LSTMDeep
+from LSTM import LSTM, DeepLSTM
 
 class Text(nn.Module):
 
@@ -14,8 +14,8 @@ class Text(nn.Module):
             self.model = LSTM(input_size=input_size, 
                               hidden_size=hidden_size, 
                               device=device)
-        if model_type == "LSTMDeep":
-            self.model = LSTMDeep(input_size=input_size, 
+        if model_type == "DeepLSTM":
+            self.model = DeepLSTM(input_size=input_size, 
                                   hidden_size=hidden_size, 
                                   output_size= 1024,
                                   device=device)
