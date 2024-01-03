@@ -11,6 +11,7 @@ from configs import update_configs, get_configs
 from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
 from function import train
+from torch.optim.lr_scheduler import StepLR
 
 DATASET_CFG_FILE = "../configs/dataset.yaml"
 MODEL_CFG_FILE = "../configs/model.yaml"
@@ -33,10 +34,20 @@ def main():
                                 image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                 token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
 
-    train_dataloader = DataLoader(train_dataset, 
-                                  batch_size=380,
-                                  num_workers=4, 
-                                  shuffle=True)
+    use_single_fixed_batch = False
+
+    if use_single_fixed_batch:
+        batch_size = 8
+        train_dataloader = DataLoader(train_dataset,
+                                      batch_size=batch_size,
+                                      num_workers=4,
+                                      sampler=SequentialSampler(list(range(batch_size)))
+                                      )
+    else:
+        train_dataloader = DataLoader(train_dataset,
+                                      batch_size=256,
+                                      num_workers=4, 
+                                      shuffle=True)
 
     model = VQA(input_size_text_rnn=cfg.MODEL.TEXT.INPUT_SIZE, 
                 hidden_size_text_rnn=cfg.MODEL.TEXT.HIDDEN_EMBEDDING_SIZE, 
@@ -56,15 +67,18 @@ def main():
                 device = device,
                 config = cfg).to(device)
     
-    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR)
+    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(0.9, 0.98))
+    #criterion = torch.nn.BCELoss() #(reduction='sum')
     criterion = torch.nn.CrossEntropyLoss()
+    scheduler = StepLR(optimizer, step_size=60, gamma=0.01)
 
     train(train_dataloader = train_dataloader,
           config = cfg, 
           model = model,
           optimizer = optimizer,
           criterion = criterion,
-          device = device,)
+          scheduler = scheduler,
+          device = device)
 
 
 if __name__ == '__main__':

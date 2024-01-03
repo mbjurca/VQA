@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 from configs import update_configs, get_configs
 from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
-from function import eval
+from function import val
 
 
 DATASET_CFG_FILE = "../configs/dataset.yaml"
@@ -46,20 +46,20 @@ def main():
                 no_transformer_blocks_vit=cfg.MODEL.IMAGE.NO_BLOCKS,
                 no_transformer_heads_vit=cfg.MODEL.IMAGE.NO_HEADS,
                 dropout_vit=cfg.MODEL.IMAGE.DROPOUT,
-                no_features_slm=cfg.MODEL.MLP.NO_FEATURES,
-                sequence_length_slm=cfg.MODEL.MLP.SEQUENCE_LENGTH,
-                no_transformer_blocks_slm=cfg.MODEL.MLP.NO_BLOCKS,
-                no_transformer_heads_slm=cfg.MODEL.MLP.NO_HEADS,
-                dropout_slm=cfg.MODEL.MLP.DROPOUT,
+                no_features_slm=cfg.MODEL.LANGUAGE_MODEL.NO_FEATURES,
+                sequence_length_slm=cfg.MODEL.LANGUAGE_MODEL.SEQUENCE_LENGTH,
+                no_transformer_blocks_slm=cfg.MODEL.LANGUAGE_MODEL.NO_BLOCKS,
+                no_transformer_heads_slm=cfg.MODEL.LANGUAGE_MODEL.NO_HEADS,
+                dropout_slm=cfg.MODEL.LANGUAGE_MODEL.DROPOUT,
                 vocabulary_size=cfg.DATASET.WORD_VOCABULARY_SIZE, 
                 no_answers=validation_dataset.len_answers, 
                 device = device,
                 config = cfg).to(device)
     
-    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR)
-    criterion = torch.nn.L1Loss(reduction='mean')
+    #criterion = torch.nn.L1Loss(reduction='mean')
+    criterion = torch.nn.CrossEntropyLoss()
 
-    eval(validation_dataloader = validation_dataloader, 
+    val(validation_dataloader = validation_dataloader,
          config = cfg, 
          model = model, 
          criterion = criterion, 

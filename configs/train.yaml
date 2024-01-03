@@ -1,5 +1,5 @@
 TRAIN:
-  EPOCHS: 100
-  LR: 0.0001
+  EPOCHS: 200
+  LR: 0.001
   ANNOTATIONS_FILE: 'C:/My stuff/An 2 Master VUB/DL/VQA/datasets/miniCOCO_train_annotations.json'
   QUESTIONS_FILE: 'C:/My stuff/An 2 Master VUB/DL/VQA/datasets/miniCOCO_train_questions.json'

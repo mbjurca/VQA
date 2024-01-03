@@ -1,5 +1,5 @@
 from torch import nn
-from LSTM import LSTM
+from LSTM import LSTM, DeepLSTM
 
 class Text(nn.Module):
 
@@ -14,6 +14,11 @@ class Text(nn.Module):
             self.model = LSTM(input_size=input_size, 
                               hidden_size=hidden_size, 
                               device=device)
+        if model_type == "DeepLSTM":
+            self.model = DeepLSTM(input_size=input_size, 
+                                  hidden_size=hidden_size, 
+                                  output_size= 1024,
+                                  device=device)
 
     def forward(self, x):
         return self.model(x)
