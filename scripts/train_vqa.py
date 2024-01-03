@@ -33,7 +33,7 @@ def main():
                                 image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                 token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
 
-    use_single_fixed_batch = True
+    use_single_fixed_batch = False
 
     if use_single_fixed_batch:
         batch_size = 8
@@ -44,7 +44,7 @@ def main():
                                       )
     else:
         train_dataloader = DataLoader(train_dataset, 
-                                      batch_size=512, 
+                                      batch_size=256, 
                                       num_workers=4, 
                                       shuffle=True)
 
@@ -67,7 +67,8 @@ def main():
                 config = cfg).to(device)
     
     optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(0.9, 0.98))
-    criterion = torch.nn.BCELoss(reduction='sum')
+    #criterion = torch.nn.BCELoss() #(reduction='sum')
+    criterion = torch.nn.CrossEntropyLoss()
     scheduler = StepLR(optimizer, step_size=60, gamma=0.01)
 
     train(train_dataloader = train_dataloader,

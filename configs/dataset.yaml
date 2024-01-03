@@ -6,4 +6,4 @@ DATASET:
   TRAIN_VAL_IMG_EMBEDDINGS_FOLDER : "/home/diana/data/VQA_DL/img_embeddings"
   LABELS: '/home/diana/VQA/configs/labels.yaml'
   WORD_VOCABULARY: /home/diana/VQA/configs/word_vocabulary.yaml
-  WORD_VOCABULARY_SIZE: 4477
+  WORD_VOCABULARY_SIZE: 4479

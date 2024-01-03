@@ -11,7 +11,6 @@ class SLM(nn.Module):
         self.transformer = Transformer(no_features=no_features, no_blocks=no_transformer_blocks, no_heads=no_heads, dropout=dropout)
     
     def forward(self, x):
-
         x = x + self.positional_encodding
         x = self.transformer(x)
         x = x.mean(1)
