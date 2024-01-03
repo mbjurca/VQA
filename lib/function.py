@@ -61,7 +61,7 @@ def train(train_dataloader, config, model, optimizer, criterion, scheduler, devi
 
 
 
-def eval(validation_dataloader, config, model, criterion, device):
+def val(validation_dataloader, config, model, criterion, device):
 
     for epoch in range(config.TRAIN.EPOCHS):
 
@@ -69,7 +69,7 @@ def eval(validation_dataloader, config, model, criterion, device):
         eval_acc = []
         eval_loss = []
 
-        for idx_batch, val_batch in enumerate(tqdm(validation_dataloader)):
+        for _, val_batch in enumerate(tqdm(validation_dataloader)):
 
             img_embedding, text_embedding, labels, _, _ = val_batch
             text_embedding = text_embedding.to(device)
@@ -83,12 +83,11 @@ def eval(validation_dataloader, config, model, criterion, device):
             acc = accuracy(logits, labels)
             eval_acc.append(acc)
             
-        writer.add_scalar("Epoch", epoch, epoch * len(validation_dataloader) + idx_batch)
-        writer.add_scalar("Val Loss", torch.tensor(eval_loss).mean(), epoch * len(validation_dataloader) + idx_batch)
-        writer.add_scalar("Val Accuracy", torch.tensor(eval_acc).mean(), epoch * len(validation_dataloader) + idx_batch)
+        writer.add_scalar("Epoch", epoch, epoch * len(validation_dataloader))
+        writer.add_scalar("Val Loss", torch.tensor(eval_loss).mean(), epoch * len(validation_dataloader))
+        writer.add_scalar("Val Accuracy", torch.tensor(eval_acc).mean(), epoch * len(validation_dataloader))
 
-        print('Epoch {}/{}, Iter {}/{}, Val Loss: {:.3f}, Val Accuracy: {:.3f}'.format(epoch, config.TRAIN.EPOCHS, idx_batch, 
-                                                                                       len(validation_dataloader),
-                                                                                       torch.tensor(eval_loss).mean(), 
-                                                                                       torch.tensor(eval_acc).mean() * 100.))
+        print('Epoch {}/{}, Val Loss: {:.3f}, Val Accuracy: {:.3f}'.format(epoch, config.TRAIN.EPOCHS,
+                                                                           torch.tensor(eval_loss).mean(), 
+                                                                           torch.tensor(eval_acc).mean() * 100.))
 

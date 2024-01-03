@@ -44,7 +44,7 @@ def main():
                                       )
     else:
         train_dataloader = DataLoader(train_dataset, 
-                                      batch_size=128, 
+                                      batch_size=256, 
                                       num_workers=4, 
                                       shuffle=True)
 

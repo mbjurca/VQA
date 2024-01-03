@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 from configs import update_configs, get_configs
 from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
-from function import eval
+from function import val
 
 
 DATASET_CFG_FILE = "../configs/dataset.yaml"
@@ -59,7 +59,7 @@ def main():
     #criterion = torch.nn.L1Loss(reduction='mean')
     criterion = torch.nn.CrossEntropyLoss()
 
-    eval(validation_dataloader = validation_dataloader, 
+    val(validation_dataloader = validation_dataloader, 
          config = cfg, 
          model = model, 
          criterion = criterion, 

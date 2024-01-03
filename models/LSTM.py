@@ -90,10 +90,9 @@ class LSTM(nn.Module):
         self.lstm_layer = LSTMLayer(input_size=input_size, hidden_size=hidden_size, device = device)
 
     def forward(self, x):
-        h_t, c_t = self.lstm_layer(x)
-        output = torch.cat((h_t, c_t), dim=2)
+        h_t, _ = self.lstm_layer(x)
 
-        return output
+        return h_t
 
 
 class DeepLSTM(nn.Module):
