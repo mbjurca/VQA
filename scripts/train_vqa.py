@@ -68,8 +68,8 @@ def main():
                 config = cfg).to(device)
     
     optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(0.9, 0.98))
-    # criterion = torch.nn.BCELoss()
-    criterion = torch.nn.CrossEntropyLoss()
+    criterion = torch.nn.BCELoss()
+    # criterion = torch.nn.CrossEntropyLoss()
     scheduler = StepLR(optimizer, step_size=60, gamma=0.01)
 
     validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
