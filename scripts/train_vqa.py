@@ -6,7 +6,7 @@ sys.path.append('../models/')
 sys.path.append('../lib/')
 
 import torch 
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, SequentialSampler
 from configs import update_configs, get_configs
 from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
@@ -28,8 +28,8 @@ def main():
     update_configs(cfg, MODEL_CFG_FILE, DATASET_CFG_FILE, TRAIN_CFG_FILE)
 
     train_dataset = VQA_dataset(dataset_file=cfg.DATASET.TRAIN_FILE,
-                                labels_to_ids_file=cfg.DATASET.LABELS_TO_IDS,
-                                ids_to_labels_file=cfg.DATASET.IDS_TO_LABELS,
+                                labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
+                                ids_to_labels_file=cfg.DATASET.TRAIN_IDS_TO_LABELS,
                                 vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
                                 image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                 token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
@@ -45,8 +45,8 @@ def main():
                                       )
     else:
         train_dataloader = DataLoader(train_dataset,
-                                      batch_size=256,
-                                      num_workers=4, 
+                                      batch_size=128,
+                                      num_workers=4,
                                       shuffle=True)
 
     model = VQA(input_size_text_rnn=cfg.MODEL.TEXT.INPUT_SIZE, 
@@ -68,11 +68,24 @@ def main():
                 config = cfg).to(device)
     
     optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(0.9, 0.98))
-    #criterion = torch.nn.BCELoss() #(reduction='sum')
+    # criterion = torch.nn.BCELoss()
     criterion = torch.nn.CrossEntropyLoss()
     scheduler = StepLR(optimizer, step_size=60, gamma=0.01)
 
+    validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
+                                     labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
+                                     ids_to_labels_file=cfg.DATASET.TRAIN_IDS_TO_LABELS,
+                                     vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
+                                     image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
+                                     token_type=cfg.MODEL.TEXT.TOKEN_TYPE)
+
+    validation_dataloader = DataLoader(validation_dataset,
+                                       batch_size=128,
+                                       num_workers=4,
+                                       shuffle=True)
+
     train(train_dataloader = train_dataloader,
+          validation_dataloader = validation_dataloader,
           config = cfg, 
           model = model,
           optimizer = optimizer,

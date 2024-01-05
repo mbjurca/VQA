@@ -28,13 +28,14 @@ def main():
     update_configs(cfg, MODEL_CFG_FILE, DATASET_CFG_FILE, TRAIN_CFG_FILE)
 
     validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
-                                    labels_file=cfg.DATASET.LABELS,
-                                    vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
-                                    image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
-                                    token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
+                                labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
+                                ids_to_labels_file=cfg.DATASET.TRAIN_IDS_TO_LABELS,
+                                vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
+                                image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
+                                token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
     
     validation_dataloader = DataLoader(validation_dataset, 
-                                  batch_size=2, 
+                                  batch_size=128,
                                   num_workers=4, 
                                   shuffle=True)
 

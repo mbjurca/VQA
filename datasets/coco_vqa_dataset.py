@@ -44,6 +44,9 @@ class VQA_dataset(data.Dataset):
         self.len_word_dict = len(self.word_dict.keys())
         self.token_type = token_type
 
+        #remove entries that have labels unknown to the trained model
+        self.clean_dataset()
+
 
     def generate_sample(self, index):
 
@@ -62,6 +65,8 @@ class VQA_dataset(data.Dataset):
         # compute labels for answers
         label = self.compute_label(answers)
 
+        # if np.sum(label) == 0:
+
         return img_embedding, text_embeddings, label, image_name, question_text, question_id
     
     def compute_label(self, answers):
@@ -71,14 +76,15 @@ class VQA_dataset(data.Dataset):
         set_answers = set(answers)
         for answer in set_answers:
             count = int(answers.count(answer))
-            if count >= 4:
-                label[self.labels_dict.get(answer, 0)] = 1.
-            elif count == 3:
-                label[self.labels_dict[answer]] = 0.9
-            elif count == 2:
-                label[self.labels_dict[answer]] = 0.6
-            elif count == 1:
-                label[self.labels_dict[answer]] = 0.3
+            if self.labels_dict.get(answer, None) != None:
+                if count >= 4:
+                    label[self.labels_dict.get(answer, 0)] = 1.
+                elif count == 3:
+                    label[self.labels_dict[answer]] = 0.9
+                elif count == 2:
+                    label[self.labels_dict[answer]] = 0.6
+                elif count == 1:
+                    label[self.labels_dict[answer]] = 0.3
                 
 
         return label
@@ -190,3 +196,18 @@ class VQA_dataset(data.Dataset):
         img_embedding, text_embeddings, label, image_name, question_text, question_id = self.generate_sample(index)
 
         return  img_embedding, text_embeddings, label, image_name, question_text, question_id
+
+
+    """
+    remove samples that have only answers that DO NOT appear in the train labels set
+    """
+    def clean_dataset(self):
+        filtered_dataset = {}
+        allowed_answers = list(self.labels_dict.keys())
+        for key, entry in self.data.items():
+            # Check if all answers are in the allowed list
+            if any(answer in allowed_answers for answer in entry['answers']):
+                filtered_dataset[key] = entry
+        self.data = filtered_dataset
+
+        print(len(self.data))

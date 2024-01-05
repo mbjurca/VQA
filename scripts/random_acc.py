@@ -30,10 +30,10 @@ def compute_acc(dataset, cfg, subset='train'):
 
     print(f'Performance for randomly selected answers out of the top {k} answers for the {subset} subset:')
     if subset == 'train':
-        evaluator = Evaluator(cfg.TRAIN.ANNOTATIONS_FILE, cfg.TRAIN.QUESTIONS_FILE, cfg.DATASET.IDS_TO_LABELS,
+        evaluator = Evaluator(cfg.TRAIN.ANNOTATIONS_FILE, cfg.TRAIN.QUESTIONS_FILE, cfg.DATASET.TRAIN_IDS_TO_LABELS,
                               result_list, already_decoded=True, res_file=f'{subset}_random.json')
     else:
-        evaluator = Evaluator(cfg.VAL.ANNOTATIONS_FILE, cfg.VAL.QUESTIONS_FILE, cfg.DATASET.IDS_TO_LABELS,
+        evaluator = Evaluator(cfg.VAL.ANNOTATIONS_FILE, cfg.VAL.QUESTIONS_FILE, cfg.DATASET.TRAIN_IDS_TO_LABELS,
                               result_list, already_decoded=True, res_file=f'{subset}_random.json')
     # evaluator.print_accuracies()
     print(f'overall accuracy = {evaluator.get_overall_accuracy()}')
@@ -47,10 +47,10 @@ def compute_acc(dataset, cfg, subset='train'):
 
     print(f'Performance when most common answer is always selected for the {subset} subset:')
     if subset == 'train':
-        evaluator = Evaluator(cfg.TRAIN.ANNOTATIONS_FILE, cfg.TRAIN.QUESTIONS_FILE, cfg.DATASET.IDS_TO_LABELS,
+        evaluator = Evaluator(cfg.TRAIN.ANNOTATIONS_FILE, cfg.TRAIN.QUESTIONS_FILE, cfg.DATASET.TRAIN_IDS_TO_LABELS,
                               result_list, already_decoded=True, res_file=f'{subset}_most_common.json')
     else:
-        evaluator = Evaluator(cfg.VAL.ANNOTATIONS_FILE, cfg.VAL.QUESTIONS_FILE, cfg.DATASET.IDS_TO_LABELS,
+        evaluator = Evaluator(cfg.VAL.ANNOTATIONS_FILE, cfg.VAL.QUESTIONS_FILE, cfg.DATASET.TRAIN_IDS_TO_LABELS,
                               result_list, already_decoded=True, res_file=f'{subset}_most_common.json')
     # evaluator.print_accuracies()
     print(f'overall accuracy = {evaluator.get_overall_accuracy()}')
@@ -62,16 +62,16 @@ if __name__ == '__main__':
     update_configs(cfg, MODEL_CFG_FILE, DATASET_CFG_FILE, TRAIN_CFG_FILE)
 
     train_dataset = VQA_dataset(dataset_file=cfg.DATASET.TRAIN_FILE,
-                                labels_to_ids_file=cfg.DATASET.LABELS_TO_IDS,
-                                ids_to_labels_file=cfg.DATASET.IDS_TO_LABELS,
+                                labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
+                                ids_to_labels_file=cfg.DATASET.TRAIN_IDS_TO_LABELS,
                                 vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
                                 image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                 token_type=cfg.MODEL.TEXT.TOKEN_TYPE)
     compute_acc(train_dataset, cfg)
 
     validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
-                                     labels_to_ids_file=cfg.DATASET.LABELS_TO_IDS,
-                                     ids_to_labels_file=cfg.DATASET.IDS_TO_LABELS,
+                                     labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
+                                     ids_to_labels_file=cfg.DATASET.TRAIN_IDS_TO_LABELS,
                                      vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
                                      image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                      token_type=cfg.MODEL.TEXT.TOKEN_TYPE)

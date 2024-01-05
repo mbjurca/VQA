@@ -56,7 +56,7 @@ class Evaluator:
         vqa = VQAhelper(self.annFile, self.quesFile)
         vqaRes = vqa.loadRes(self.resFile, self.quesFile)
         vqaEval = VQAEval(vqa, vqaRes, n=2)  # n is precision of accuracy (number of places after decimal), default is 2
-        vqaEval.evaluate()
+        vqaEval.evaluate(vqaRes.getQuesIds())
         return vqaEval.accuracy['overall']
 
     def get_random_accuracy(self):

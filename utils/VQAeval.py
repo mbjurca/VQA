@@ -72,7 +72,7 @@ class VQAEval:
 		gts = {}
 		res = {}
 		for quesId in quesIds:
-			gts[quesId] = self.vqa.qa[quesId]
+			gts[quesId] = self.vqa.qa[int(quesId)]
 			res[quesId] = self.vqaRes.qa[str(quesId)]
 
 		# =================================================
