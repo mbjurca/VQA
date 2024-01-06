@@ -209,5 +209,3 @@ class VQA_dataset(data.Dataset):
             if any(answer in allowed_answers for answer in entry['answers']):
                 filtered_dataset[key] = entry
         self.data = filtered_dataset
-
-        print(len(self.data))
