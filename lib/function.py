@@ -12,15 +12,15 @@ from configs import update_configs, get_configs
 import torch.nn as nn
 import matplotlib.pyplot as plt
 
-writer = SummaryWriter('../CROSSentropy_train_val')
+writer = SummaryWriter('../bce_train_val')
 
 def train(train_dataloader, validation_dataloader, config, model, optimizer, criterion, scheduler, device):
     top_accuracies = []  # List to store the top accuracies
     top_models = []  # List to store the state dicts of the top models
     best_acc, best_loss = 0, float('inf')
     no_improve_counter = 0
-    n_epochs_stop = 10
-    performance_improvement_eps = 0.1
+    n_epochs_stop = config.TRAIN.EARLY_STOPPING_EPOCHS_NUM
+    performance_improvement_eps = config.TRAIN.EARLY_STOPPING_PERFORMANCE_EPS
 
     for epoch in range(config.TRAIN.EPOCHS):
         model.train()
@@ -33,7 +33,7 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
             text_embeddings = text_embeddings.to(device)
             img_embedding = img_embedding.to(device)
             labels = labels.to(device)
-            
+
             optimizer.zero_grad()
             logits = model(text_embeddings, img_embedding)
             loss = criterion(logits, labels.float())
@@ -58,9 +58,9 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
                 })
 
         print('Epoch {}/{}, Iter {}/{}, Train Loss: {:.3f}, Train Accuracy: {:.3f}'.format(epoch, config.TRAIN.EPOCHS, idx_batch,
-                                                                                       len(train_dataloader),
-                                                                                       torch.tensor(train_loss).mean(),
-                                                       torch.tensor(train_acc).mean() * 100.))
+                                                                                           len(train_dataloader),
+                                                                                           torch.tensor(train_loss).mean(),
+                                                                                           torch.tensor(train_acc).mean() * 100.))
 
         evaluator = Evaluator(config.TRAIN.ANNOTATIONS_FILE, config.TRAIN.QUESTIONS_FILE, config.DATASET.TRAIN_IDS_TO_LABELS, result_list)
         acc = evaluator.get_overall_accuracy()
@@ -71,11 +71,11 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
         print(f'Train old Accuracy : {torch.tensor(train_acc).mean()}')
         print(f'Train toolkit Accuracy : {acc}')
         val_acc = val(validation_dataloader=validation_dataloader,
-            config = config,
-            model=model,
-            criterion=criterion,
-            device=device,
-            epoch=epoch)
+                      config = config,
+                      model=model,
+                      criterion=criterion,
+                      device=device,
+                      epoch=epoch)
 
         if val_acc > best_acc + performance_improvement_eps:
             best_acc = max(val_acc, best_acc)

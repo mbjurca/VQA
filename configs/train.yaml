@@ -3,3 +3,8 @@ TRAIN:
   LR: 0.001
   ANNOTATIONS_FILE: 'C:/My stuff/An 2 Master VUB/DL/VQA/datasets/miniCOCO_train_annotations.json'
   QUESTIONS_FILE: 'C:/My stuff/An 2 Master VUB/DL/VQA/datasets/miniCOCO_train_questions.json'
+  EARLY_STOPPING_PERFORMANCE_EPS: 0.1
+  EARLY_STOPPING_EPOCHS_NUM: 5
+VAL:
+  ANNOTATIONS_FILE: 'C:/My stuff/An 2 Master VUB/DL/VQA/datasets/miniCOCO_val_annotations.json'
+  QUESTIONS_FILE: 'C:/My stuff/An 2 Master VUB/DL/VQA/datasets/miniCOCO_val_questions.json'
