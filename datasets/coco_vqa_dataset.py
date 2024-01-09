@@ -11,7 +11,8 @@ class VQA_dataset(data.Dataset):
 
     def __init__(self,
                  dataset_file, 
-                 labels_file,
+                 labels_to_ids_file,
+                 ids_to_labels_file,
                  vocabulary_file,
                  image_embedding_folder,
                  max_len_text_embedding=15,
@@ -24,16 +25,16 @@ class VQA_dataset(data.Dataset):
         with open(dataset_file) as f:
             self.data = json.load(f)
 
-        # D: ar trebui sa le generam mereu pentru ca difera pe train/validation sau sa lasam un comment in README ca nu trebuie 
+        # D: ar trebui sa le generam mereu pentru ca difera pe train/validation sau sa lasam un comment in README ca nu trebuie
         # sa existe inainte de train/val
         # generate labels for answers
-        if not(os.path.isfile(labels_file)):
-            self.generate_labels(labels_file)
-            
-        self.labels_dict = self.load_labels(labels_file)
+        if not(os.path.isfile(labels_to_ids_file)) or not(os.path.isfile(ids_to_labels_file)):
+            self.generate_labels(labels_to_ids_file, ids_to_labels_file)
+
+        self.labels_dict = self.load_labels(labels_to_ids_file)
         self.len_answers = len(self.labels_dict.keys())
 
-        # D: ar trebui sa il generam mereu pentru ca difera pe train/validation sau sa lasam un comment in README ca nu trebuie 
+        # D: ar trebui sa il generam mereu pentru ca difera pe train/validation sau sa lasam un comment in README ca nu trebuie
         # sa existe inainte de train/val
         # generate word vocabulary
         if not(os.path.isfile(vocabulary_file)):
@@ -42,6 +43,9 @@ class VQA_dataset(data.Dataset):
         self.word_dict = self.load_vocabulary(vocabulary_file)
         self.len_word_dict = len(self.word_dict.keys())
         self.token_type = token_type
+
+        #remove entries that have labels unknown to the trained model
+        self.clean_dataset()
 
 
     def generate_sample(self, index):
@@ -61,7 +65,9 @@ class VQA_dataset(data.Dataset):
         # compute labels for answers
         label = self.compute_label(answers)
 
-        return img_embedding, text_embeddings, label, image_name, question_text
+        # if np.sum(label) == 0:
+
+        return img_embedding, text_embeddings, label, image_name, question_text, question_id
     
     def compute_label(self, answers):
 
@@ -70,15 +76,17 @@ class VQA_dataset(data.Dataset):
         set_answers = set(answers)
         for answer in set_answers:
             count = int(answers.count(answer))
-            if count >= 4:
-                label[self.labels_dict[answer]] = 1.
-            elif count == 3:
-                label[self.labels_dict[answer]] = 0.9
-            elif count == 2:
-                label[self.labels_dict[answer]] = 0.6
-            elif count == 1:
-                label[self.labels_dict[answer]] = 0.3
+            if self.labels_dict.get(answer, None) != None:
+                if count >= 4:
+                    label[self.labels_dict.get(answer, 0)] = 1.
+                elif count == 3:
+                    label[self.labels_dict[answer]] = 0.9
+                elif count == 2:
+                    label[self.labels_dict[answer]] = 0.6
+                elif count == 1:
+                    label[self.labels_dict[answer]] = 0.3
                 
+
         return label
 
     def get_image_embedding(self, image_id):
@@ -113,16 +121,19 @@ class VQA_dataset(data.Dataset):
             answers.extend(values['answers'])
 
         answers = set(answers)
-        labels = {answer : index for index, answer in enumerate(answers)}
+        labels_to_ids = {answer: index for index, answer in enumerate(answers)}
+        ids_to_labels = {index: answer for index, answer in enumerate(answers)}
 
-        return labels
+        return labels_to_ids, ids_to_labels
     
-    def generate_labels(self, labels_file):
+    def generate_labels(self, labels_to_ids_file, ids_to_labels_file):
 
-        labels = self.extract_labels()
+        labels_to_ids, ids_to_labels = self.extract_labels()
 
-        with open(labels_file, 'w') as outfile:
-            yaml.dump(labels, outfile)
+        with open(labels_to_ids_file, 'w') as outfile:
+            yaml.dump(labels_to_ids, outfile)
+        with open(ids_to_labels_file, 'w') as outfile:
+            yaml.dump(ids_to_labels, outfile)
 
     def load_labels(self, labels_file):
 
@@ -162,13 +173,39 @@ class VQA_dataset(data.Dataset):
             vocabulary = yaml.safe_load(f)
 
         return vocabulary
-    
+
+    def get_top_k_answers(self, k):
+        answers_list = []
+        for keys, values in self.data.items():
+            answers = values['answers']
+            answers_list.extend(answers)
+
+        answers_freq = Counter(answers_list)
+        most_common_answers = dict(answers_freq.most_common(k))
+
+        return most_common_answers
+
+    def get_question_ids(self):
+        return list(self.data.keys())
+
     def __len__(self):
         return len(self.data)
 
     def __getitem__(self, index):
 
-        img_embedding, text_embedding, label, image_name, question_text = self.generate_sample(index)
+        img_embedding, text_embeddings, label, image_name, question_text, question_id = self.generate_sample(index)
 
-        return  img_embedding, text_embedding, label, image_name, question_text
+        return  img_embedding, text_embeddings, label, image_name, question_text, question_id
 
+
+    """
+    remove samples that have only answers that DO NOT appear in the train labels set
+    """
+    def clean_dataset(self):
+        filtered_dataset = {}
+        allowed_answers = list(self.labels_dict.keys())
+        for key, entry in self.data.items():
+            # Check if all answers are in the allowed list
+            if any(answer in allowed_answers for answer in entry['answers']):
+                filtered_dataset[key] = entry
+        self.data = filtered_dataset

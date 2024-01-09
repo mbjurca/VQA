@@ -28,21 +28,22 @@ def main():
     update_configs(cfg, MODEL_CFG_FILE, DATASET_CFG_FILE, TRAIN_CFG_FILE)
 
     validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
-                                    labels_file=cfg.DATASET.LABELS,
-                                    vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
-                                    image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
-                                    token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
+                                labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
+                                ids_to_labels_file=cfg.DATASET.TRAIN_IDS_TO_LABELS,
+                                vocabulary_file=cfg.DATASET.WORD_VOCABULARY,
+                                image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
+                                token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
     
     validation_dataloader = DataLoader(validation_dataset, 
-                                  batch_size=2, 
+                                  batch_size=128,
                                   num_workers=4, 
                                   shuffle=True)
 
-    model = VQA(input_size_text_rnn=cfg.MODEL.TEXT.INPUT_SIZE, 
-                hidden_size_text_rnn=cfg.MODEL.TEXT.HIDDEN_EMBEDDING_SIZE, 
-                no_in_features_vit=cfg.MODEL.IMAGE.NO_IN_FEATURES, 
-                no_out_features_vit=cfg.MODEL.IMAGE.NO_OUT_FEATURES, 
-                no_patches_vit=cfg.MODEL.IMAGE.NO_PATCHES, 
+    model = VQA(input_size_text_rnn=cfg.MODEL.TEXT.INPUT_SIZE,
+                hidden_size_text_rnn=cfg.MODEL.TEXT.HIDDEN_EMBEDDING_SIZE,
+                no_in_features_vit=cfg.MODEL.IMAGE.NO_IN_FEATURES,
+                no_out_features_vit=cfg.MODEL.IMAGE.NO_OUT_FEATURES,
+                no_patches_vit=cfg.MODEL.IMAGE.NO_PATCHES,
                 no_transformer_blocks_vit=cfg.MODEL.IMAGE.NO_BLOCKS,
                 no_transformer_heads_vit=cfg.MODEL.IMAGE.NO_HEADS,
                 dropout_vit=cfg.MODEL.IMAGE.DROPOUT,
@@ -59,7 +60,7 @@ def main():
     #criterion = torch.nn.L1Loss(reduction='mean')
     criterion = torch.nn.CrossEntropyLoss()
 
-    val(validation_dataloader = validation_dataloader, 
+    val(validation_dataloader = validation_dataloader,
          config = cfg, 
          model = model, 
          criterion = criterion, 

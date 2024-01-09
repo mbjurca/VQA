@@ -1,0 +1,5019 @@
+{
+    "info": {
+        "description": "This is v2.0 of the VQA dataset.",
+        "url": "http://visualqa.org",
+        "version": "2.0",
+        "year": 2017,
+        "contributor": "VQA Team",
+        "date_created": "2017-04-26 17:00:44"
+    },
+    "task_type": "Open-Ended",
+    "data_type": "mscoco",
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "Creative Commons Attribution 4.0 International License"
+    },
+    "data_subtype": "val2014",
+    "questions": [
+        {
+            "image_id": 393271,
+            "question": "Does this appear to be a photo of multiple exposures of the black clad snowboarder?",
+            "question_id": 393271001
+        },
+        {
+            "image_id": 393284,
+            "question": "Is this a beach scene?",
+            "question_id": 393284000
+        },
+        {
+            "image_id": 393338,
+            "question": "What kind of flowers are in the vase?",
+            "question_id": 393338001
+        },
+        {
+            "image_id": 524436,
+            "question": "Is it raining?",
+            "question_id": 524436004
+        },
+        {
+            "image_id": 524822,
+            "question": "What room is this?",
+            "question_id": 524822007
+        },
+        {
+            "image_id": 544,
+            "question": "What are they playing?",
+            "question_id": 544006
+        },
+        {
+            "image_id": 544,
+            "question": "What sport is this?",
+            "question_id": 544014
+        },
+        {
+            "image_id": 131869,
+            "question": "What sport is being played?",
+            "question_id": 131869001
+        },
+        {
+            "image_id": 525354,
+            "question": "Does this person wear a tie?",
+            "question_id": 525354003
+        },
+        {
+            "image_id": 525420,
+            "question": "Does this room need maintenance?",
+            "question_id": 525420000
+        },
+        {
+            "image_id": 263505,
+            "question": "Is the parking lot marked in white lines?",
+            "question_id": 263505001
+        },
+        {
+            "image_id": 132733,
+            "question": "Does the dog like Scooby Snacks?",
+            "question_id": 132733000
+        },
+        {
+            "image_id": 264180,
+            "question": "What animal is this?",
+            "question_id": 264180001
+        },
+        {
+            "image_id": 395283,
+            "question": "What is the man doing?",
+            "question_id": 395283003
+        },
+        {
+            "image_id": 526425,
+            "question": "What kind of dog is this?",
+            "question_id": 526425003
+        },
+        {
+            "image_id": 264382,
+            "question": "What sport are they playing?",
+            "question_id": 264382000
+        },
+        {
+            "image_id": 264423,
+            "question": "What are the people doing?",
+            "question_id": 264423001
+        },
+        {
+            "image_id": 69914,
+            "question": "What are the people doing?",
+            "question_id": 69914001
+        },
+        {
+            "image_id": 526778,
+            "question": "What is the man wearing on his head?",
+            "question_id": 526778000
+        },
+        {
+            "image_id": 526962,
+            "question": "What type of fruit toy is the cat holding?",
+            "question_id": 526962005
+        },
+        {
+            "image_id": 568425,
+            "question": "Is one of the signs weathered?",
+            "question_id": 568425003
+        },
+        {
+            "image_id": 527038,
+            "question": "Is it raining?",
+            "question_id": 527038001
+        },
+        {
+            "image_id": 134016,
+            "question": "Is the food ready?",
+            "question_id": 134016002
+        },
+        {
+            "image_id": 396369,
+            "question": "Is this someone's home?",
+            "question_id": 396369001
+        },
+        {
+            "image_id": 527644,
+            "question": "Is that an F-16?",
+            "question_id": 527644001
+        },
+        {
+            "image_id": 265725,
+            "question": "Is the player right-handed?",
+            "question_id": 265725001
+        },
+        {
+            "image_id": 265742,
+            "question": "Does this animal have tusks?",
+            "question_id": 265742004
+        },
+        {
+            "image_id": 527962,
+            "question": "Does this appear to be a noisy environment?",
+            "question_id": 527962001
+        },
+        {
+            "image_id": 3779,
+            "question": "What event is this?",
+            "question_id": 3779000
+        },
+        {
+            "image_id": 397279,
+            "question": "What sport is the man playing?",
+            "question_id": 397279002
+        },
+        {
+            "image_id": 528525,
+            "question": "What is the child holding?",
+            "question_id": 528525001
+        },
+        {
+            "image_id": 4576,
+            "question": "Does the weather appear rainy?",
+            "question_id": 4576009
+        },
+        {
+            "image_id": 331856,
+            "question": "What game are they playing?",
+            "question_id": 331856017
+        },
+        {
+            "image_id": 135673,
+            "question": "Is the sky clear?",
+            "question_id": 135673013
+        },
+        {
+            "image_id": 266920,
+            "question": "What are the zebras furthest to the left doing?",
+            "question_id": 266920005
+        },
+        {
+            "image_id": 44520,
+            "question": "What kind of writing is on the signs?",
+            "question_id": 44520000
+        },
+        {
+            "image_id": 571925,
+            "question": "What is the animal doing?",
+            "question_id": 571925001
+        },
+        {
+            "image_id": 267521,
+            "question": "Is this a recent photograph?",
+            "question_id": 267521014
+        },
+        {
+            "image_id": 136533,
+            "question": "What type of button is visible?",
+            "question_id": 136533004
+        },
+        {
+            "image_id": 5502,
+            "question": "Is this event for adults only?",
+            "question_id": 5502001
+        },
+        {
+            "image_id": 529806,
+            "question": "What sport is this?",
+            "question_id": 529806001
+        },
+        {
+            "image_id": 547062,
+            "question": "What animal is this?",
+            "question_id": 547062001
+        },
+        {
+            "image_id": 136722,
+            "question": "Is the sky clear?",
+            "question_id": 136722002
+        },
+        {
+            "image_id": 137300,
+            "question": "What is the man doing?",
+            "question_id": 137300002
+        },
+        {
+            "image_id": 306914,
+            "question": "What are the people doing?",
+            "question_id": 306914001
+        },
+        {
+            "image_id": 399865,
+            "question": "What kind of garage is this?",
+            "question_id": 399865002
+        },
+        {
+            "image_id": 531047,
+            "question": "Do these people look like they are celebrating a special event?",
+            "question_id": 531047000
+        },
+        {
+            "image_id": 6771,
+            "question": "Is this at an event?",
+            "question_id": 6771003
+        },
+        {
+            "image_id": 6818,
+            "question": "What room is this?",
+            "question_id": 6818002
+        },
+        {
+            "image_id": 137950,
+            "question": "Is this a recent photograph?",
+            "question_id": 137950002
+        },
+        {
+            "image_id": 269105,
+            "question": "Does the toilet match the wall?",
+            "question_id": 269105002
+        },
+        {
+            "image_id": 531286,
+            "question": "What is the bus number?",
+            "question_id": 531286006
+        },
+        {
+            "image_id": 531299,
+            "question": "Is this an old photo?",
+            "question_id": 531299016
+        },
+        {
+            "image_id": 7125,
+            "question": "Is it night time?",
+            "question_id": 7125003
+        },
+        {
+            "image_id": 138246,
+            "question": "What kind of animals are in the grass?",
+            "question_id": 138246000
+        },
+        {
+            "image_id": 269632,
+            "question": "Is it night time?",
+            "question_id": 269632002
+        },
+        {
+            "image_id": 400709,
+            "question": "Is the man dressed appropriately?",
+            "question_id": 400709000
+        },
+        {
+            "image_id": 400794,
+            "question": "What is the man doing?",
+            "question_id": 400794001
+        },
+        {
+            "image_id": 138656,
+            "question": "What kind of animals is the woman riding?",
+            "question_id": 138656002
+        },
+        {
+            "image_id": 269815,
+            "question": "Is this person happy?",
+            "question_id": 269815004
+        },
+        {
+            "image_id": 400981,
+            "question": "What event is being played?",
+            "question_id": 400981000
+        },
+        {
+            "image_id": 532126,
+            "question": "Is this room functional?",
+            "question_id": 532126001
+        },
+        {
+            "image_id": 401556,
+            "question": "Is this room clean?",
+            "question_id": 401556012
+        },
+        {
+            "image_id": 305800,
+            "question": "What event is taking place here?",
+            "question_id": 305800000
+        },
+        {
+            "image_id": 401901,
+            "question": "Is this an old photo?",
+            "question_id": 401901004
+        },
+        {
+            "image_id": 532983,
+            "question": "What type of transportation are the people riding on?",
+            "question_id": 532983002
+        },
+        {
+            "image_id": 533137,
+            "question": "What activity are the people participating in?",
+            "question_id": 533137002
+        },
+        {
+            "image_id": 140017,
+            "question": "Is the pizza ready to eat?",
+            "question_id": 140017002
+        },
+        {
+            "image_id": 271177,
+            "question": "What kind of vehicle is in this photo?",
+            "question_id": 271177002
+        },
+        {
+            "image_id": 285497,
+            "question": "Does each person have ski poles?",
+            "question_id": 285497000
+        },
+        {
+            "image_id": 402357,
+            "question": "Does the elephant blend in with its surroundings?",
+            "question_id": 402357000
+        },
+        {
+            "image_id": 533464,
+            "question": "Is this a recent photo?",
+            "question_id": 533464010
+        },
+        {
+            "image_id": 271607,
+            "question": "Is that bear new?",
+            "question_id": 271607002
+        },
+        {
+            "image_id": 402802,
+            "question": "What meal of the day is this?",
+            "question_id": 402802000
+        },
+        {
+            "image_id": 403013,
+            "question": "What room is this?",
+            "question_id": 403013003
+        },
+        {
+            "image_id": 534210,
+            "question": "What is the person doing?",
+            "question_id": 534210002
+        },
+        {
+            "image_id": 534275,
+            "question": "What kind of vehicle is shown?",
+            "question_id": 534275003
+        },
+        {
+            "image_id": 272311,
+            "question": "What kind of shoes are the men wearing?",
+            "question_id": 272311000
+        },
+        {
+            "image_id": 141343,
+            "question": "What kind of animal is the toy?",
+            "question_id": 141343001
+        },
+        {
+            "image_id": 403693,
+            "question": "What is the child doing?",
+            "question_id": 403693001
+        },
+        {
+            "image_id": 403758,
+            "question": "Is it raining?",
+            "question_id": 403758006
+        },
+        {
+            "image_id": 141673,
+            "question": "Does the man have perfect vision?",
+            "question_id": 141673004
+        },
+        {
+            "image_id": 535080,
+            "question": "What is the cat doing?",
+            "question_id": 535080002
+        },
+        {
+            "image_id": 141962,
+            "question": "What type of pants is the man wearing?",
+            "question_id": 141962001
+        },
+        {
+            "image_id": 11042,
+            "question": "What type of food is this?",
+            "question_id": 11042000
+        },
+        {
+            "image_id": 11042,
+            "question": "Is the plate made of paper?",
+            "question_id": 11042002
+        },
+        {
+            "image_id": 67431,
+            "question": "Does Em have some connection with the medical field?",
+            "question_id": 67431000
+        },
+        {
+            "image_id": 45587,
+            "question": "Is it sunny?",
+            "question_id": 45587003
+        },
+        {
+            "image_id": 154816,
+            "question": "Is this a college baseball game?",
+            "question_id": 154816000
+        },
+        {
+            "image_id": 404923,
+            "question": "What sport is the man playing?",
+            "question_id": 404923003
+        },
+        {
+            "image_id": 536183,
+            "question": "Does the soup contain vegetables?",
+            "question_id": 536183000
+        },
+        {
+            "image_id": 536200,
+            "question": "Does the dress have sleeves?",
+            "question_id": 536200017
+        },
+        {
+            "image_id": 274066,
+            "question": "Does all the surfers have on wetsuits?",
+            "question_id": 274066001
+        },
+        {
+            "image_id": 405216,
+            "question": "What is the person doing?",
+            "question_id": 405216000
+        },
+        {
+            "image_id": 536343,
+            "question": "Where was the picture taken?",
+            "question_id": 536343002
+        },
+        {
+            "image_id": 405296,
+            "question": "What room is this?",
+            "question_id": 405296002
+        },
+        {
+            "image_id": 12085,
+            "question": "Did this man jump in the air to attain his current position?",
+            "question_id": 12085035
+        },
+        {
+            "image_id": 274292,
+            "question": "What kind of animal is this?",
+            "question_id": 274292007
+        },
+        {
+            "image_id": 536444,
+            "question": "What is the person riding?",
+            "question_id": 536444004
+        },
+        {
+            "image_id": 143359,
+            "question": "What is the boy doing?",
+            "question_id": 143359001
+        },
+        {
+            "image_id": 143644,
+            "question": "Does the teddy bear have a black nose?",
+            "question_id": 143644002
+        },
+        {
+            "image_id": 12639,
+            "question": "What sport are they playing?",
+            "question_id": 12639005
+        },
+        {
+            "image_id": 406147,
+            "question": "Is it raining?",
+            "question_id": 406147003
+        },
+        {
+            "image_id": 144062,
+            "question": "What room is this?",
+            "question_id": 144062003
+        },
+        {
+            "image_id": 144333,
+            "question": "Is this lady using her cell phone while riding a bike?",
+            "question_id": 144333001
+        },
+        {
+            "image_id": 537611,
+            "question": "What kind of vehicle is shown?",
+            "question_id": 537611001
+        },
+        {
+            "image_id": 537695,
+            "question": "What kind of animal is this?",
+            "question_id": 537695001
+        },
+        {
+            "image_id": 275695,
+            "question": "Are these vintage stoves?",
+            "question_id": 275695004
+        },
+        {
+            "image_id": 144635,
+            "question": "What room is this?",
+            "question_id": 144635001
+        },
+        {
+            "image_id": 144706,
+            "question": "Is it raining?",
+            "question_id": 144706002
+        },
+        {
+            "image_id": 537954,
+            "question": "Is this a recent photo?",
+            "question_id": 537954003
+        },
+        {
+            "image_id": 538054,
+            "question": "What food is this?",
+            "question_id": 538054001
+        },
+        {
+            "image_id": 538198,
+            "question": "Is it cloudy?",
+            "question_id": 538198002
+        },
+        {
+            "image_id": 407274,
+            "question": "Is her belly button pierced?",
+            "question_id": 407274003
+        },
+        {
+            "image_id": 145295,
+            "question": "What are the people doing?",
+            "question_id": 145295001
+        },
+        {
+            "image_id": 145295,
+            "question": "Is this a vigorous action shot?",
+            "question_id": 145295003
+        },
+        {
+            "image_id": 145335,
+            "question": "What can be seen on both sides of the snowboarding trail?",
+            "question_id": 145335002
+        },
+        {
+            "image_id": 220858,
+            "question": "Is this a harbor?",
+            "question_id": 220858001
+        },
+        {
+            "image_id": 145567,
+            "question": "Is the dog afraid of water?",
+            "question_id": 145567002
+        },
+        {
+            "image_id": 145604,
+            "question": "Are the bananas ripe?",
+            "question_id": 145604002
+        },
+        {
+            "image_id": 145750,
+            "question": "What is this person doing?",
+            "question_id": 145750003
+        },
+        {
+            "image_id": 276840,
+            "question": "What sport are they getting ready for?",
+            "question_id": 276840006
+        },
+        {
+            "image_id": 407945,
+            "question": "Does the pizza look greasy?",
+            "question_id": 407945000
+        },
+        {
+            "image_id": 145831,
+            "question": "Where was the photo taken?",
+            "question_id": 145831001
+        },
+        {
+            "image_id": 539079,
+            "question": "Is this a dangerous activity?",
+            "question_id": 539079003
+        },
+        {
+            "image_id": 14869,
+            "question": "Should this bench be repainted?",
+            "question_id": 14869000
+        },
+        {
+            "image_id": 146358,
+            "question": "What event has taken place?",
+            "question_id": 146358002
+        },
+        {
+            "image_id": 408757,
+            "question": "Does the kite belong to the people?",
+            "question_id": 408757004
+        },
+        {
+            "image_id": 408859,
+            "question": "What room is this?",
+            "question_id": 408859001
+        },
+        {
+            "image_id": 408894,
+            "question": "Is this the United States?",
+            "question_id": 408894001
+        },
+        {
+            "image_id": 408950,
+            "question": "What kind of bus is this?",
+            "question_id": 408950003
+        },
+        {
+            "image_id": 15746,
+            "question": "Is this outdoors?",
+            "question_id": 15746000
+        },
+        {
+            "image_id": 15797,
+            "question": "What is the man doing?",
+            "question_id": 15797001
+        },
+        {
+            "image_id": 147140,
+            "question": "What is the person doing?",
+            "question_id": 147140001
+        },
+        {
+            "image_id": 540372,
+            "question": "What type of animal is this?",
+            "question_id": 540372000
+        },
+        {
+            "image_id": 147195,
+            "question": "Is this the United States?",
+            "question_id": 147195000
+        },
+        {
+            "image_id": 278313,
+            "question": "Is the TV on?",
+            "question_id": 278313001
+        },
+        {
+            "image_id": 16546,
+            "question": "What season is this?",
+            "question_id": 16546003
+        },
+        {
+            "image_id": 16716,
+            "question": "Is this a zoo?",
+            "question_id": 16716001
+        },
+        {
+            "image_id": 147872,
+            "question": "What is the person doing?",
+            "question_id": 147872000
+        },
+        {
+            "image_id": 410019,
+            "question": "Should this sport be done away from house structures?",
+            "question_id": 410019002
+        },
+        {
+            "image_id": 16905,
+            "question": "Does the elephant have paint on its face?",
+            "question_id": 16905003
+        },
+        {
+            "image_id": 541202,
+            "question": "Is this a professional game?",
+            "question_id": 541202002
+        },
+        {
+            "image_id": 17031,
+            "question": "Does the giraffe have a goofy look on his face?",
+            "question_id": 17031004
+        },
+        {
+            "image_id": 410265,
+            "question": "Are these cows contained?",
+            "question_id": 410265001
+        },
+        {
+            "image_id": 410496,
+            "question": "What sport is this?",
+            "question_id": 410496000
+        },
+        {
+            "image_id": 542145,
+            "question": "What room is this?",
+            "question_id": 542145003
+        },
+        {
+            "image_id": 542248,
+            "question": "Does this animal have a long neck?",
+            "question_id": 542248001
+        },
+        {
+            "image_id": 149115,
+            "question": "What sport is being played?",
+            "question_id": 149115002
+        },
+        {
+            "image_id": 563625,
+            "question": "Does this lady have many bracelets?",
+            "question_id": 563625001
+        },
+        {
+            "image_id": 221477,
+            "question": "Is the animal by itself?",
+            "question_id": 221477001
+        },
+        {
+            "image_id": 542549,
+            "question": "What is this piece of furniture mostly used for?",
+            "question_id": 542549002
+        },
+        {
+            "image_id": 18295,
+            "question": "Is this a passenger train?",
+            "question_id": 18295003
+        },
+        {
+            "image_id": 411564,
+            "question": "Which room is this?",
+            "question_id": 411564003
+        },
+        {
+            "image_id": 411587,
+            "question": "Does this guy have long hair?",
+            "question_id": 411587001
+        },
+        {
+            "image_id": 18442,
+            "question": "What green vegetable is this?",
+            "question_id": 18442001
+        },
+        {
+            "image_id": 149550,
+            "question": "What room of the home is this?",
+            "question_id": 149550001
+        },
+        {
+            "image_id": 149592,
+            "question": "Is anyone swimming?",
+            "question_id": 149592003
+        },
+        {
+            "image_id": 542962,
+            "question": "Does the room appear tidy?",
+            "question_id": 542962000
+        },
+        {
+            "image_id": 280840,
+            "question": "Is this a healthy meal?",
+            "question_id": 280840002
+        },
+        {
+            "image_id": 543034,
+            "question": "Is odd for a dog and cat to be so close?",
+            "question_id": 543034000
+        },
+        {
+            "image_id": 280930,
+            "question": "Is this little girl a chef?",
+            "question_id": 280930001
+        },
+        {
+            "image_id": 18841,
+            "question": "What kind of computer is on the table?",
+            "question_id": 18841001
+        },
+        {
+            "image_id": 281012,
+            "question": "What game are they playing?",
+            "question_id": 281012001
+        },
+        {
+            "image_id": 281455,
+            "question": "Is this a mountainous area?",
+            "question_id": 281455038
+        },
+        {
+            "image_id": 281500,
+            "question": "What sport is this?",
+            "question_id": 281500005
+        },
+        {
+            "image_id": 281625,
+            "question": "Does this seem to be a popular place to hang out?",
+            "question_id": 281625002
+        },
+        {
+            "image_id": 543836,
+            "question": "What did he most likely fall asleep doing?",
+            "question_id": 543836002
+        },
+        {
+            "image_id": 150649,
+            "question": "What is the person doing?",
+            "question_id": 150649002
+        },
+        {
+            "image_id": 150872,
+            "question": "Is the man young?",
+            "question_id": 150872001
+        },
+        {
+            "image_id": 544122,
+            "question": "Is this woman healthy?",
+            "question_id": 544122001
+        },
+        {
+            "image_id": 282328,
+            "question": "Does this look like a healthy meal?",
+            "question_id": 282328002
+        },
+        {
+            "image_id": 151299,
+            "question": "What is the person doing?",
+            "question_id": 151299003
+        },
+        {
+            "image_id": 544590,
+            "question": "Is this animal stripped?",
+            "question_id": 544590001
+        },
+        {
+            "image_id": 20438,
+            "question": "What kind of animal is in the bed?",
+            "question_id": 20438001
+        },
+        {
+            "image_id": 151742,
+            "question": "Where was this picture taken?",
+            "question_id": 151742017
+        },
+        {
+            "image_id": 282847,
+            "question": "What are they playing?",
+            "question_id": 282847004
+        },
+        {
+            "image_id": 413955,
+            "question": "What sport is this?",
+            "question_id": 413955001
+        },
+        {
+            "image_id": 545101,
+            "question": "Is this a hotel room?",
+            "question_id": 545101006
+        },
+        {
+            "image_id": 21001,
+            "question": "Is this a hotel?",
+            "question_id": 21001000
+        },
+        {
+            "image_id": 545292,
+            "question": "What type of animal is under the canopy?",
+            "question_id": 545292004
+        },
+        {
+            "image_id": 21161,
+            "question": "What is the cat doing?",
+            "question_id": 21161003
+        },
+        {
+            "image_id": 21164,
+            "question": "Is the man going to surf?",
+            "question_id": 21164003
+        },
+        {
+            "image_id": 21167,
+            "question": "Is this a black tie event?",
+            "question_id": 21167001
+        },
+        {
+            "image_id": 152333,
+            "question": "Where is the bus going?",
+            "question_id": 152333002
+        },
+        {
+            "image_id": 545583,
+            "question": "Is this a mountainous area?",
+            "question_id": 545583002
+        },
+        {
+            "image_id": 414670,
+            "question": "Is it winter?",
+            "question_id": 414670000
+        },
+        {
+            "image_id": 90052,
+            "question": "Is this a professional game?",
+            "question_id": 90052006
+        },
+        {
+            "image_id": 545920,
+            "question": "What sport is being played?",
+            "question_id": 545920000
+        },
+        {
+            "image_id": 545958,
+            "question": "What animal is this?",
+            "question_id": 545958013
+        },
+        {
+            "image_id": 414917,
+            "question": "Is it raining outside?",
+            "question_id": 414917003
+        },
+        {
+            "image_id": 152774,
+            "question": "Is this a zoo?",
+            "question_id": 152774002
+        },
+        {
+            "image_id": 21776,
+            "question": "What is the cutting board made out of?",
+            "question_id": 21776002
+        },
+        {
+            "image_id": 284097,
+            "question": "What game is this?",
+            "question_id": 284097001
+        },
+        {
+            "image_id": 415196,
+            "question": "What size bed is this?",
+            "question_id": 415196001
+        },
+        {
+            "image_id": 22051,
+            "question": "What sport are people playing?",
+            "question_id": 22051000
+        },
+        {
+            "image_id": 546428,
+            "question": "What room is this?",
+            "question_id": 546428012
+        },
+        {
+            "image_id": 22168,
+            "question": "Does the animal look tired?",
+            "question_id": 22168000
+        },
+        {
+            "image_id": 284341,
+            "question": "What kind of garment is the man wearing?",
+            "question_id": 284341000
+        },
+        {
+            "image_id": 3711,
+            "question": "What is the cat sitting on?",
+            "question_id": 3711004
+        },
+        {
+            "image_id": 284552,
+            "question": "What kind of writing is beneath the bridge?",
+            "question_id": 284552001
+        },
+        {
+            "image_id": 415750,
+            "question": "Is this a promotional event?",
+            "question_id": 415750002
+        },
+        {
+            "image_id": 415770,
+            "question": "What sport is this?",
+            "question_id": 415770001
+        },
+        {
+            "image_id": 22660,
+            "question": "Is this a train station?",
+            "question_id": 22660001
+        },
+        {
+            "image_id": 547106,
+            "question": "What kind of building is this?",
+            "question_id": 547106004
+        },
+        {
+            "image_id": 154090,
+            "question": "What game is being played?",
+            "question_id": 154090002
+        },
+        {
+            "image_id": 547345,
+            "question": "What is the bus number?",
+            "question_id": 547345002
+        },
+        {
+            "image_id": 47588,
+            "question": "Is this a passenger train?",
+            "question_id": 47588001
+        },
+        {
+            "image_id": 285751,
+            "question": "What is the man doing?",
+            "question_id": 285751002
+        },
+        {
+            "image_id": 109907,
+            "question": "Is this the ocean?",
+            "question_id": 109907008
+        },
+        {
+            "image_id": 548164,
+            "question": "What mode of transportation is this?",
+            "question_id": 548164004
+        },
+        {
+            "image_id": 23893,
+            "question": "What sport is being played in this scene?",
+            "question_id": 23893000
+        },
+        {
+            "image_id": 154994,
+            "question": "What sport is this?",
+            "question_id": 154994002
+        },
+        {
+            "image_id": 155189,
+            "question": "What sport is being played?",
+            "question_id": 155189000
+        },
+        {
+            "image_id": 286313,
+            "question": "What sport is this?",
+            "question_id": 286313005
+        },
+        {
+            "image_id": 155317,
+            "question": "Is this a dessert?",
+            "question_id": 155317001
+        },
+        {
+            "image_id": 548538,
+            "question": "Is this a modern train?",
+            "question_id": 548538002
+        },
+        {
+            "image_id": 155546,
+            "question": "What kind of TV is there?",
+            "question_id": 155546001
+        },
+        {
+            "image_id": 286907,
+            "question": "Is the toilet the same color as the wall?",
+            "question_id": 286907001
+        },
+        {
+            "image_id": 200745,
+            "question": "Is this a professional match?",
+            "question_id": 200745001
+        },
+        {
+            "image_id": 418070,
+            "question": "Does this bathroom appear ready to be used?",
+            "question_id": 418070003
+        },
+        {
+            "image_id": 418109,
+            "question": "Is this a rural scene?",
+            "question_id": 418109000
+        },
+        {
+            "image_id": 156126,
+            "question": "Is this an example of superb engineering?",
+            "question_id": 156126002
+        },
+        {
+            "image_id": 25282,
+            "question": "What brand of motorcycle is this?",
+            "question_id": 25282000
+        },
+        {
+            "image_id": 287443,
+            "question": "Is this meal healthy?",
+            "question_id": 287443000
+        },
+        {
+            "image_id": 287545,
+            "question": "Where is this taken?",
+            "question_id": 287545001
+        },
+        {
+            "image_id": 156572,
+            "question": "Which room is this?",
+            "question_id": 156572002
+        },
+        {
+            "image_id": 550400,
+            "question": "What kind of food is this?",
+            "question_id": 550400001
+        },
+        {
+            "image_id": 25715,
+            "question": "Is the water muddy?",
+            "question_id": 25715003
+        },
+        {
+            "image_id": 550173,
+            "question": "Is this a steam powered train?",
+            "question_id": 550173003
+        },
+        {
+            "image_id": 288313,
+            "question": "Is this healthy?",
+            "question_id": 288313005
+        },
+        {
+            "image_id": 550691,
+            "question": "What is the bus number?",
+            "question_id": 550691007
+        },
+        {
+            "image_id": 419735,
+            "question": "What kind of animal is this?",
+            "question_id": 419735002
+        },
+        {
+            "image_id": 157592,
+            "question": "What sport is this?",
+            "question_id": 157592005
+        },
+        {
+            "image_id": 419882,
+            "question": "Is this a train station?",
+            "question_id": 419882000
+        },
+        {
+            "image_id": 551001,
+            "question": "Is this a modern picture?",
+            "question_id": 551001001
+        },
+        {
+            "image_id": 288860,
+            "question": "What is the elephant doing?",
+            "question_id": 288860003
+        },
+        {
+            "image_id": 551052,
+            "question": "Does the animal have a vegetable in its mouth?",
+            "question_id": 551052002
+        },
+        {
+            "image_id": 420002,
+            "question": "What game are they playing?",
+            "question_id": 420002005
+        },
+        {
+            "image_id": 157928,
+            "question": "What is the man wearing on his head?",
+            "question_id": 157928002
+        },
+        {
+            "image_id": 420090,
+            "question": "Is it a hot day?",
+            "question_id": 420090005
+        },
+        {
+            "image_id": 289120,
+            "question": "Is anyone wearing a decorative scarf?",
+            "question_id": 289120002
+        },
+        {
+            "image_id": 420422,
+            "question": "Does the bus driver have a license?",
+            "question_id": 420422000
+        },
+        {
+            "image_id": 27208,
+            "question": "Where was this picture taken?",
+            "question_id": 27208000
+        },
+        {
+            "image_id": 420466,
+            "question": "Does this look like a zoo?",
+            "question_id": 420466000
+        },
+        {
+            "image_id": 27272,
+            "question": "What type of animal is this?",
+            "question_id": 27272001
+        },
+        {
+            "image_id": 158466,
+            "question": "Does the person in the picture look tired?",
+            "question_id": 158466000
+        },
+        {
+            "image_id": 551820,
+            "question": "What sport are these people playing?",
+            "question_id": 551820000
+        },
+        {
+            "image_id": 551907,
+            "question": "Is it sunny?",
+            "question_id": 551907000
+        },
+        {
+            "image_id": 289855,
+            "question": "What type of animal is sitting on the post?",
+            "question_id": 289855004
+        },
+        {
+            "image_id": 27731,
+            "question": "Does the appear to be an event?",
+            "question_id": 27731000
+        },
+        {
+            "image_id": 27897,
+            "question": "Is this a city street?",
+            "question_id": 27897006
+        },
+        {
+            "image_id": 27975,
+            "question": "What is the dog doing?",
+            "question_id": 27975000
+        },
+        {
+            "image_id": 223130,
+            "question": "What is the giraffe doing?",
+            "question_id": 223130000
+        },
+        {
+            "image_id": 552504,
+            "question": "What is the girl doing?",
+            "question_id": 552504005
+        },
+        {
+            "image_id": 421433,
+            "question": "What is this man doing?",
+            "question_id": 421433003
+        },
+        {
+            "image_id": 421437,
+            "question": "What kind of animal is holding the kite?",
+            "question_id": 421437002
+        },
+        {
+            "image_id": 159463,
+            "question": "What is the floor made of?",
+            "question_id": 159463001
+        },
+        {
+            "image_id": 28535,
+            "question": "What is the man doing?",
+            "question_id": 28535002
+        },
+        {
+            "image_id": 159667,
+            "question": "What is the rabbit doing?",
+            "question_id": 159667003
+        },
+        {
+            "image_id": 552901,
+            "question": "Is the lid up or down?",
+            "question_id": 552901001
+        },
+        {
+            "image_id": 421865,
+            "question": "Where is this picture taken?",
+            "question_id": 421865000
+        },
+        {
+            "image_id": 159790,
+            "question": "What is the guy doing?",
+            "question_id": 159790004
+        },
+        {
+            "image_id": 159790,
+            "question": "What type of pants is everyone wearing?",
+            "question_id": 159790006
+        },
+        {
+            "image_id": 159854,
+            "question": "What game are the boys playing?",
+            "question_id": 159854002
+        },
+        {
+            "image_id": 553083,
+            "question": "What kind of dog is in the photo?",
+            "question_id": 553083000
+        },
+        {
+            "image_id": 159944,
+            "question": "What is the cat doing?",
+            "question_id": 159944000
+        },
+        {
+            "image_id": 29136,
+            "question": "What sport is this man playing?",
+            "question_id": 29136008
+        },
+        {
+            "image_id": 160351,
+            "question": "Is it winter?",
+            "question_id": 160351015
+        },
+        {
+            "image_id": 29357,
+            "question": "Is the pizza ready to eat?",
+            "question_id": 29357002
+        },
+        {
+            "image_id": 291538,
+            "question": "Should a school bus driver be taking pictures?",
+            "question_id": 291538003
+        },
+        {
+            "image_id": 423005,
+            "question": "Is it cloudy?",
+            "question_id": 423005002
+        },
+        {
+            "image_id": 157883,
+            "question": "Is this a restaurant?",
+            "question_id": 157883001
+        },
+        {
+            "image_id": 292024,
+            "question": "Which hand holds a fork?",
+            "question_id": 292024003
+        },
+        {
+            "image_id": 29934,
+            "question": "What sport is the girl playing?",
+            "question_id": 29934003
+        },
+        {
+            "image_id": 554255,
+            "question": "What season is it?",
+            "question_id": 554255000
+        },
+        {
+            "image_id": 161187,
+            "question": "Is this a passenger train?",
+            "question_id": 161187003
+        },
+        {
+            "image_id": 423395,
+            "question": "Is it winter?",
+            "question_id": 423395002
+        },
+        {
+            "image_id": 292446,
+            "question": "What food is this?",
+            "question_id": 292446001
+        },
+        {
+            "image_id": 554620,
+            "question": "Is it raining?",
+            "question_id": 554620005
+        },
+        {
+            "image_id": 423618,
+            "question": "What is the cutting board made out of?",
+            "question_id": 423618001
+        },
+        {
+            "image_id": 161634,
+            "question": "Is this a professional sporting event?",
+            "question_id": 161634003
+        },
+        {
+            "image_id": 161634,
+            "question": "What sport is being played in the photo?",
+            "question_id": 161634005
+        },
+        {
+            "image_id": 161861,
+            "question": "What sport is she playing?",
+            "question_id": 161861011
+        },
+        {
+            "image_id": 161861,
+            "question": "What game is this?",
+            "question_id": 161861031
+        },
+        {
+            "image_id": 293002,
+            "question": "Does this person have shoes on?",
+            "question_id": 293002005
+        },
+        {
+            "image_id": 293333,
+            "question": "Does this train work during the evening hours?",
+            "question_id": 293333006
+        },
+        {
+            "image_id": 162362,
+            "question": "Is it raining?",
+            "question_id": 162362000
+        },
+        {
+            "image_id": 31442,
+            "question": "Does he recycle?",
+            "question_id": 31442001
+        },
+        {
+            "image_id": 158167,
+            "question": "Does this fireplace appear to have a fire going?",
+            "question_id": 158167001
+        },
+        {
+            "image_id": 162685,
+            "question": "Is an event about to happen?",
+            "question_id": 162685002
+        },
+        {
+            "image_id": 293888,
+            "question": "Does the man have a beard?",
+            "question_id": 293888000
+        },
+        {
+            "image_id": 162827,
+            "question": "Does powdered sugar make a mess?",
+            "question_id": 162827001
+        },
+        {
+            "image_id": 158227,
+            "question": "What sport is the boy playing?",
+            "question_id": 158227000
+        },
+        {
+            "image_id": 333000,
+            "question": "What sport are they playing?",
+            "question_id": 333000000
+        },
+        {
+            "image_id": 556230,
+            "question": "What is the silver device used for?",
+            "question_id": 556230000
+        },
+        {
+            "image_id": 114579,
+            "question": "What is the woman doing?",
+            "question_id": 114579003
+        },
+        {
+            "image_id": 294437,
+            "question": "Is this someone's home?",
+            "question_id": 294437026
+        },
+        {
+            "image_id": 294585,
+            "question": "What kind of food is the nerd eating?",
+            "question_id": 294585000
+        },
+        {
+            "image_id": 32677,
+            "question": "What are these animals doing?",
+            "question_id": 32677000
+        },
+        {
+            "image_id": 163831,
+            "question": "What animal is this?",
+            "question_id": 163831000
+        },
+        {
+            "image_id": 557117,
+            "question": "What kind of controller is that?",
+            "question_id": 557117002
+        },
+        {
+            "image_id": 32952,
+            "question": "Does the elephant have any tusks?",
+            "question_id": 32952000
+        },
+        {
+            "image_id": 33005,
+            "question": "What sport is this?",
+            "question_id": 33005000
+        },
+        {
+            "image_id": 33008,
+            "question": "What is the cat staring at?",
+            "question_id": 33008002
+        },
+        {
+            "image_id": 557459,
+            "question": "What is this person doing?",
+            "question_id": 557459001
+        },
+        {
+            "image_id": 153865,
+            "question": "Is this a special event?",
+            "question_id": 153865002
+        },
+        {
+            "image_id": 557596,
+            "question": "What car company is sponsoring the event?",
+            "question_id": 557596001
+        },
+        {
+            "image_id": 426578,
+            "question": "Where is this picture taken?",
+            "question_id": 426578003
+        },
+        {
+            "image_id": 557709,
+            "question": "What type of field is this?",
+            "question_id": 557709000
+        },
+        {
+            "image_id": 427001,
+            "question": "Is this a commuter train?",
+            "question_id": 427001003
+        },
+        {
+            "image_id": 33909,
+            "question": "What room is this?",
+            "question_id": 33909000
+        },
+        {
+            "image_id": 427135,
+            "question": "What sport is the girl playing?",
+            "question_id": 427135020
+        },
+        {
+            "image_id": 165009,
+            "question": "What is the man eating?",
+            "question_id": 165009000
+        },
+        {
+            "image_id": 427223,
+            "question": "What sport is depicted?",
+            "question_id": 427223005
+        },
+        {
+            "image_id": 296524,
+            "question": "Is the man making a pizza?",
+            "question_id": 296524001
+        },
+        {
+            "image_id": 428161,
+            "question": "Are these men likely at an event?",
+            "question_id": 428161000
+        },
+        {
+            "image_id": 297396,
+            "question": "What type of pastry is this?",
+            "question_id": 297396002
+        },
+        {
+            "image_id": 35269,
+            "question": "Is the plate made of paper?",
+            "question_id": 35269004
+        },
+        {
+            "image_id": 559776,
+            "question": "Does the cat look angry?",
+            "question_id": 559776000
+        },
+        {
+            "image_id": 429025,
+            "question": "Is it daytime?",
+            "question_id": 429025002
+        },
+        {
+            "image_id": 298151,
+            "question": "What fruit is this?",
+            "question_id": 298151003
+        },
+        {
+            "image_id": 429386,
+            "question": "Is this a celebration?",
+            "question_id": 429386007
+        },
+        {
+            "image_id": 246327,
+            "question": "What room is this?",
+            "question_id": 246327002
+        },
+        {
+            "image_id": 298362,
+            "question": "What sport is this?",
+            "question_id": 298362001
+        },
+        {
+            "image_id": 560677,
+            "question": "What sport is this?",
+            "question_id": 560677001
+        },
+        {
+            "image_id": 560718,
+            "question": "What is the man doing?",
+            "question_id": 560718004
+        },
+        {
+            "image_id": 560757,
+            "question": "What is the person doing?",
+            "question_id": 560757000
+        },
+        {
+            "image_id": 298656,
+            "question": "Is it cold?",
+            "question_id": 298656001
+        },
+        {
+            "image_id": 429836,
+            "question": "What sport is this?",
+            "question_id": 429836003
+        },
+        {
+            "image_id": 561037,
+            "question": "What kind of vehicle is this?",
+            "question_id": 561037001
+        },
+        {
+            "image_id": 311964,
+            "question": "Is the device a new one?",
+            "question_id": 311964002
+        },
+        {
+            "image_id": 36810,
+            "question": "What sport is this?",
+            "question_id": 36810002
+        },
+        {
+            "image_id": 167993,
+            "question": "What kind of animal is this?",
+            "question_id": 167993001
+        },
+        {
+            "image_id": 299481,
+            "question": "What activity are they doing?",
+            "question_id": 299481012
+        },
+        {
+            "image_id": 168425,
+            "question": "Does the cat look mean?",
+            "question_id": 168425001
+        },
+        {
+            "image_id": 561729,
+            "question": "Is the mouse wireless?",
+            "question_id": 561729000
+        },
+        {
+            "image_id": 299631,
+            "question": "What is the man doing?",
+            "question_id": 299631000
+        },
+        {
+            "image_id": 37688,
+            "question": "What kind of juice?",
+            "question_id": 37688001
+        },
+        {
+            "image_id": 299952,
+            "question": "What room is this?",
+            "question_id": 299952003
+        },
+        {
+            "image_id": 562261,
+            "question": "What is this person holding?",
+            "question_id": 562261002
+        },
+        {
+            "image_id": 431197,
+            "question": "Is the bathroom clean?",
+            "question_id": 431197005
+        },
+        {
+            "image_id": 431256,
+            "question": "What is the person doing?",
+            "question_id": 431256002
+        },
+        {
+            "image_id": 71877,
+            "question": "What activity is he doing?",
+            "question_id": 71877000
+        },
+        {
+            "image_id": 169347,
+            "question": "What kind of animal is this?",
+            "question_id": 169347002
+        },
+        {
+            "image_id": 169356,
+            "question": "What is the man doing?",
+            "question_id": 169356000
+        },
+        {
+            "image_id": 38355,
+            "question": "What type of structure is visible in the background?",
+            "question_id": 38355002
+        },
+        {
+            "image_id": 169606,
+            "question": "What animal is this?",
+            "question_id": 169606001
+        },
+        {
+            "image_id": 300705,
+            "question": "What kind of juice in the photo?",
+            "question_id": 300705004
+        },
+        {
+            "image_id": 169682,
+            "question": "Is the plate made of paper?",
+            "question_id": 169682000
+        },
+        {
+            "image_id": 169682,
+            "question": "Does the dog fit the bun?",
+            "question_id": 169682003
+        },
+        {
+            "image_id": 175867,
+            "question": "Is this a train station?",
+            "question_id": 175867001
+        },
+        {
+            "image_id": 431876,
+            "question": "What type of men are riding the horses?",
+            "question_id": 431876001
+        },
+        {
+            "image_id": 38938,
+            "question": "Is the cat laying in his bed?",
+            "question_id": 38938000
+        },
+        {
+            "image_id": 170181,
+            "question": "Is it cold outside?",
+            "question_id": 170181003
+        },
+        {
+            "image_id": 552656,
+            "question": "What sport is this used for?",
+            "question_id": 552656001
+        },
+        {
+            "image_id": 432488,
+            "question": "Does it look cold in this picture?",
+            "question_id": 432488002
+        },
+        {
+            "image_id": 446497,
+            "question": "What is he doing?",
+            "question_id": 446497016
+        },
+        {
+            "image_id": 301718,
+            "question": "What type of fish naturally has this pink color?",
+            "question_id": 301718003
+        },
+        {
+            "image_id": 39592,
+            "question": "Where is this picture taken?",
+            "question_id": 39592001
+        },
+        {
+            "image_id": 563885,
+            "question": "Is the lamp on or off?",
+            "question_id": 563885003
+        },
+        {
+            "image_id": 301827,
+            "question": "What room is this?",
+            "question_id": 301827002
+        },
+        {
+            "image_id": 39731,
+            "question": "What is the man doing?",
+            "question_id": 39731000
+        },
+        {
+            "image_id": 433059,
+            "question": "Is the person female?",
+            "question_id": 433059002
+        },
+        {
+            "image_id": 40036,
+            "question": "What is the horse doing?",
+            "question_id": 40036002
+        },
+        {
+            "image_id": 564355,
+            "question": "Is this picture taken in warm weather?",
+            "question_id": 564355000
+        },
+        {
+            "image_id": 302221,
+            "question": "Does the teddy bear have both its eyes?",
+            "question_id": 302221004
+        },
+        {
+            "image_id": 564418,
+            "question": "What event is this celebrating?",
+            "question_id": 564418002
+        },
+        {
+            "image_id": 302318,
+            "question": "Is this a river?",
+            "question_id": 302318015
+        },
+        {
+            "image_id": 433505,
+            "question": "Is the lid on the water bottle tight?",
+            "question_id": 433505010
+        },
+        {
+            "image_id": 302452,
+            "question": "Does the lady feeding the giraffe have blonde hair?",
+            "question_id": 302452002
+        },
+        {
+            "image_id": 531070,
+            "question": "What animal is this?",
+            "question_id": 531070000
+        },
+        {
+            "image_id": 171805,
+            "question": "Is the man happy?",
+            "question_id": 171805002
+        },
+        {
+            "image_id": 302964,
+            "question": "What kind of vehicle is this?",
+            "question_id": 302964001
+        },
+        {
+            "image_id": 302997,
+            "question": "Is it a good time to eat these bananas?",
+            "question_id": 302997000
+        },
+        {
+            "image_id": 40937,
+            "question": "What type of car is this?",
+            "question_id": 40937003
+        },
+        {
+            "image_id": 6894,
+            "question": "Does the elephant seem to like this man?",
+            "question_id": 6894001
+        },
+        {
+            "image_id": 303706,
+            "question": "What room is this?",
+            "question_id": 303706004
+        },
+        {
+            "image_id": 303713,
+            "question": "What sport is this?",
+            "question_id": 303713002
+        },
+        {
+            "image_id": 434806,
+            "question": "What sport is this?",
+            "question_id": 434806000
+        },
+        {
+            "image_id": 434873,
+            "question": "Where was this picture taken?",
+            "question_id": 434873000
+        },
+        {
+            "image_id": 303867,
+            "question": "What size bed is this?",
+            "question_id": 303867000
+        },
+        {
+            "image_id": 435005,
+            "question": "Does the color of the toilet match the color of the tub?",
+            "question_id": 435005000
+        },
+        {
+            "image_id": 435034,
+            "question": "Is this a commuter train?",
+            "question_id": 435034016
+        },
+        {
+            "image_id": 303971,
+            "question": "What sport is on the TV?",
+            "question_id": 303971000
+        },
+        {
+            "image_id": 304063,
+            "question": "Is this a military plane?",
+            "question_id": 304063000
+        },
+        {
+            "image_id": 566264,
+            "question": "What is the dog doing?",
+            "question_id": 566264000
+        },
+        {
+            "image_id": 173204,
+            "question": "What are the people doing?",
+            "question_id": 173204006
+        },
+        {
+            "image_id": 304330,
+            "question": "What is the giraffe doing?",
+            "question_id": 304330000
+        },
+        {
+            "image_id": 173737,
+            "question": "Is it a cloudy day?",
+            "question_id": 173737009
+        },
+        {
+            "image_id": 304812,
+            "question": "Is this the ocean?",
+            "question_id": 304812004
+        },
+        {
+            "image_id": 173825,
+            "question": "What is the floor made of?",
+            "question_id": 173825002
+        },
+        {
+            "image_id": 173968,
+            "question": "What room is this?",
+            "question_id": 173968000
+        },
+        {
+            "image_id": 436130,
+            "question": "What room is this?",
+            "question_id": 436130002
+        },
+        {
+            "image_id": 436138,
+            "question": "Is this a mobile home?",
+            "question_id": 436138000
+        },
+        {
+            "image_id": 174062,
+            "question": "What are  the guys doing?",
+            "question_id": 174062000
+        },
+        {
+            "image_id": 436280,
+            "question": "Is this a military plane?",
+            "question_id": 436280005
+        },
+        {
+            "image_id": 305319,
+            "question": "What is the person doing?",
+            "question_id": 305319007
+        },
+        {
+            "image_id": 174258,
+            "question": "What room is this?",
+            "question_id": 174258000
+        },
+        {
+            "image_id": 43218,
+            "question": "Does this room belong to a man or woman?",
+            "question_id": 43218016
+        },
+        {
+            "image_id": 567536,
+            "question": "What are the seagulls doing?",
+            "question_id": 567536004
+        },
+        {
+            "image_id": 305803,
+            "question": "Does it look like rain?",
+            "question_id": 305803005
+        },
+        {
+            "image_id": 43670,
+            "question": "Is this a professional game?",
+            "question_id": 43670002
+        },
+        {
+            "image_id": 568082,
+            "question": "What type of animal is it?",
+            "question_id": 568082001
+        },
+        {
+            "image_id": 291298,
+            "question": "Where was this photo taken?",
+            "question_id": 291298002
+        },
+        {
+            "image_id": 44081,
+            "question": "Does this man have 20 20 vision?",
+            "question_id": 44081006
+        },
+        {
+            "image_id": 568502,
+            "question": "Does the man have a unibrow?",
+            "question_id": 568502002
+        },
+        {
+            "image_id": 51095,
+            "question": "What is the cat sitting on?",
+            "question_id": 51095004
+        },
+        {
+            "image_id": 437872,
+            "question": "Is she nervous?",
+            "question_id": 437872007
+        },
+        {
+            "image_id": 44723,
+            "question": "Is it getting dark?",
+            "question_id": 44723002
+        },
+        {
+            "image_id": 569016,
+            "question": "Does the plane have propellers?",
+            "question_id": 569016000
+        },
+        {
+            "image_id": 29341,
+            "question": "Does this animal appear aggressive?",
+            "question_id": 29341001
+        },
+        {
+            "image_id": 569450,
+            "question": "Is this a gas stove?",
+            "question_id": 569450005
+        },
+        {
+            "image_id": 176595,
+            "question": "Does she have glasses?",
+            "question_id": 176595002
+        },
+        {
+            "image_id": 308223,
+            "question": "What sport is being played?",
+            "question_id": 308223001
+        },
+        {
+            "image_id": 46316,
+            "question": "Does the cat seem aware of its shadow?",
+            "question_id": 46316000
+        },
+        {
+            "image_id": 177496,
+            "question": "What room is this?",
+            "question_id": 177496008
+        },
+        {
+            "image_id": 439907,
+            "question": "Where is the picture taken?",
+            "question_id": 439907002
+        },
+        {
+            "image_id": 571034,
+            "question": "What kind of animals are these?",
+            "question_id": 571034002
+        },
+        {
+            "image_id": 178072,
+            "question": "Is this a modern train?",
+            "question_id": 178072003
+        },
+        {
+            "image_id": 309160,
+            "question": "Does the cat have its ears pierced?",
+            "question_id": 309160002
+        },
+        {
+            "image_id": 84493,
+            "question": "Does it look like a piece has been taken from the plate yet?",
+            "question_id": 84493000
+        },
+        {
+            "image_id": 571450,
+            "question": "What is the woman doing?",
+            "question_id": 571450000
+        },
+        {
+            "image_id": 47226,
+            "question": "What is this person sitting on?",
+            "question_id": 47226003
+        },
+        {
+            "image_id": 440508,
+            "question": "Is this a passenger train?",
+            "question_id": 440508001
+        },
+        {
+            "image_id": 309499,
+            "question": "What animal is this?",
+            "question_id": 309499008
+        },
+        {
+            "image_id": 178984,
+            "question": "What sport is the woman playing?",
+            "question_id": 178984001
+        },
+        {
+            "image_id": 310103,
+            "question": "Is this a motorcycle?",
+            "question_id": 310103001
+        },
+        {
+            "image_id": 441196,
+            "question": "What kind of room is this?",
+            "question_id": 441196002
+        },
+        {
+            "image_id": 310342,
+            "question": "What is this animal doing?",
+            "question_id": 310342003
+        },
+        {
+            "image_id": 310369,
+            "question": "Does the girl have a piece of pizza on her lap?",
+            "question_id": 310369001
+        },
+        {
+            "image_id": 179317,
+            "question": "Does this cell phone look broken?",
+            "question_id": 179317005
+        },
+        {
+            "image_id": 441511,
+            "question": "Is the girl playing tennis?",
+            "question_id": 441511020
+        },
+        {
+            "image_id": 441814,
+            "question": "Is this a celebration?",
+            "question_id": 441814001
+        },
+        {
+            "image_id": 442031,
+            "question": "What room is this?",
+            "question_id": 442031000
+        },
+        {
+            "image_id": 48972,
+            "question": "Is this a working clock?",
+            "question_id": 48972000
+        },
+        {
+            "image_id": 442210,
+            "question": "What kind of floor is it?",
+            "question_id": 442210001
+        },
+        {
+            "image_id": 49259,
+            "question": "Is the man relaxed?",
+            "question_id": 49259000
+        },
+        {
+            "image_id": 49893,
+            "question": "What game is the man playing?",
+            "question_id": 49893002
+        },
+        {
+            "image_id": 312289,
+            "question": "What event is this?",
+            "question_id": 312289000
+        },
+        {
+            "image_id": 312298,
+            "question": "What is the bear sitting on?",
+            "question_id": 312298001
+        },
+        {
+            "image_id": 574507,
+            "question": "Is it winter?",
+            "question_id": 574507000
+        },
+        {
+            "image_id": 50306,
+            "question": "What type of food is shown?",
+            "question_id": 50306001
+        },
+        {
+            "image_id": 181666,
+            "question": "What kind of animal are the men herding?",
+            "question_id": 181666002
+        },
+        {
+            "image_id": 574977,
+            "question": "What game are they playing?",
+            "question_id": 574977001
+        },
+        {
+            "image_id": 444028,
+            "question": "What sport is the man playing?",
+            "question_id": 444028007
+        },
+        {
+            "image_id": 181886,
+            "question": "What sport is taking place?",
+            "question_id": 181886003
+        },
+        {
+            "image_id": 292464,
+            "question": "Should the guy in the gray shirt be in fear for his life?",
+            "question_id": 292464003
+        },
+        {
+            "image_id": 575194,
+            "question": "What are the two players on the left doing?",
+            "question_id": 575194000
+        },
+        {
+            "image_id": 313057,
+            "question": "Does it look warm outside?",
+            "question_id": 313057000
+        },
+        {
+            "image_id": 575222,
+            "question": "What kind of ride is this?",
+            "question_id": 575222002
+        },
+        {
+            "image_id": 444152,
+            "question": "What sport is the boy playing?",
+            "question_id": 444152002
+        },
+        {
+            "image_id": 51040,
+            "question": "What game are the people playing?",
+            "question_id": 51040002
+        },
+        {
+            "image_id": 51181,
+            "question": "Should the picture be rotated?",
+            "question_id": 51181002
+        },
+        {
+            "image_id": 313359,
+            "question": "What breed of horse is this?",
+            "question_id": 313359007
+        },
+        {
+            "image_id": 575544,
+            "question": "Is this motorcycle classified as vintage?",
+            "question_id": 575544001
+        },
+        {
+            "image_id": 182369,
+            "question": "Does this animal like a cold location?",
+            "question_id": 182369001
+        },
+        {
+            "image_id": 444531,
+            "question": "Does this kitchen have modern lighting?",
+            "question_id": 444531001
+        },
+        {
+            "image_id": 444626,
+            "question": "Would a vegetarian eat this?",
+            "question_id": 444626005
+        },
+        {
+            "image_id": 444631,
+            "question": "What sport is the person in the foreground doing?",
+            "question_id": 444631000
+        },
+        {
+            "image_id": 51533,
+            "question": "What would all of these items best be used for?",
+            "question_id": 51533000
+        },
+        {
+            "image_id": 51741,
+            "question": "Is anyone using the toilet?",
+            "question_id": 51741005
+        },
+        {
+            "image_id": 445002,
+            "question": "What kind of room is this?",
+            "question_id": 445002001
+        },
+        {
+            "image_id": 576084,
+            "question": "What animal is shown?",
+            "question_id": 576084012
+        },
+        {
+            "image_id": 314140,
+            "question": "What is the cat staring at?",
+            "question_id": 314140002
+        },
+        {
+            "image_id": 183155,
+            "question": "What is the man in the center doing?",
+            "question_id": 183155000
+        },
+        {
+            "image_id": 52166,
+            "question": "Does this appear to be an event?",
+            "question_id": 52166001
+        },
+        {
+            "image_id": 183249,
+            "question": "Which room is this?",
+            "question_id": 183249000
+        },
+        {
+            "image_id": 314356,
+            "question": "What sport is being played?",
+            "question_id": 314356007
+        },
+        {
+            "image_id": 445638,
+            "question": "Does the building appear to be abandoned?",
+            "question_id": 445638002
+        },
+        {
+            "image_id": 576822,
+            "question": "What are the giraffes doing?",
+            "question_id": 576822002
+        },
+        {
+            "image_id": 314812,
+            "question": "What is she doing?",
+            "question_id": 314812001
+        },
+        {
+            "image_id": 314914,
+            "question": "What city is this?",
+            "question_id": 314914001
+        },
+        {
+            "image_id": 315162,
+            "question": "What activity is this person doing?",
+            "question_id": 315162001
+        },
+        {
+            "image_id": 577355,
+            "question": "Is it night time?",
+            "question_id": 577355000
+        },
+        {
+            "image_id": 315219,
+            "question": "Is the cord tangled?",
+            "question_id": 315219000
+        },
+        {
+            "image_id": 184241,
+            "question": "What sport is this?",
+            "question_id": 184241001
+        },
+        {
+            "image_id": 577512,
+            "question": "What city is this?",
+            "question_id": 577512002
+        },
+        {
+            "image_id": 314709,
+            "question": "Does the skier have a face mask on?",
+            "question_id": 314709002
+        },
+        {
+            "image_id": 314709,
+            "question": "Is it summer?",
+            "question_id": 314709015
+        },
+        {
+            "image_id": 336600,
+            "question": "What type of game system is the controller for?",
+            "question_id": 336600002
+        },
+        {
+            "image_id": 446743,
+            "question": "What is the floor made of?",
+            "question_id": 446743004
+        },
+        {
+            "image_id": 315702,
+            "question": "Does the toothpaste have its cap on?",
+            "question_id": 315702000
+        },
+        {
+            "image_id": 577857,
+            "question": "Is this a gas stove?",
+            "question_id": 577857001
+        },
+        {
+            "image_id": 577932,
+            "question": "What is the person riding?",
+            "question_id": 577932022
+        },
+        {
+            "image_id": 446861,
+            "question": "Is it raining?",
+            "question_id": 446861004
+        },
+        {
+            "image_id": 577976,
+            "question": "Is it daytime?",
+            "question_id": 577976006
+        },
+        {
+            "image_id": 446909,
+            "question": "What is the man sitting on?",
+            "question_id": 446909004
+        },
+        {
+            "image_id": 185201,
+            "question": "Should this person be wearing safety gloves?",
+            "question_id": 185201000
+        },
+        {
+            "image_id": 447354,
+            "question": "What type of food is this?",
+            "question_id": 447354001
+        },
+        {
+            "image_id": 572042,
+            "question": "What kind of dog is this?",
+            "question_id": 572042002
+        },
+        {
+            "image_id": 578655,
+            "question": "Are the waves big?",
+            "question_id": 578655006
+        },
+        {
+            "image_id": 448365,
+            "question": "What is the boy doing?",
+            "question_id": 448365001
+        },
+        {
+            "image_id": 186322,
+            "question": "Is the fire hydrant on?",
+            "question_id": 186322000
+        },
+        {
+            "image_id": 579911,
+            "question": "Is the bulldog licensed?",
+            "question_id": 579911001
+        },
+        {
+            "image_id": 186697,
+            "question": "Does the ground appear dry?",
+            "question_id": 186697001
+        },
+        {
+            "image_id": 186730,
+            "question": "What is the man doing?",
+            "question_id": 186730000
+        },
+        {
+            "image_id": 448998,
+            "question": "What is the girl doing?",
+            "question_id": 448998001
+        },
+        {
+            "image_id": 449156,
+            "question": "Is the man happy?",
+            "question_id": 449156005
+        },
+        {
+            "image_id": 318124,
+            "question": "Is this a dessert?",
+            "question_id": 318124001
+        },
+        {
+            "image_id": 318124,
+            "question": "What kind of meat is this?",
+            "question_id": 318124009
+        },
+        {
+            "image_id": 318130,
+            "question": "What sport is this?",
+            "question_id": 318130001
+        },
+        {
+            "image_id": 580284,
+            "question": "What holiday is being celebrated?",
+            "question_id": 580284003
+        },
+        {
+            "image_id": 449259,
+            "question": "What kind of animal is shown?",
+            "question_id": 449259005
+        },
+        {
+            "image_id": 318238,
+            "question": "What room is this?",
+            "question_id": 318238002
+        },
+        {
+            "image_id": 56160,
+            "question": "Are the flowers real?",
+            "question_id": 56160002
+        },
+        {
+            "image_id": 187514,
+            "question": "Does the door have windows?",
+            "question_id": 187514001
+        },
+        {
+            "image_id": 580746,
+            "question": "What are the sheep doing?",
+            "question_id": 580746001
+        },
+        {
+            "image_id": 449675,
+            "question": "What meal is this?",
+            "question_id": 449675026
+        },
+        {
+            "image_id": 449990,
+            "question": "What is this place called?",
+            "question_id": 449990001
+        },
+        {
+            "image_id": 581317,
+            "question": "What is this person holding?",
+            "question_id": 581317002
+        },
+        {
+            "image_id": 188296,
+            "question": "What game are they playing?",
+            "question_id": 188296002
+        },
+        {
+            "image_id": 450695,
+            "question": "What kind of vehicle is this?",
+            "question_id": 450695011
+        },
+        {
+            "image_id": 188891,
+            "question": "Is this a train station?",
+            "question_id": 188891000
+        },
+        {
+            "image_id": 188918,
+            "question": "Is it night time?",
+            "question_id": 188918003
+        },
+        {
+            "image_id": 555848,
+            "question": "What is the side dish called on this plate?",
+            "question_id": 555848002
+        },
+        {
+            "image_id": 320670,
+            "question": "Did this man jump in the air to attain his current position?",
+            "question_id": 320670005
+        },
+        {
+            "image_id": 58849,
+            "question": "What kind of animal is this?",
+            "question_id": 58849001
+        },
+        {
+            "image_id": 321024,
+            "question": "Is the truck moving?",
+            "question_id": 321024005
+        },
+        {
+            "image_id": 31660,
+            "question": "Which room is this?",
+            "question_id": 31660002
+        },
+        {
+            "image_id": 59044,
+            "question": "Is this photo in focus?",
+            "question_id": 59044001
+        },
+        {
+            "image_id": 321333,
+            "question": "Are the children looking in the same direction?",
+            "question_id": 321333002
+        },
+        {
+            "image_id": 59328,
+            "question": "What type of road do you see?",
+            "question_id": 59328002
+        },
+        {
+            "image_id": 452793,
+            "question": "What room of the house is this?",
+            "question_id": 452793001
+        },
+        {
+            "image_id": 341700,
+            "question": "Does the mirror look correct?",
+            "question_id": 341700002
+        },
+        {
+            "image_id": 184698,
+            "question": "Is the front giraffe's eyes open or closed?",
+            "question_id": 184698000
+        },
+        {
+            "image_id": 453065,
+            "question": "What is the person doing?",
+            "question_id": 453065000
+        },
+        {
+            "image_id": 190923,
+            "question": "Does the sign prohibit a certain direction?",
+            "question_id": 190923000
+        },
+        {
+            "image_id": 191240,
+            "question": "Are the flowers real?",
+            "question_id": 191240003
+        },
+        {
+            "image_id": 453981,
+            "question": "What are they doing?",
+            "question_id": 453981001
+        },
+        {
+            "image_id": 322944,
+            "question": "Should she seek medical attention?",
+            "question_id": 322944001
+        },
+        {
+            "image_id": 192007,
+            "question": "What is the umpire doing?",
+            "question_id": 192007000
+        },
+        {
+            "image_id": 454195,
+            "question": "Is one elephant defecating?",
+            "question_id": 454195005
+        },
+        {
+            "image_id": 337899,
+            "question": "Is it getting dark?",
+            "question_id": 337899004
+        },
+        {
+            "image_id": 192406,
+            "question": "What type of station is this?",
+            "question_id": 192406000
+        },
+        {
+            "image_id": 454776,
+            "question": "What is the woman doing?",
+            "question_id": 454776001
+        },
+        {
+            "image_id": 61773,
+            "question": "What room is this?",
+            "question_id": 61773008
+        },
+        {
+            "image_id": 316161,
+            "question": "What is the bird doing?",
+            "question_id": 316161001
+        },
+        {
+            "image_id": 324158,
+            "question": "What type of animal is shown?",
+            "question_id": 324158010
+        },
+        {
+            "image_id": 324390,
+            "question": "Is this meal healthy?",
+            "question_id": 324390014
+        },
+        {
+            "image_id": 268322,
+            "question": "What room of the house is this?",
+            "question_id": 268322001
+        },
+        {
+            "image_id": 141517,
+            "question": "Are these cows contained?",
+            "question_id": 141517004
+        },
+        {
+            "image_id": 456552,
+            "question": "What is that boy doing?",
+            "question_id": 456552000
+        },
+        {
+            "image_id": 325505,
+            "question": "Where was the image taken?",
+            "question_id": 325505003
+        },
+        {
+            "image_id": 63549,
+            "question": "What sporting activity it this man doing?",
+            "question_id": 63549002
+        },
+        {
+            "image_id": 457461,
+            "question": "Is this meal healthy?",
+            "question_id": 457461002
+        },
+        {
+            "image_id": 64264,
+            "question": "Is the computer acer?",
+            "question_id": 64264006
+        },
+        {
+            "image_id": 195408,
+            "question": "Does he like dogs?",
+            "question_id": 195408005
+        },
+        {
+            "image_id": 457684,
+            "question": "Where could this plane be going?",
+            "question_id": 457684003
+        },
+        {
+            "image_id": 457693,
+            "question": "Is the water deep?",
+            "question_id": 457693005
+        },
+        {
+            "image_id": 64611,
+            "question": "Does this photo show an action?",
+            "question_id": 64611006
+        },
+        {
+            "image_id": 326959,
+            "question": "What room is this?",
+            "question_id": 326959002
+        },
+        {
+            "image_id": 196047,
+            "question": "Does this room need repair?",
+            "question_id": 196047002
+        },
+        {
+            "image_id": 65113,
+            "question": "Is this someone's home?",
+            "question_id": 65113001
+        },
+        {
+            "image_id": 327306,
+            "question": "What is the person doing?",
+            "question_id": 327306002
+        },
+        {
+            "image_id": 458510,
+            "question": "Is this meal healthy?",
+            "question_id": 458510000
+        },
+        {
+            "image_id": 458558,
+            "question": "What sport is pictured?",
+            "question_id": 458558000
+        },
+        {
+            "image_id": 327532,
+            "question": "What kind of match is this?",
+            "question_id": 327532002
+        },
+        {
+            "image_id": 327807,
+            "question": "Is this a train station?",
+            "question_id": 327807002
+        },
+        {
+            "image_id": 458932,
+            "question": "Is the water calm?",
+            "question_id": 458932002
+        },
+        {
+            "image_id": 66008,
+            "question": "What is the person doing?",
+            "question_id": 66008000
+        },
+        {
+            "image_id": 197444,
+            "question": "What type of fruit is on top of the ice cream?",
+            "question_id": 197444009
+        },
+        {
+            "image_id": 360611,
+            "question": "Is it cloudy?",
+            "question_id": 360611001
+        },
+        {
+            "image_id": 328791,
+            "question": "Is it daytime?",
+            "question_id": 328791001
+        },
+        {
+            "image_id": 295114,
+            "question": "What is the man on?",
+            "question_id": 295114004
+        },
+        {
+            "image_id": 198004,
+            "question": "Should someone be crossing at the crosswalk?",
+            "question_id": 198004001
+        },
+        {
+            "image_id": 67252,
+            "question": "What are these people doing?",
+            "question_id": 67252000
+        },
+        {
+            "image_id": 163728,
+            "question": "Does that cat look sleep?",
+            "question_id": 163728000
+        },
+        {
+            "image_id": 329486,
+            "question": "Should this bridge be inspected soon?",
+            "question_id": 329486004
+        },
+        {
+            "image_id": 460632,
+            "question": "What is this person doing?",
+            "question_id": 460632010
+        },
+        {
+            "image_id": 67422,
+            "question": "What game is this?",
+            "question_id": 67422000
+        },
+        {
+            "image_id": 329568,
+            "question": "Are these vintage stoves?",
+            "question_id": 329568000
+        },
+        {
+            "image_id": 460813,
+            "question": "Does the outline of a man have a face?",
+            "question_id": 460813002
+        },
+        {
+            "image_id": 67660,
+            "question": "Does he play in an orchestra?",
+            "question_id": 67660002
+        },
+        {
+            "image_id": 460997,
+            "question": "Is the man about to fall?",
+            "question_id": 460997003
+        },
+        {
+            "image_id": 199003,
+            "question": "What are the zebra doing?",
+            "question_id": 199003002
+        },
+        {
+            "image_id": 67966,
+            "question": "Does the child have a plate?",
+            "question_id": 67966000
+        },
+        {
+            "image_id": 68080,
+            "question": "What game is the man playing?",
+            "question_id": 68080005
+        },
+        {
+            "image_id": 330262,
+            "question": "What type of bear is shown?",
+            "question_id": 330262004
+        },
+        {
+            "image_id": 199389,
+            "question": "Is this picture in color?",
+            "question_id": 199389014
+        },
+        {
+            "image_id": 199669,
+            "question": "What kind of fruit are those balls?",
+            "question_id": 199669001
+        },
+        {
+            "image_id": 199681,
+            "question": "Is that edible?",
+            "question_id": 199681000
+        },
+        {
+            "image_id": 68628,
+            "question": "What is the person doing?",
+            "question_id": 68628000
+        },
+        {
+            "image_id": 461860,
+            "question": "What sport is the man playing?",
+            "question_id": 461860000
+        },
+        {
+            "image_id": 331049,
+            "question": "What kind of animal is this?",
+            "question_id": 331049002
+        },
+        {
+            "image_id": 199995,
+            "question": "What is this person doing?",
+            "question_id": 199995000
+        },
+        {
+            "image_id": 200116,
+            "question": "What room is this?",
+            "question_id": 200116005
+        },
+        {
+            "image_id": 200234,
+            "question": "What are the people doing?",
+            "question_id": 200234001
+        },
+        {
+            "image_id": 200267,
+            "question": "What sport is this?",
+            "question_id": 200267000
+        },
+        {
+            "image_id": 69224,
+            "question": "What kind of drink is the woman drinking?",
+            "question_id": 69224004
+        },
+        {
+            "image_id": 77102,
+            "question": "What kind of basket is in the lower right corner?",
+            "question_id": 77102002
+        },
+        {
+            "image_id": 462807,
+            "question": "What type of food is shown?",
+            "question_id": 462807004
+        },
+        {
+            "image_id": 462845,
+            "question": "What sport is the women playing?",
+            "question_id": 462845005
+        },
+        {
+            "image_id": 463217,
+            "question": "What sport is this?",
+            "question_id": 463217002
+        },
+        {
+            "image_id": 70626,
+            "question": "What kind of cheese is on the pizza?",
+            "question_id": 70626005
+        },
+        {
+            "image_id": 333095,
+            "question": "Is this event in a restaurant?",
+            "question_id": 333095001
+        },
+        {
+            "image_id": 202273,
+            "question": "Is the sink clean?",
+            "question_id": 202273002
+        },
+        {
+            "image_id": 434459,
+            "question": "Is this a military event?",
+            "question_id": 434459003
+        },
+        {
+            "image_id": 464682,
+            "question": "Would a vegetarian eat this?",
+            "question_id": 464682018
+        },
+        {
+            "image_id": 464732,
+            "question": "Is the mouse wireless?",
+            "question_id": 464732002
+        },
+        {
+            "image_id": 71618,
+            "question": "Is the lid to the toilet Up or down?",
+            "question_id": 71618007
+        },
+        {
+            "image_id": 294832,
+            "question": "Is that a pedestal sink?",
+            "question_id": 294832001
+        },
+        {
+            "image_id": 72507,
+            "question": "What type of transportation is this?",
+            "question_id": 72507003
+        },
+        {
+            "image_id": 203697,
+            "question": "What animal is shown?",
+            "question_id": 203697001
+        },
+        {
+            "image_id": 203846,
+            "question": "What season is it?",
+            "question_id": 203846000
+        },
+        {
+            "image_id": 203865,
+            "question": "Where is the bus going?",
+            "question_id": 203865002
+        },
+        {
+            "image_id": 466090,
+            "question": "What sport is she playing?",
+            "question_id": 466090004
+        },
+        {
+            "image_id": 204137,
+            "question": "What are they playing?",
+            "question_id": 204137002
+        },
+        {
+            "image_id": 335325,
+            "question": "Should the man in the green jacket be holding something?",
+            "question_id": 335325003
+        },
+        {
+            "image_id": 335328,
+            "question": "What is the little boy doing?",
+            "question_id": 335328001
+        },
+        {
+            "image_id": 467107,
+            "question": "What is the man and woman doing?",
+            "question_id": 467107002
+        },
+        {
+            "image_id": 467197,
+            "question": "What is the floor made of?",
+            "question_id": 467197000
+        },
+        {
+            "image_id": 74067,
+            "question": "What sport is being played?",
+            "question_id": 74067002
+        },
+        {
+            "image_id": 336695,
+            "question": "What is the person riding?",
+            "question_id": 336695001
+        },
+        {
+            "image_id": 205861,
+            "question": "What kind of fruit is there?",
+            "question_id": 205861001
+        },
+        {
+            "image_id": 74832,
+            "question": "Does he match?",
+            "question_id": 74832004
+        },
+        {
+            "image_id": 74853,
+            "question": "Is this an event?",
+            "question_id": 74853003
+        },
+        {
+            "image_id": 75101,
+            "question": "Is the mirror frame ornate?",
+            "question_id": 75101000
+        },
+        {
+            "image_id": 468332,
+            "question": "What is the occasion of the event?",
+            "question_id": 468332001
+        },
+        {
+            "image_id": 206231,
+            "question": "Is this a vigorous action shot?",
+            "question_id": 206231000
+        },
+        {
+            "image_id": 206620,
+            "question": "What part of the train are the peppermints?",
+            "question_id": 206620004
+        },
+        {
+            "image_id": 337815,
+            "question": "What type of flooring is in the picture?",
+            "question_id": 337815001
+        },
+        {
+            "image_id": 337843,
+            "question": "What is the man doing?",
+            "question_id": 337843000
+        },
+        {
+            "image_id": 468997,
+            "question": "What sport is being played?",
+            "question_id": 468997007
+        },
+        {
+            "image_id": 338098,
+            "question": "What room is this?",
+            "question_id": 338098011
+        },
+        {
+            "image_id": 338159,
+            "question": "Does this kitchen have any electric appliances on the counter?",
+            "question_id": 338159000
+        },
+        {
+            "image_id": 207093,
+            "question": "What kind of animal is this?",
+            "question_id": 207093001
+        },
+        {
+            "image_id": 207458,
+            "question": "What sport is person playing?",
+            "question_id": 207458003
+        },
+        {
+            "image_id": 76417,
+            "question": "Should traffic be moving?",
+            "question_id": 76417002
+        },
+        {
+            "image_id": 76460,
+            "question": "What kind of animals are these?",
+            "question_id": 76460001
+        },
+        {
+            "image_id": 469810,
+            "question": "What room is this?",
+            "question_id": 469810002
+        },
+        {
+            "image_id": 207785,
+            "question": "Should this person be famous?",
+            "question_id": 207785001
+        },
+        {
+            "image_id": 76721,
+            "question": "Does this look like it's an event?",
+            "question_id": 76721003
+        },
+        {
+            "image_id": 207886,
+            "question": "What type of food is shown?",
+            "question_id": 207886003
+        },
+        {
+            "image_id": 339346,
+            "question": "Is it winter?",
+            "question_id": 339346000
+        },
+        {
+            "image_id": 339703,
+            "question": "What activity is this person doing?",
+            "question_id": 339703001
+        },
+        {
+            "image_id": 471004,
+            "question": "What sport is the man playing?",
+            "question_id": 471004000
+        },
+        {
+            "image_id": 78026,
+            "question": "Should a cat be eating a donut?",
+            "question_id": 78026007
+        },
+        {
+            "image_id": 340247,
+            "question": "What is the person on the river doing?",
+            "question_id": 340247007
+        },
+        {
+            "image_id": 209180,
+            "question": "What sport is this?",
+            "question_id": 209180008
+        },
+        {
+            "image_id": 231508,
+            "question": "What sport are they playing?",
+            "question_id": 231508001
+        },
+        {
+            "image_id": 78371,
+            "question": "Does the plane have wheels showing?",
+            "question_id": 78371005
+        },
+        {
+            "image_id": 209530,
+            "question": "What is the man drinking?",
+            "question_id": 209530002
+        },
+        {
+            "image_id": 209682,
+            "question": "What room is this?",
+            "question_id": 209682002
+        },
+        {
+            "image_id": 471842,
+            "question": "What type of fork is shown?",
+            "question_id": 471842004
+        },
+        {
+            "image_id": 209898,
+            "question": "Does the sunshine appear to have made a window in the grass?",
+            "question_id": 209898000
+        },
+        {
+            "image_id": 209972,
+            "question": "Are the waves big?",
+            "question_id": 209972003
+        },
+        {
+            "image_id": 210108,
+            "question": "What kind of appliance is this?",
+            "question_id": 210108003
+        },
+        {
+            "image_id": 472387,
+            "question": "Is this in America?",
+            "question_id": 472387012
+        },
+        {
+            "image_id": 472648,
+            "question": "What kind of photo is this?",
+            "question_id": 472648000
+        },
+        {
+            "image_id": 472678,
+            "question": "Is this in america?",
+            "question_id": 472678014
+        },
+        {
+            "image_id": 473075,
+            "question": "What season is it?",
+            "question_id": 473075002
+        },
+        {
+            "image_id": 384726,
+            "question": "Should the photographer get away from this bear?",
+            "question_id": 384726004
+        },
+        {
+            "image_id": 342302,
+            "question": "What is he doing?",
+            "question_id": 342302002
+        },
+        {
+            "image_id": 581357,
+            "question": "What is this place called?",
+            "question_id": 581357002
+        },
+        {
+            "image_id": 474188,
+            "question": "What is this object mainly used for?",
+            "question_id": 474188002
+        },
+        {
+            "image_id": 212077,
+            "question": "What is the man doing?",
+            "question_id": 212077001
+        },
+        {
+            "image_id": 363039,
+            "question": "What kind of bird is this?",
+            "question_id": 363039003
+        },
+        {
+            "image_id": 212384,
+            "question": "Is this edible?",
+            "question_id": 212384003
+        },
+        {
+            "image_id": 391161,
+            "question": "Does this photo look like a city?",
+            "question_id": 391161006
+        },
+        {
+            "image_id": 81812,
+            "question": "What are the people doing?",
+            "question_id": 81812000
+        },
+        {
+            "image_id": 82042,
+            "question": "Is the animal full grown?",
+            "question_id": 82042005
+        },
+        {
+            "image_id": 213247,
+            "question": "Does she have a dessert on her lap?",
+            "question_id": 213247002
+        },
+        {
+            "image_id": 213403,
+            "question": "What game is the man playing?",
+            "question_id": 213403000
+        },
+        {
+            "image_id": 475990,
+            "question": "What kind of food is this?",
+            "question_id": 475990001
+        },
+        {
+            "image_id": 450719,
+            "question": "What kind of animal is this?",
+            "question_id": 450719001
+        },
+        {
+            "image_id": 345063,
+            "question": "Has the sign been defaced?",
+            "question_id": 345063000
+        },
+        {
+            "image_id": 214009,
+            "question": "Should you bring food to this beach?",
+            "question_id": 214009005
+        },
+        {
+            "image_id": 214123,
+            "question": "Does everyone appear relaxed here?",
+            "question_id": 214123000
+        },
+        {
+            "image_id": 345252,
+            "question": "What kind of soda is in the back of the computer?",
+            "question_id": 345252006
+        },
+        {
+            "image_id": 214184,
+            "question": "Does the cat's owner like to read and take pictures?",
+            "question_id": 214184000
+        },
+        {
+            "image_id": 345401,
+            "question": "What room is this?",
+            "question_id": 345401004
+        },
+        {
+            "image_id": 345466,
+            "question": "Is he getting ready to throw or catch the ball?",
+            "question_id": 345466001
+        },
+        {
+            "image_id": 476652,
+            "question": "What type of animal is it?",
+            "question_id": 476652003
+        },
+        {
+            "image_id": 476843,
+            "question": "Is it winter?",
+            "question_id": 476843001
+        },
+        {
+            "image_id": 476872,
+            "question": "What sport are these people doing?",
+            "question_id": 476872001
+        },
+        {
+            "image_id": 214853,
+            "question": "Is this a vegan meal?",
+            "question_id": 214853004
+        },
+        {
+            "image_id": 346112,
+            "question": "Does this animal look relaxed?",
+            "question_id": 346112000
+        },
+        {
+            "image_id": 84130,
+            "question": "What is the person doing?",
+            "question_id": 84130000
+        },
+        {
+            "image_id": 346337,
+            "question": "What kind of animal is this?",
+            "question_id": 346337003
+        },
+        {
+            "image_id": 538359,
+            "question": "What kind of room is this?",
+            "question_id": 538359001
+        },
+        {
+            "image_id": 84540,
+            "question": "Is one bicycle rider ahead of the other?",
+            "question_id": 84540001
+        },
+        {
+            "image_id": 215650,
+            "question": "Is the street wet?",
+            "question_id": 215650002
+        },
+        {
+            "image_id": 215778,
+            "question": "What kind of electronic is this?",
+            "question_id": 215778001
+        },
+        {
+            "image_id": 84984,
+            "question": "What are the people doing?",
+            "question_id": 84984006
+        },
+        {
+            "image_id": 538458,
+            "question": "What sport is this?",
+            "question_id": 538458001
+        },
+        {
+            "image_id": 478736,
+            "question": "Should you stop at the intersection?",
+            "question_id": 478736003
+        },
+        {
+            "image_id": 478736,
+            "question": "Is it cloudy?",
+            "question_id": 478736013
+        },
+        {
+            "image_id": 85803,
+            "question": "Where was this picture taken?",
+            "question_id": 85803000
+        },
+        {
+            "image_id": 347953,
+            "question": "What is the bird doing?",
+            "question_id": 347953001
+        },
+        {
+            "image_id": 85881,
+            "question": "What sport is the man playing?",
+            "question_id": 85881004
+        },
+        {
+            "image_id": 216962,
+            "question": "What room is this?",
+            "question_id": 216962000
+        },
+        {
+            "image_id": 86001,
+            "question": "What game is being played?",
+            "question_id": 86001004
+        },
+        {
+            "image_id": 86125,
+            "question": "What game is being played?",
+            "question_id": 86125001
+        },
+        {
+            "image_id": 86202,
+            "question": "What activity is he doing?",
+            "question_id": 86202001
+        },
+        {
+            "image_id": 348447,
+            "question": "Where is the picture taken?",
+            "question_id": 348447002
+        },
+        {
+            "image_id": 348524,
+            "question": "What are these people doing?",
+            "question_id": 348524002
+        },
+        {
+            "image_id": 348584,
+            "question": "Is it winter?",
+            "question_id": 348584002
+        },
+        {
+            "image_id": 385786,
+            "question": "Is the decor modern?",
+            "question_id": 385786000
+        },
+        {
+            "image_id": 217593,
+            "question": "What sport is this?",
+            "question_id": 217593004
+        },
+        {
+            "image_id": 479848,
+            "question": "What kind of food is this?",
+            "question_id": 479848001
+        },
+        {
+            "image_id": 479912,
+            "question": "Where is this taken?",
+            "question_id": 479912000
+        },
+        {
+            "image_id": 473237,
+            "question": "What kind of pizza is this?",
+            "question_id": 473237000
+        },
+        {
+            "image_id": 208028,
+            "question": "What is the person doing?",
+            "question_id": 208028001
+        },
+        {
+            "image_id": 218290,
+            "question": "What game are they playing?",
+            "question_id": 218290003
+        },
+        {
+            "image_id": 87244,
+            "question": "Is this picture in color?",
+            "question_id": 87244003
+        },
+        {
+            "image_id": 480624,
+            "question": "Does the boy in the middle look sad?",
+            "question_id": 480624001
+        },
+        {
+            "image_id": 480643,
+            "question": "What type of animal is shown?",
+            "question_id": 480643007
+        },
+        {
+            "image_id": 218678,
+            "question": "What is the person doing?",
+            "question_id": 218678005
+        },
+        {
+            "image_id": 349754,
+            "question": "What is the person doing?",
+            "question_id": 349754003
+        },
+        {
+            "image_id": 218752,
+            "question": "What kind of animal is this?",
+            "question_id": 218752004
+        },
+        {
+            "image_id": 218811,
+            "question": "What room is this?",
+            "question_id": 218811000
+        },
+        {
+            "image_id": 87889,
+            "question": "What time of year is this?",
+            "question_id": 87889003
+        },
+        {
+            "image_id": 88183,
+            "question": "What are the men doing?",
+            "question_id": 88183003
+        },
+        {
+            "image_id": 88252,
+            "question": "What kind of wine is in the glasses?",
+            "question_id": 88252002
+        },
+        {
+            "image_id": 576701,
+            "question": "What kind of animal is this?",
+            "question_id": 576701006
+        },
+        {
+            "image_id": 88412,
+            "question": "What sport is being played?",
+            "question_id": 88412000
+        },
+        {
+            "image_id": 219578,
+            "question": "Is the cat sleeping?",
+            "question_id": 219578000
+        },
+        {
+            "image_id": 219647,
+            "question": "What game is being played?",
+            "question_id": 219647002
+        },
+        {
+            "image_id": 429834,
+            "question": "What is flying in the sky?",
+            "question_id": 429834000
+        },
+        {
+            "image_id": 124004,
+            "question": "What room is this?",
+            "question_id": 124004008
+        },
+        {
+            "image_id": 219771,
+            "question": "Does the food look healthy?",
+            "question_id": 219771002
+        },
+        {
+            "image_id": 351081,
+            "question": "What kind of vehicle is this?",
+            "question_id": 351081000
+        },
+        {
+            "image_id": 482158,
+            "question": "What kind of material are the colorful objects in the frame made of?",
+            "question_id": 482158001
+        },
+        {
+            "image_id": 351140,
+            "question": "What is the person doing?",
+            "question_id": 351140002
+        },
+        {
+            "image_id": 482236,
+            "question": "Where is this picture taken?",
+            "question_id": 482236002
+        },
+        {
+            "image_id": 89027,
+            "question": "Is this a social event?",
+            "question_id": 89027001
+        },
+        {
+            "image_id": 89027,
+            "question": "What game are they playing?",
+            "question_id": 89027005
+        },
+        {
+            "image_id": 89174,
+            "question": "Should he be playing with that indoors?",
+            "question_id": 89174002
+        },
+        {
+            "image_id": 89430,
+            "question": "What is the cat doing?",
+            "question_id": 89430011
+        },
+        {
+            "image_id": 482720,
+            "question": "Does the teddy bear appear to be holding a hammer?",
+            "question_id": 482720006
+        },
+        {
+            "image_id": 482800,
+            "question": "What game are they going to play?",
+            "question_id": 482800009
+        },
+        {
+            "image_id": 482848,
+            "question": "What kind of pants is the boy wearing?",
+            "question_id": 482848002
+        },
+        {
+            "image_id": 90280,
+            "question": "What is this?",
+            "question_id": 90280002
+        },
+        {
+            "image_id": 90387,
+            "question": "Is this the top of the plane?",
+            "question_id": 90387000
+        },
+        {
+            "image_id": 352533,
+            "question": "Is this a Chinese dish?",
+            "question_id": 352533000
+        },
+        {
+            "image_id": 483643,
+            "question": "Does the baby have a pole growing out of the back of its head?",
+            "question_id": 483643003
+        },
+        {
+            "image_id": 483722,
+            "question": "Is the train entering or leaving the tunnel?",
+            "question_id": 483722001
+        },
+        {
+            "image_id": 221737,
+            "question": "Should someone be stopping here?",
+            "question_id": 221737002
+        },
+        {
+            "image_id": 90802,
+            "question": "Does the liquid in the glass have a froth at the top?",
+            "question_id": 90802001
+        },
+        {
+            "image_id": 353149,
+            "question": "What animal is this?",
+            "question_id": 353149001
+        },
+        {
+            "image_id": 91080,
+            "question": "What kind of room is this?",
+            "question_id": 91080001
+        },
+        {
+            "image_id": 222195,
+            "question": "What kind of animal is this?",
+            "question_id": 222195003
+        },
+        {
+            "image_id": 222370,
+            "question": "Is it raining?",
+            "question_id": 222370004
+        },
+        {
+            "image_id": 91373,
+            "question": "Is the terrain in the background flat?",
+            "question_id": 91373002
+        },
+        {
+            "image_id": 91416,
+            "question": "Does the chef look happy to be interrupted?",
+            "question_id": 91416000
+        },
+        {
+            "image_id": 353748,
+            "question": "Is bike riding a good idea for this man?",
+            "question_id": 353748004
+        },
+        {
+            "image_id": 91610,
+            "question": "Does the bird have a short neck?",
+            "question_id": 91610001
+        },
+        {
+            "image_id": 452179,
+            "question": "Is this a hotel?",
+            "question_id": 452179000
+        },
+        {
+            "image_id": 484938,
+            "question": "What is the floor made of?",
+            "question_id": 484938014
+        },
+        {
+            "image_id": 299305,
+            "question": "Does the toilet look clean or dirty?",
+            "question_id": 299305004
+        },
+        {
+            "image_id": 223314,
+            "question": "What are these animals doing?",
+            "question_id": 223314007
+        },
+        {
+            "image_id": 223699,
+            "question": "Is this a fancy restaurant?",
+            "question_id": 223699002
+        },
+        {
+            "image_id": 486104,
+            "question": "What sport is this?",
+            "question_id": 486104003
+        },
+        {
+            "image_id": 92894,
+            "question": "What sport are they playing?",
+            "question_id": 92894000
+        },
+        {
+            "image_id": 92985,
+            "question": "What is the person next to her doing?",
+            "question_id": 92985000
+        },
+        {
+            "image_id": 355179,
+            "question": "What type of video game controller is the girl holding?",
+            "question_id": 355179004
+        },
+        {
+            "image_id": 224509,
+            "question": "Does this room look neat and tidy?",
+            "question_id": 224509000
+        },
+        {
+            "image_id": 93685,
+            "question": "Does the board have any decals?",
+            "question_id": 93685003
+        },
+        {
+            "image_id": 486986,
+            "question": "What activity are the people doing?",
+            "question_id": 486986002
+        },
+        {
+            "image_id": 94052,
+            "question": "What room is this?",
+            "question_id": 94052001
+        },
+        {
+            "image_id": 356280,
+            "question": "Is this someone's home?",
+            "question_id": 356280004
+        },
+        {
+            "image_id": 94194,
+            "question": "What type of reception is being attended?",
+            "question_id": 94194012
+        },
+        {
+            "image_id": 487774,
+            "question": "What type of computer peripheral is shown?",
+            "question_id": 487774002
+        },
+        {
+            "image_id": 94619,
+            "question": "What is the boy doing?",
+            "question_id": 94619000
+        },
+        {
+            "image_id": 356863,
+            "question": "Is this a lake?",
+            "question_id": 356863023
+        },
+        {
+            "image_id": 94746,
+            "question": "What can you buy at this store?",
+            "question_id": 94746001
+        },
+        {
+            "image_id": 226173,
+            "question": "What is the man doing?",
+            "question_id": 226173001
+        },
+        {
+            "image_id": 226197,
+            "question": "What is the man doing?",
+            "question_id": 226197001
+        },
+        {
+            "image_id": 226498,
+            "question": "Is this a race?",
+            "question_id": 226498000
+        },
+        {
+            "image_id": 95833,
+            "question": "What animal is this?",
+            "question_id": 95833001
+        },
+        {
+            "image_id": 96075,
+            "question": "Sunny or overcast day?",
+            "question_id": 96075000
+        },
+        {
+            "image_id": 358427,
+            "question": "Would a vegetarian eat this?",
+            "question_id": 358427004
+        },
+        {
+            "image_id": 227399,
+            "question": "Is this a real train?",
+            "question_id": 227399011
+        },
+        {
+            "image_id": 96420,
+            "question": "What is this horse doing?",
+            "question_id": 96420001
+        },
+        {
+            "image_id": 227742,
+            "question": "What is the man doing?",
+            "question_id": 227742001
+        },
+        {
+            "image_id": 358903,
+            "question": "What are the people doing?",
+            "question_id": 358903000
+        },
+        {
+            "image_id": 227851,
+            "question": "Is this inside?",
+            "question_id": 227851001
+        },
+        {
+            "image_id": 96988,
+            "question": "What kind of vehicle is crossing the bridge?",
+            "question_id": 96988001
+        },
+        {
+            "image_id": 359546,
+            "question": "Does that look like an enjoyable place to be?",
+            "question_id": 359546002
+        },
+        {
+            "image_id": 228504,
+            "question": "Is this picture in color?",
+            "question_id": 228504004
+        },
+        {
+            "image_id": 228910,
+            "question": "Where was this picture taken?",
+            "question_id": 228910000
+        },
+        {
+            "image_id": 229096,
+            "question": "Is this during the winter?",
+            "question_id": 229096000
+        },
+        {
+            "image_id": 491242,
+            "question": "What is the man doing?",
+            "question_id": 491242004
+        },
+        {
+            "image_id": 491902,
+            "question": "What are the three men sitting on the bench actively doing?",
+            "question_id": 491902008
+        },
+        {
+            "image_id": 98801,
+            "question": "Is this a beach scene?",
+            "question_id": 98801000
+        },
+        {
+            "image_id": 98853,
+            "question": "What game is this?",
+            "question_id": 98853000
+        },
+        {
+            "image_id": 492077,
+            "question": "Is this in the daytime or at night?",
+            "question_id": 492077003
+        },
+        {
+            "image_id": 230031,
+            "question": "Is the man happy?",
+            "question_id": 230031001
+        },
+        {
+            "image_id": 361147,
+            "question": "What game is he playing?",
+            "question_id": 361147002
+        },
+        {
+            "image_id": 361172,
+            "question": "Is this a desert climate?",
+            "question_id": 361172000
+        },
+        {
+            "image_id": 230150,
+            "question": "What holiday is the dog on the left representing?",
+            "question_id": 230150001
+        },
+        {
+            "image_id": 230220,
+            "question": "Does the cat know it is being photographed?",
+            "question_id": 230220002
+        },
+        {
+            "image_id": 230454,
+            "question": "Is it raining?",
+            "question_id": 230454000
+        },
+        {
+            "image_id": 99518,
+            "question": "Where was the picture taken?",
+            "question_id": 99518001
+        },
+        {
+            "image_id": 492814,
+            "question": "Is the skater wearing proper safety gear?",
+            "question_id": 492814000
+        },
+        {
+            "image_id": 492846,
+            "question": "Is this photo in focus?",
+            "question_id": 492846000
+        },
+        {
+            "image_id": 100001,
+            "question": "Where was this picture taken?",
+            "question_id": 100001000
+        },
+        {
+            "image_id": 448511,
+            "question": "Does this look like a vegetarian?",
+            "question_id": 448511008
+        },
+        {
+            "image_id": 493243,
+            "question": "Is the plate made of paper?",
+            "question_id": 493243004
+        },
+        {
+            "image_id": 493321,
+            "question": "What are the people sitting on?",
+            "question_id": 493321008
+        },
+        {
+            "image_id": 493652,
+            "question": "What holiday season is it?",
+            "question_id": 493652001
+        },
+        {
+            "image_id": 362712,
+            "question": "Is this a modern picture?",
+            "question_id": 362712002
+        },
+        {
+            "image_id": 497392,
+            "question": "What is this room?",
+            "question_id": 497392003
+        },
+        {
+            "image_id": 363163,
+            "question": "What sport is being played?",
+            "question_id": 363163004
+        },
+        {
+            "image_id": 232244,
+            "question": "What animal is this?",
+            "question_id": 232244002
+        },
+        {
+            "image_id": 232262,
+            "question": "Does this appear to be a noisy environment?",
+            "question_id": 232262002
+        },
+        {
+            "image_id": 232315,
+            "question": "Does the grass look healthy?",
+            "question_id": 232315006
+        },
+        {
+            "image_id": 519330,
+            "question": "Is this a formal event?",
+            "question_id": 519330000
+        },
+        {
+            "image_id": 363831,
+            "question": "What sport is this?",
+            "question_id": 363831005
+        },
+        {
+            "image_id": 101884,
+            "question": "Is this building pretty old?",
+            "question_id": 101884001
+        },
+        {
+            "image_id": 364157,
+            "question": "Is this a hotel?",
+            "question_id": 364157003
+        },
+        {
+            "image_id": 233311,
+            "question": "What kind of animal is the stuffed toy?",
+            "question_id": 233311004
+        },
+        {
+            "image_id": 233365,
+            "question": "What part of a tennis game is the man doing?",
+            "question_id": 233365001
+        },
+        {
+            "image_id": 102400,
+            "question": "Does this bus transport disabled people?",
+            "question_id": 102400002
+        },
+        {
+            "image_id": 364642,
+            "question": "What kind of cheese is on top?",
+            "question_id": 364642005
+        },
+        {
+            "image_id": 495852,
+            "question": "What kind of bird is this?",
+            "question_id": 495852000
+        },
+        {
+            "image_id": 279265,
+            "question": "Is this a hotel?",
+            "question_id": 279265007
+        },
+        {
+            "image_id": 495993,
+            "question": "Does this market have items on sale?",
+            "question_id": 495993005
+        },
+        {
+            "image_id": 388531,
+            "question": "What kind of hat is he wearing?",
+            "question_id": 388531014
+        },
+        {
+            "image_id": 234164,
+            "question": "Is this a train station?",
+            "question_id": 234164000
+        },
+        {
+            "image_id": 243495,
+            "question": "What kind of room is this?",
+            "question_id": 243495004
+        },
+        {
+            "image_id": 365766,
+            "question": "What kind of floor is in this room?",
+            "question_id": 365766004
+        },
+        {
+            "image_id": 103631,
+            "question": "What kind of room is this?",
+            "question_id": 103631006
+        },
+        {
+            "image_id": 291509,
+            "question": "Does the floor have a pattern to it?",
+            "question_id": 291509001
+        },
+        {
+            "image_id": 234719,
+            "question": "What holiday is associated with the hat?",
+            "question_id": 234719002
+        },
+        {
+            "image_id": 483553,
+            "question": "What is the man doing?",
+            "question_id": 483553001
+        },
+        {
+            "image_id": 497032,
+            "question": "What kind of shoes are shown?",
+            "question_id": 497032000
+        },
+        {
+            "image_id": 497032,
+            "question": "Is it raining?",
+            "question_id": 497032002
+        },
+        {
+            "image_id": 235302,
+            "question": "What event are these people involved in?",
+            "question_id": 235302001
+        },
+        {
+            "image_id": 366493,
+            "question": "What fruit is this?",
+            "question_id": 366493000
+        },
+        {
+            "image_id": 497593,
+            "question": "What kind of wine is being served in this scene?",
+            "question_id": 497593006
+        },
+        {
+            "image_id": 497626,
+            "question": "Is the bed made?",
+            "question_id": 497626001
+        },
+        {
+            "image_id": 497640,
+            "question": "Is it is cold?",
+            "question_id": 497640002
+        },
+        {
+            "image_id": 497826,
+            "question": "Does the door have glass panes?",
+            "question_id": 497826010
+        },
+        {
+            "image_id": 366852,
+            "question": "Is the pizza frozen?",
+            "question_id": 366852002
+        },
+        {
+            "image_id": 236162,
+            "question": "Does one cat appear to have picked a cozier spot?",
+            "question_id": 236162007
+        },
+        {
+            "image_id": 498346,
+            "question": "What animal is this?",
+            "question_id": 498346000
+        },
+        {
+            "image_id": 498368,
+            "question": "What is made of metal?",
+            "question_id": 498368001
+        },
+        {
+            "image_id": 236308,
+            "question": "Is the sky clear?",
+            "question_id": 236308002
+        },
+        {
+            "image_id": 236370,
+            "question": "Is the occasion a wedding?",
+            "question_id": 236370003
+        },
+        {
+            "image_id": 498541,
+            "question": "What company is sponsoring the event?",
+            "question_id": 498541000
+        },
+        {
+            "image_id": 498627,
+            "question": "What this person doing?",
+            "question_id": 498627001
+        },
+        {
+            "image_id": 498807,
+            "question": "What is this person doing?",
+            "question_id": 498807002
+        },
+        {
+            "image_id": 368367,
+            "question": "Is this person happy?",
+            "question_id": 368367005
+        },
+        {
+            "image_id": 106356,
+            "question": "Is the animal full grown?",
+            "question_id": 106356002
+        },
+        {
+            "image_id": 368602,
+            "question": "What sport is the man partaking in?",
+            "question_id": 368602000
+        },
+        {
+            "image_id": 237669,
+            "question": "What game is this?",
+            "question_id": 237669001
+        },
+        {
+            "image_id": 61515,
+            "question": "What kind of animal are these?",
+            "question_id": 61515005
+        },
+        {
+            "image_id": 238029,
+            "question": "What kind of food is this?",
+            "question_id": 238029061
+        },
+        {
+            "image_id": 238385,
+            "question": "Is this a city at night?",
+            "question_id": 238385001
+        },
+        {
+            "image_id": 238602,
+            "question": "What is the floor made of?",
+            "question_id": 238602000
+        },
+        {
+            "image_id": 500784,
+            "question": "What is the floor made of?",
+            "question_id": 500784000
+        },
+        {
+            "image_id": 369840,
+            "question": "What is the guy doing?",
+            "question_id": 369840000
+        },
+        {
+            "image_id": 370138,
+            "question": "What type of room is this?",
+            "question_id": 370138001
+        },
+        {
+            "image_id": 501311,
+            "question": "What company is sponsoring the event?",
+            "question_id": 501311003
+        },
+        {
+            "image_id": 370331,
+            "question": "Is this a skate park?",
+            "question_id": 370331001
+        },
+        {
+            "image_id": 370513,
+            "question": "Is this a workplace?",
+            "question_id": 370513000
+        },
+        {
+            "image_id": 239455,
+            "question": "Is it a cloudy day?",
+            "question_id": 239455001
+        },
+        {
+            "image_id": 280242,
+            "question": "What type of room is this?",
+            "question_id": 280242011
+        },
+        {
+            "image_id": 39963,
+            "question": "Does this room have a surround sound system?",
+            "question_id": 39963008
+        },
+        {
+            "image_id": 371036,
+            "question": "What is flying in the sky?",
+            "question_id": 371036001
+        },
+        {
+            "image_id": 240102,
+            "question": "What are they playing?",
+            "question_id": 240102002
+        },
+        {
+            "image_id": 109600,
+            "question": "What kind of pants is the person wearing?",
+            "question_id": 109600002
+        },
+        {
+            "image_id": 193031,
+            "question": "Is the pizza homemade?",
+            "question_id": 193031000
+        },
+        {
+            "image_id": 419723,
+            "question": "Would a vegetarian eat this?",
+            "question_id": 419723002
+        },
+        {
+            "image_id": 110196,
+            "question": "Is this in America?",
+            "question_id": 110196002
+        },
+        {
+            "image_id": 503569,
+            "question": "What is the girl doing?",
+            "question_id": 503569001
+        },
+        {
+            "image_id": 503707,
+            "question": "Is the car moving faster than the motorcycle?",
+            "question_id": 503707003
+        },
+        {
+            "image_id": 389812,
+            "question": "Is the man a teen?",
+            "question_id": 389812003
+        },
+        {
+            "image_id": 520941,
+            "question": "Is this in America?",
+            "question_id": 520941002
+        },
+        {
+            "image_id": 504635,
+            "question": "Are these animals in a zoo?",
+            "question_id": 504635007
+        },
+        {
+            "image_id": 504747,
+            "question": "What are they making?",
+            "question_id": 504747008
+        },
+        {
+            "image_id": 111535,
+            "question": "Does this device have a touchscreen?",
+            "question_id": 111535001
+        },
+        {
+            "image_id": 373713,
+            "question": "What is the man sitting on?",
+            "question_id": 373713050
+        },
+        {
+            "image_id": 242779,
+            "question": "Is this a tennis match?",
+            "question_id": 242779000
+        },
+        {
+            "image_id": 505240,
+            "question": "Would a vegetarian eat this?",
+            "question_id": 505240001
+        },
+        {
+            "image_id": 243222,
+            "question": "What game is this?",
+            "question_id": 243222003
+        },
+        {
+            "image_id": 505385,
+            "question": "What room is this?",
+            "question_id": 505385002
+        },
+        {
+            "image_id": 243478,
+            "question": "What room is this?",
+            "question_id": 243478001
+        },
+        {
+            "image_id": 499400,
+            "question": "Does the man in front have tattoos?",
+            "question_id": 499400002
+        },
+        {
+            "image_id": 243896,
+            "question": "Is the sky clear?",
+            "question_id": 243896007
+        },
+        {
+            "image_id": 112941,
+            "question": "Is it cloudy?",
+            "question_id": 112941013
+        },
+        {
+            "image_id": 112988,
+            "question": "Is this food sweet?",
+            "question_id": 112988000
+        },
+        {
+            "image_id": 506707,
+            "question": "What event is this?",
+            "question_id": 506707005
+        },
+        {
+            "image_id": 244571,
+            "question": "What room is this?",
+            "question_id": 244571002
+        },
+        {
+            "image_id": 375812,
+            "question": "What game is the boy playing?",
+            "question_id": 375812002
+        },
+        {
+            "image_id": 113701,
+            "question": "Is the bed made?",
+            "question_id": 113701002
+        },
+        {
+            "image_id": 113720,
+            "question": "Which hand holds a fork?",
+            "question_id": 113720003
+        },
+        {
+            "image_id": 506943,
+            "question": "What is this piece of furniture used for?",
+            "question_id": 506943006
+        },
+        {
+            "image_id": 376236,
+            "question": "Does the boy double layer clothing?",
+            "question_id": 376236000
+        },
+        {
+            "image_id": 245301,
+            "question": "What kind of animal is in this photo?",
+            "question_id": 245301000
+        },
+        {
+            "image_id": 507536,
+            "question": "What kind of green vegetable is shown?",
+            "question_id": 507536005
+        },
+        {
+            "image_id": 245432,
+            "question": "Should these people be standing behind the yellow line?",
+            "question_id": 245432001
+        },
+        {
+            "image_id": 376773,
+            "question": "What sport is this?",
+            "question_id": 376773008
+        },
+        {
+            "image_id": 318063,
+            "question": "What is the man doing?",
+            "question_id": 318063000
+        },
+        {
+            "image_id": 507879,
+            "question": "Is the toilet paper roll almost empty?",
+            "question_id": 507879002
+        },
+        {
+            "image_id": 246005,
+            "question": "Is this man riding a skateboard?",
+            "question_id": 246005007
+        },
+        {
+            "image_id": 115043,
+            "question": "What is this guy doing?",
+            "question_id": 115043004
+        },
+        {
+            "image_id": 115459,
+            "question": "Is it a windy day?",
+            "question_id": 115459001
+        },
+        {
+            "image_id": 115584,
+            "question": "What is the man doing?",
+            "question_id": 115584003
+        },
+        {
+            "image_id": 246878,
+            "question": "Is this a skate park?",
+            "question_id": 246878001
+        },
+        {
+            "image_id": 116083,
+            "question": "What are the people doing?",
+            "question_id": 116083004
+        },
+        {
+            "image_id": 378311,
+            "question": "What type of room is this?",
+            "question_id": 378311001
+        },
+        {
+            "image_id": 247639,
+            "question": "Does this board look painted or natural?",
+            "question_id": 247639007
+        },
+        {
+            "image_id": 84968,
+            "question": "Is this a one way street?",
+            "question_id": 84968001
+        },
+        {
+            "image_id": 434510,
+            "question": "What is the man doing?",
+            "question_id": 434510001
+        },
+        {
+            "image_id": 379120,
+            "question": "What sport is he playing?",
+            "question_id": 379120002
+        },
+        {
+            "image_id": 117458,
+            "question": "Is the car moving faster than the motorcycle?",
+            "question_id": 117458003
+        },
+        {
+            "image_id": 248655,
+            "question": "What is the woman doing?",
+            "question_id": 248655002
+        },
+        {
+            "image_id": 63309,
+            "question": "Does the road appear to be traveled a lot?",
+            "question_id": 63309002
+        },
+        {
+            "image_id": 41488,
+            "question": "What type of vehicle is not allowed?",
+            "question_id": 41488000
+        },
+        {
+            "image_id": 118584,
+            "question": "Where is this?",
+            "question_id": 118584002
+        },
+        {
+            "image_id": 118740,
+            "question": "What is the person doing?",
+            "question_id": 118740002
+        },
+        {
+            "image_id": 249969,
+            "question": "Is this a healthy meal?",
+            "question_id": 249969003
+        },
+        {
+            "image_id": 119026,
+            "question": "What brand of phone is this?",
+            "question_id": 119026001
+        },
+        {
+            "image_id": 238302,
+            "question": "Does this cat have tufts on its ears?",
+            "question_id": 238302009
+        },
+        {
+            "image_id": 381599,
+            "question": "Where was this picture taken?",
+            "question_id": 381599002
+        },
+        {
+            "image_id": 381682,
+            "question": "What is the man drinking?",
+            "question_id": 381682001
+        },
+        {
+            "image_id": 381971,
+            "question": "What kind of animal is this?",
+            "question_id": 381971001
+        },
+        {
+            "image_id": 382399,
+            "question": "What animal is this?",
+            "question_id": 382399008
+        },
+        {
+            "image_id": 120285,
+            "question": "Is it a sunny day?",
+            "question_id": 120285001
+        },
+        {
+            "image_id": 251655,
+            "question": "Is the woman taking a selfie?",
+            "question_id": 251655000
+        },
+        {
+            "image_id": 251794,
+            "question": "What kind of food is this?",
+            "question_id": 251794001
+        },
+        {
+            "image_id": 238603,
+            "question": "Is this a \"selfie?\"?",
+            "question_id": 238603002
+        },
+        {
+            "image_id": 252342,
+            "question": "What room is this?",
+            "question_id": 252342001
+        },
+        {
+            "image_id": 252388,
+            "question": "What action are these two doing?",
+            "question_id": 252388000
+        },
+        {
+            "image_id": 383462,
+            "question": "Is this a professional portrait?",
+            "question_id": 383462030
+        },
+        {
+            "image_id": 121591,
+            "question": "Is the name of an addictive substance written here?",
+            "question_id": 121591002
+        },
+        {
+            "image_id": 383762,
+            "question": "What kind of food is shown here?",
+            "question_id": 383762002
+        },
+        {
+            "image_id": 383950,
+            "question": "Has the sign been defaced?",
+            "question_id": 383950004
+        },
+        {
+            "image_id": 252970,
+            "question": "What kind of product is the bus advertising?",
+            "question_id": 252970008
+        },
+        {
+            "image_id": 121961,
+            "question": "What is the man doing?",
+            "question_id": 121961001
+        },
+        {
+            "image_id": 384215,
+            "question": "Is the sky clear?",
+            "question_id": 384215000
+        },
+        {
+            "image_id": 384337,
+            "question": "What size bed is this?",
+            "question_id": 384337004
+        },
+        {
+            "image_id": 515577,
+            "question": "Is it cold?",
+            "question_id": 515577000
+        },
+        {
+            "image_id": 253718,
+            "question": "Is this healthy?",
+            "question_id": 253718006
+        },
+        {
+            "image_id": 253742,
+            "question": "Is it raining?",
+            "question_id": 253742002
+        },
+        {
+            "image_id": 501047,
+            "question": "Is this the jungle?",
+            "question_id": 501047002
+        },
+        {
+            "image_id": 516239,
+            "question": "Is the truck moving?",
+            "question_id": 516239001
+        },
+        {
+            "image_id": 254167,
+            "question": "Is the subject right-handed?",
+            "question_id": 254167001
+        },
+        {
+            "image_id": 516602,
+            "question": "Is the truck clean?",
+            "question_id": 516602000
+        },
+        {
+            "image_id": 544855,
+            "question": "What kind of vehicle is this?",
+            "question_id": 544855002
+        },
+        {
+            "image_id": 123599,
+            "question": "Is the older zebra eating?",
+            "question_id": 123599001
+        },
+        {
+            "image_id": 410016,
+            "question": "Does this dog have short hair?",
+            "question_id": 410016004
+        },
+        {
+            "image_id": 385757,
+            "question": "What season is it?",
+            "question_id": 385757002
+        },
+        {
+            "image_id": 254789,
+            "question": "Is the sky clear?",
+            "question_id": 254789012
+        },
+        {
+            "image_id": 254816,
+            "question": "What type of animal is in this picture?",
+            "question_id": 254816000
+        },
+        {
+            "image_id": 254919,
+            "question": "Are the cars moving?",
+            "question_id": 254919015
+        },
+        {
+            "image_id": 254919,
+            "question": "Is this a real train?",
+            "question_id": 254919022
+        },
+        {
+            "image_id": 124072,
+            "question": "What event is going on?",
+            "question_id": 124072002
+        },
+        {
+            "image_id": 255158,
+            "question": "Is this lady using her cell phone while riding a bike?",
+            "question_id": 255158006
+        },
+        {
+            "image_id": 124116,
+            "question": "Does the cat look loved?",
+            "question_id": 124116002
+        },
+        {
+            "image_id": 255274,
+            "question": "What inning is this?",
+            "question_id": 255274000
+        },
+        {
+            "image_id": 517443,
+            "question": "Is this a house?",
+            "question_id": 517443001
+        },
+        {
+            "image_id": 255448,
+            "question": "What kind of food is this?",
+            "question_id": 255448000
+        },
+        {
+            "image_id": 386525,
+            "question": "Is this a marina?",
+            "question_id": 386525001
+        },
+        {
+            "image_id": 386718,
+            "question": "Is the man happy?",
+            "question_id": 386718001
+        },
+        {
+            "image_id": 517855,
+            "question": "What is this tennis player in the middle of doing?",
+            "question_id": 517855004
+        },
+        {
+            "image_id": 386958,
+            "question": "Does the hydrant look well maintained?",
+            "question_id": 386958000
+        },
+        {
+            "image_id": 518177,
+            "question": "What room is this?",
+            "question_id": 518177000
+        },
+        {
+            "image_id": 479596,
+            "question": "What kind of containers are holding the fruit?",
+            "question_id": 479596000
+        },
+        {
+            "image_id": 256195,
+            "question": "Is the train moving?",
+            "question_id": 256195002
+        },
+        {
+            "image_id": 387539,
+            "question": "What type of food is this?",
+            "question_id": 387539003
+        },
+        {
+            "image_id": 256575,
+            "question": "Would a vegetarian eat this?",
+            "question_id": 256575000
+        },
+        {
+            "image_id": 125617,
+            "question": "Is this a restaurant meal?",
+            "question_id": 125617000
+        },
+        {
+            "image_id": 518850,
+            "question": "What kind of vehicle is this?",
+            "question_id": 518850003
+        },
+        {
+            "image_id": 387916,
+            "question": "What sport are these people doing?",
+            "question_id": 387916000
+        },
+        {
+            "image_id": 388037,
+            "question": "Is this considered a healthy food?",
+            "question_id": 388037001
+        },
+        {
+            "image_id": 519132,
+            "question": "Is this a warm and fuzzy scene?",
+            "question_id": 519132003
+        },
+        {
+            "image_id": 125936,
+            "question": "Did the male customer shave this morning?",
+            "question_id": 125936001
+        },
+        {
+            "image_id": 388215,
+            "question": "What type of sport is this?",
+            "question_id": 388215002
+        },
+        {
+            "image_id": 126137,
+            "question": "What is the man doing?",
+            "question_id": 126137002
+        },
+        {
+            "image_id": 257660,
+            "question": "Does the toilet seat have a cover?",
+            "question_id": 257660003
+        },
+        {
+            "image_id": 479953,
+            "question": "What game is the man playing?",
+            "question_id": 479953008
+        },
+        {
+            "image_id": 389549,
+            "question": "Is the name of an addictive substance written here?",
+            "question_id": 389549001
+        },
+        {
+            "image_id": 520752,
+            "question": "What sport is this?",
+            "question_id": 520752002
+        },
+        {
+            "image_id": 520778,
+            "question": "What are the people sitting on?",
+            "question_id": 520778001
+        },
+        {
+            "image_id": 327149,
+            "question": "What type of emergency would this be used for?",
+            "question_id": 327149004
+        },
+        {
+            "image_id": 521509,
+            "question": "What room is this?",
+            "question_id": 521509012
+        },
+        {
+            "image_id": 349098,
+            "question": "Is it night time?",
+            "question_id": 349098006
+        },
+        {
+            "image_id": 521956,
+            "question": "Who is sponsoring the event?",
+            "question_id": 521956002
+        },
+        {
+            "image_id": 522106,
+            "question": "Does the dog have blue eyes?",
+            "question_id": 522106001
+        },
+        {
+            "image_id": 522446,
+            "question": "Is this man working?",
+            "question_id": 522446003
+        },
+        {
+            "image_id": 391392,
+            "question": "Is it a clear sunny day?",
+            "question_id": 391392008
+        },
+        {
+            "image_id": 522637,
+            "question": "What kind of wall is the man leaning against?",
+            "question_id": 522637000
+        },
+        {
+            "image_id": 391642,
+            "question": "Does the baby have socks on?",
+            "question_id": 391642002
+        },
+        {
+            "image_id": 391656,
+            "question": "What kind of room is this in?",
+            "question_id": 391656000
+        },
+        {
+            "image_id": 129520,
+            "question": "What type of surface are the horses running on?",
+            "question_id": 129520000
+        },
+        {
+            "image_id": 129706,
+            "question": "What kind of hat is he wearing?",
+            "question_id": 129706003
+        },
+        {
+            "image_id": 392990,
+            "question": "What are they playing?",
+            "question_id": 392990000
+        },
+        {
+            "image_id": 129988,
+            "question": "What is the floor made of?",
+            "question_id": 129988002
+        },
+        {
+            "image_id": 524187,
+            "question": "What sport is this?",
+            "question_id": 524187000
+        },
+        {
+            "image_id": 130485,
+            "question": "What is the man drinking?",
+            "question_id": 130485005
+        },
+        {
+            "image_id": 392632,
+            "question": "Is the player right-handed?",
+            "question_id": 392632002
+        },
+        {
+            "image_id": 261603,
+            "question": "What does the shadow in the background appear to be doing?",
+            "question_id": 261603000
+        },
+        {
+            "image_id": 392915,
+            "question": "What room is this?",
+            "question_id": 392915039
+        },
+        {
+            "image_id": 436865,
+            "question": "What animal is this?",
+            "question_id": 436865004
+        },
+        {
+            "image_id": 524047,
+            "question": "Does this man have a beard?",
+            "question_id": 524047011
+        },
+        {
+            "image_id": 130839,
+            "question": "Is this man traveling?",
+            "question_id": 130839002
+        }
+    ]
+}

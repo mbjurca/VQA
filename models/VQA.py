@@ -31,10 +31,10 @@ class VQA(nn.Module):
         self.no_answers = no_answers
         self.device = device
         self.LSTM_type = config.MODEL.TEXT.TYPE
-        
+
         self.text_embedding = nn.Embedding(vocabulary_size, input_size_text_rnn)
 
-        self.text_rnn = Text(input_size=input_size_text_rnn, 
+        self.text_rnn = Text(input_size=input_size_text_rnn,
                             hidden_size=hidden_size_text_rnn, 
                             device=device,
                             model_type = config.MODEL.TEXT.TYPE)
@@ -52,22 +52,22 @@ class VQA(nn.Module):
                        no_transformer_blocks=no_transformer_blocks_slm,
                        no_heads=no_transformer_heads_slm,
                        dropout=dropout_slm,
-                       model_type = config.MODEL.LANGUAGE_MODEL.TYPE)    
+                       model_type = config.MODEL.LANGUAGE_MODEL.TYPE)
 
-        # self.MLP = nn.Sequential(nn.Linear(1024, 1000), 
+        # self.MLP = nn.Sequential(nn.Linear(1024, 1000),
         #                          nn.Tanh(),
         #                         #  nn.Dropout(0.5),
-        #                          nn.Linear(1000, 1000), 
+        #                          nn.Linear(1000, 1000),
         #                          nn.Tanh(),
         #                         #  nn.Dropout(0.),
         #                          nn.Linear(1000, no_answers),
         #                          nn.Sigmoid()
         #                          )
-        
+
         self.MLP = nn.Sequential(nn.Linear(no_features_slm+no_out_features_vit, no_answers),
                                  nn.Sigmoid()
                                  )
-        
+
 
     def forward(self, x_text, x_image):
         
