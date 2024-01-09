@@ -12,6 +12,8 @@ from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
 from function import train
 from torch.optim.lr_scheduler import StepLR
+from torch.utils.tensorboard import SummaryWriter
+import argparse
 
 DATASET_CFG_FILE = "../configs/dataset.yaml"
 MODEL_CFG_FILE = "../configs/model.yaml"
@@ -19,6 +21,13 @@ TRAIN_CFG_FILE = "../configs/train.yaml"
 
 
 def main():
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--exp_name', type=str, required=True,
+                        help='Name of the experiment')
+    args = parser.parse_args()
+
+    summary_writer_path = f'../experiments/{args.exp_name}'
 
     # set device 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -34,20 +43,10 @@ def main():
                                 image_embedding_folder=cfg.DATASET.TRAIN_VAL_IMG_EMBEDDINGS_FOLDER,
                                 token_type = cfg.MODEL.TEXT.TOKEN_TYPE)
 
-    use_single_fixed_batch = False
-
-    if use_single_fixed_batch:
-        batch_size = 8
-        train_dataloader = DataLoader(train_dataset,
-                                      batch_size=batch_size,
-                                      num_workers=4,
-                                      sampler=SequentialSampler(list(range(batch_size)))
-                                      )
-    else:
-        train_dataloader = DataLoader(train_dataset,
-                                      batch_size=128,
-                                      num_workers=4,
-                                      shuffle=True)
+    train_dataloader = DataLoader(train_dataset,
+                                batch_size=cfg.TRAIN.BATCH_SIZE,
+                                num_workers=4,
+                                shuffle=True)
 
     model = VQA(input_size_text_rnn=cfg.MODEL.TEXT.INPUT_SIZE, 
                 hidden_size_text_rnn=cfg.MODEL.TEXT.HIDDEN_EMBEDDING_SIZE, 
@@ -67,10 +66,17 @@ def main():
                 device = device,
                 config = cfg).to(device)
     
-    optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(0.9, 0.98))
-    criterion = torch.nn.BCELoss()
-    # criterion = torch.nn.CrossEntropyLoss()
-    scheduler = StepLR(optimizer, step_size=60, gamma=0.01)
+    match cfg.TRAIN.OPTIMIZER:
+        case 'adam':
+            optimizer = torch.optim.Adam(model.parameters(), lr=cfg.TRAIN.LR, betas=(cfg.TRAIN.ADAM.BETA_1, cfg.TRAIN.ADAM.BETA_2))
+    
+    match cfg.TRAIN.CRITERION:
+        case 'bce':
+            criterion = torch.nn.BCELoss(reduction='sum')
+
+    match cfg.TRAIN.LR_SCHEDULER:
+        case 'step':     
+            scheduler_lr = StepLR(optimizer, step_size=cfg.TRAIN.STEP_LR.STEP_SIZE, gamma=cfg.TRAIN.STEP_LR.GAMMA)
 
     validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
                                      labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
@@ -80,9 +86,11 @@ def main():
                                      token_type=cfg.MODEL.TEXT.TOKEN_TYPE)
 
     validation_dataloader = DataLoader(validation_dataset,
-                                       batch_size=128,
+                                       batch_size=cfg.VAL.BATCH_SIZE,
                                        num_workers=4,
                                        shuffle=True)
+
+    writer = SummaryWriter(summary_writer_path)
 
     train(train_dataloader = train_dataloader,
           validation_dataloader = validation_dataloader,
@@ -90,8 +98,9 @@ def main():
           model = model,
           optimizer = optimizer,
           criterion = criterion,
-          scheduler = scheduler,
-          device = device)
+          scheduler_lr = scheduler_lr,
+          device = device, 
+          writer=writer)
 
 
 if __name__ == '__main__':

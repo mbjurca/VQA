@@ -1,20 +1,16 @@
 import sys
 
-sys.path.append('../lib/')
 sys.path.append('../utils/')
 
 import torch
-from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 from metrics import accuracy
-from utils.Evaluator import Evaluator
+from Evaluator import Evaluator
 from configs import update_configs, get_configs
 import torch.nn as nn
 import matplotlib.pyplot as plt
 
-writer = SummaryWriter('../bce_train_val')
-
-def train(train_dataloader, validation_dataloader, config, model, optimizer, criterion, scheduler, device):
+def train(train_dataloader, validation_dataloader, config, model, optimizer, criterion, scheduler_lr, device, writer):
     top_accuracies = []  # List to store the top accuracies
     top_models = []  # List to store the state dicts of the top models
     best_acc, best_loss = 0, float('inf')
@@ -41,10 +37,8 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
             loss.backward()
             train_loss.append(loss.item())
 
-            #clipping_value = .5 # arbitrary value of your choosing
-            #torch.nn.utils.clip_grad_norm_(model.parameters(), clipping_value)
             optimizer.step()
-            # scheduler.step()
+            scheduler_lr.step()
 
             acc = accuracy(logits, labels)
             train_acc.append(acc)
@@ -75,6 +69,7 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
                       model=model,
                       criterion=criterion,
                       device=device,
+                      writer=writer,
                       epoch=epoch)
 
         if val_acc > best_acc + performance_improvement_eps:
@@ -107,7 +102,7 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
     for i, state_dict in enumerate(top_models):
         torch.save(state_dict, f'../saved_models/top_model_{i + 1}_acc_{top_accuracies[i]}.pth')
 
-def val(validation_dataloader, config, model, criterion, device, epoch=None):
+def val(validation_dataloader, config, model, criterion, device, writer, epoch=None):
 
     model.eval()
     eval_acc = []
@@ -150,5 +145,5 @@ def val(validation_dataloader, config, model, criterion, device, epoch=None):
                                                                            torch.tensor(eval_acc).mean() * 100.))
         writer.add_scalar("Val toolkit Accuracy", acc, epoch)
     # print(f'Train old Accuracy : {torch.tensor(train_acc).mean()}')
-    print(f'Train toolkit Accuracy : {acc}')
+    print(f'Val toolkit Accuracy : {acc}')
     return acc

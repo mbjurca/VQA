@@ -1,9 +1,11 @@
 DATASET:
-  TRAIN_FILE : "/home/diana/data/VQA_DL/miniCOCO/miniCOCOtrain.json"
-  TRAIN_IMG_FOLDER : "/home/diana/data/VQA_DL/miniCOCO/miniCOCO_train2014"
-  VAL_FILE : "/home/diana/data/VQA_DL/miniCOCO/miniCOCOval.json"
-  VAL_IMG_FOLDER : "/home/diana/data/VQA_DL/miniCOCO/miniCOCO_val2014"
-  TRAIN_VAL_IMG_EMBEDDINGS_FOLDER : "/home/diana/data/VQA_DL/img_embeddings"
-  LABELS: '/home/diana/VQA/configs/labels.yaml'
-  WORD_VOCABULARY: /home/diana/VQA/configs/word_vocabulary.yaml
+  TRAIN_FILE : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCOtrain.json"
+  TRAIN_IMG_FOLDER : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCO_train2014"
+  VAL_FILE : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCOval.json"
+  VAL_IMG_FOLDER : "/home/mihnea/data/VQA_DL/miniCOCO/miniCOCO_val2014"
+  TRAIN_VAL_IMG_EMBEDDINGS_FOLDER : "/home/mihnea/data/VQA_DL/img_embeddings"
+  # LABELS: '/home/mihnea/vqa/configs/labels.yaml'
+  WORD_VOCABULARY: '/home/mihnea/vqa/configs/word_vocabulary.yaml'
   WORD_VOCABULARY_SIZE: 4479
+  TRAIN_LABELS_TO_IDS: '/home/mihnea/vqa/configs/train_labels_to_ids.yaml'
+  TRAIN_IDS_TO_LABELS: '/home/mihnea/vqa/configs/train_ids_to_labels.yaml'

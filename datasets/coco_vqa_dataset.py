@@ -129,7 +129,7 @@ class VQA_dataset(data.Dataset):
     def generate_labels(self, labels_to_ids_file, ids_to_labels_file):
 
         labels_to_ids, ids_to_labels = self.extract_labels()
-
+        print(f'Ceva {labels_to_ids_file} 1')
         with open(labels_to_ids_file, 'w') as outfile:
             yaml.dump(labels_to_ids, outfile)
         with open(ids_to_labels_file, 'w') as outfile:

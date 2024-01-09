@@ -54,16 +54,6 @@ class VQA(nn.Module):
                        dropout=dropout_slm,
                        model_type = config.MODEL.LANGUAGE_MODEL.TYPE)
 
-        # self.MLP = nn.Sequential(nn.Linear(1024, 1000),
-        #                          nn.Tanh(),
-        #                         #  nn.Dropout(0.5),
-        #                          nn.Linear(1000, 1000),
-        #                          nn.Tanh(),
-        #                         #  nn.Dropout(0.),
-        #                          nn.Linear(1000, no_answers),
-        #                          nn.Sigmoid()
-        #                          )
-
         self.MLP = nn.Sequential(nn.Linear(no_features_slm+no_out_features_vit, no_answers),
                                  nn.Sigmoid()
                                  )
