@@ -39,7 +39,7 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, gra
             train_loss.append(loss.item())
             
             if grad_norm != None:
-                clip_grad_norm_(model.parameters(), 3.0)  # You can adjust the value (3.0) as needed
+                clip_grad_norm_(model.parameters(), grad_norm)  # You can adjust the value (3.0) as needed
 
             optimizer.step()
 
