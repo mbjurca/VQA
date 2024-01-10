@@ -1,3779 +1,31 @@
 [
     {
-        "answer": "wood",
-        "question_id": "51533000"
+        "answer": "jeans",
+        "question_id": "215778001"
     },
     {
-        "answer": "sunny",
-        "question_id": "96075000"
+        "answer": "banana",
+        "question_id": "37688001"
     },
     {
-        "answer": "yes",
-        "question_id": "124072002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "228910000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "526425003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "487774002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "224509000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "195408005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "302318015"
-    },
-    {
-        "answer": "yes",
-        "question_id": "246005007"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "155189000"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "203846000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "84130000"
-    },
-    {
-        "answer": "eating",
-        "question_id": "40036002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "483722001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "280840002"
-    },
-    {
-        "answer": "wood",
-        "question_id": "493652001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "31442001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "162827001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "167993001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "161187003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "101884001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "376773008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "457461002"
-    },
-    {
-        "answer": "living room",
-        "question_id": "314812001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "145831001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "76721003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "328791001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "314709002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "264423001"
-    },
-    {
-        "answer": "baseball",
+        "answer": "no",
         "question_id": "429836003"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "358903000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "426578003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "296524001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "94619000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "572042002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "497593006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "310369001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "70626005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "415750002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "472387012"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "345401004"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "86125001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "457693005"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "227742001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "566264000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "93685003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "38355002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "495852000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "145604002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "366493000"
-    },
-    {
-        "answer": "wood",
-        "question_id": "484938014"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "452793001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "519330000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "98801000"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "86202001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "155317001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "144333001"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "479953008"
-    },
-    {
-        "answer": "eating",
-        "question_id": "467107002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "479848001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "410016004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "435005000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "393271001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "574507000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "65113001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "516602000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "498807002"
-    },
-    {
-        "answer": "wood",
-        "question_id": "136533004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "255158006"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "159854002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "232262002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "423005002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "531047000"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "69914001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "336695001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "460997003"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "218752004"
-    },
-    {
-        "answer": "eating",
-        "question_id": "89430011"
-    },
-    {
-        "answer": "yes",
-        "question_id": "168425001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "564355000"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "240102002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "400794001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "56160002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "428161000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "383762002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "21001000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "115459001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "264180001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "431876001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "534210002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "552901001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "153865002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "335328001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "150649002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "109907008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "579911001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "274066001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "302452002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "402802000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "468997007"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "378311001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "545920000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "384337004"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "298362001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "227399011"
-    },
-    {
-        "answer": "yes",
-        "question_id": "269632002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "51181002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "318124001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "169347002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "230150001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "327306002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "442210001"
-    },
-    {
-        "answer": "wood",
-        "question_id": "532983002"
-    },
-    {
-        "answer": "wood",
-        "question_id": "109600002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "169682000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "314140002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "106356002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "141673004"
-    },
-    {
-        "answer": "living room",
-        "question_id": "280242011"
-    },
-    {
-        "answer": "living room",
-        "question_id": "177496008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "33008002"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "431256002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "341700002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "397279002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "536200017"
-    },
-    {
-        "answer": "yes",
-        "question_id": "310103001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "203697001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "407945000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "304063000"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "145335002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "517855004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "90387000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "63309002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "130839002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "162685002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "74067002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "87244003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "386718001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "137300002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "532126001"
     },
     {
         "answer": "yes",
         "question_id": "239455001"
     },
     {
-        "answer": "tennis",
-        "question_id": "361147002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "575194000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "339346000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "577857001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "543836002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "305319007"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "147140001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "33909000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "370331001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "145295003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "420466000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "40937003"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "252342001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "145567002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "542248001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "568425003"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "264382000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "401901004"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "149115002"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "448998001"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "161634005"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "458558000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "64264006"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "31660002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "25715003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "321333002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "281500005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "75101000"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "561037001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "256195002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "6771003"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "576084012"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "184241001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "302221004"
-    },
-    {
-        "answer": "eating",
-        "question_id": "304330000"
-    },
-    {
-        "answer": "cat",
-        "question_id": "222195003"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "462845005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "254167001"
-    },
-    {
-        "answer": "eating",
-        "question_id": "223130000"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "85803000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "90280002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "29934003"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "388215002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "67966000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "146358002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "253742002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "474188002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "190923000"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "72507003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "265742004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "381682001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "421437002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "501047002"
-    },
-    {
-        "answer": "wood",
-        "question_id": "542549002"
-    },
-    {
-        "answer": "eating",
-        "question_id": "159944000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "178072003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "236370003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "44081006"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "297396002"
-    },
-    {
-        "answer": "living room",
-        "question_id": "497392003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "196047002"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "536343002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "445638002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "215778001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "219771002"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "552504005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "362712002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "214853004"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "450719001"
-    },
-    {
-        "answer": "wood",
-        "question_id": "423618001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "88252002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "223699002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "237669001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "522106001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "292024003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "333095001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "420090005"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "94052001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "187514001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "386525001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "483643003"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "434873000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "143359001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "338098011"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "351140002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "557596001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "89174002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "524187000"
-    },
-    {
-        "answer": "wood",
-        "question_id": "77102002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "230454000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "59328002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "300705004"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "340247007"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "154994002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "29341001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "302964001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "47588001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "476652003"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "365766004"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "218811000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "213403000"
-    },
-    {
-        "answer": "wood",
-        "question_id": "155546001"
-    },
-    {
-        "answer": "wood",
-        "question_id": "238602000"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "61773008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "191240003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "527038001"
-    },
-    {
-        "answer": "eating",
-        "question_id": "27975000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "410019002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "254816000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "141343001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "429386007"
-    },
-    {
-        "answer": "yes",
-        "question_id": "330262004"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "505385002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "25282000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "364642005"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "219647002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "524047011"
-    },
-    {
-        "answer": "yes",
-        "question_id": "48972000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "227851001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "361172000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "384215000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "479596000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "503707003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "214009005"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "36810002"
-    },
-    {
-        "answer": "living room",
-        "question_id": "303971000"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "526778000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "497032000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "552656001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "67422000"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "562261002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "578655006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "188891000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "538054001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "207785001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "141517004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "16716001"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "331856017"
-    },
-    {
-        "answer": "yes",
-        "question_id": "441814001"
-    },
-    {
-        "answer": "living room",
-        "question_id": "336600002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "471842004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "90052006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "516239001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "299631000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "110196002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "117458003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "504635007"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "251794001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "491902008"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "387916000"
-    },
-    {
-        "answer": "living room",
-        "question_id": "159667003"
-    },
-    {
-        "answer": "eating",
-        "question_id": "310342003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "162362000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "118584002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "434510001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "192406000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "433059002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "38938000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "493321008"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "118740002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "33005000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "444631000"
-    },
-    {
-        "answer": "wood",
-        "question_id": "373713050"
-    },
-    {
-        "answer": "yes",
-        "question_id": "303867000"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "89027005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "243896007"
-    },
-    {
-        "answer": "yes",
-        "question_id": "251655000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "174062000"
-    },
-    {
-        "answer": "cat",
-        "question_id": "233311004"
-    },
-    {
-        "answer": "cat",
-        "question_id": "576701006"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "66008000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "282328002"
-    },
-    {
-        "answer": "wood",
-        "question_id": "500784000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "221477001"
-    },
-    {
-        "answer": "living room",
-        "question_id": "453065000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "497640002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "226498000"
-    },
-    {
-        "answer": "wood",
-        "question_id": "173825002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "291298002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "214123000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "449990001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "114579003"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "231508001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "102400002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "524436004"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "12639005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "527644001"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "301827002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "551820000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "197444009"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "479912000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "78371005"
-    },
-    {
-        "answer": "eating",
-        "question_id": "288860003"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "161861031"
-    },
-    {
-        "answer": "yes",
-        "question_id": "403758006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "520941002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "440508001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "475990001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "209898000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "338159000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "472678014"
-    },
-    {
-        "answer": "yes",
-        "question_id": "284552001"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "483553001"
-    },
-    {
-        "answer": "wood",
-        "question_id": "564418002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "309499008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "113701002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "415196001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "293888000"
-    },
-    {
-        "answer": "living room",
-        "question_id": "326959002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "449259005"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "255274000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "84968001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "476872001"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "327532002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "480624001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "209530002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "254789012"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "207886003"
-    },
-    {
-        "answer": "living room",
-        "question_id": "524822007"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "204137002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "193031000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "569450005"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "471004000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "383462030"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "537611001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "401556012"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "289855004"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "217593004"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "282847004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "569016000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "538458001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "170181003"
-    },
-    {
-        "answer": "eating",
-        "question_id": "567536004"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "287545001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "248655002"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "285751002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "291538003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "547345002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "44520000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "550400001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "331049002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "254919022"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "506707005"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "294585000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "157928002"
-    },
-    {
-        "answer": "wood",
-        "question_id": "526962005"
-    },
-    {
-        "answer": "living room",
-        "question_id": "92985000"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "463217002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "527962001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "392632002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "288313005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "544590001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "318124009"
-    },
-    {
-        "answer": "yes",
-        "question_id": "345252006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "473237000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "84984006"
-    },
-    {
-        "answer": "wood",
-        "question_id": "467197000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "358427004"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "498368001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "138246000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "333000000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "540372000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "61515005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "551907000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "360611001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "209180008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "356863023"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "454776001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "557709000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "320670005"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "568082001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "460813002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "186697001"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "126137002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "452179000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "278313001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "50306001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "214184000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "388037001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "125617000"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "243495004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "124116002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "257660003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "464682018"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "491242004"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "466090004"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "427135020"
-    },
-    {
-        "answer": "living room",
-        "question_id": "521509012"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "200116005"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "18442001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "176595002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "27731000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "115584003"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "303706004"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "351081000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "306914001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "173204006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "199681000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "557117002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "78026007"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "436865004"
-    },
-    {
-        "answer": "living room",
-        "question_id": "156572002"
-    },
-    {
         "answer": "yes",
         "question_id": "376236000"
     },
     {
-        "answer": "tennis",
-        "question_id": "157592005"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "188296002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "389812003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "285497000"
-    },
-    {
-        "answer": "cat",
-        "question_id": "20438001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "460632010"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "271177002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "447354001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "221737002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "292446001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "45587003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "304812004"
-    },
-    {
-        "answer": "wood",
-        "question_id": "468332001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "5502001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "15797001"
-    },
-    {
-        "answer": "living room",
-        "question_id": "403693001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "405216000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "312298001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "580284003"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "199995000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "243222003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "539079003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "185201000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "284341000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "531070000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "252970008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "492077003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "84540001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "414670000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "303713002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "169606001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "318238002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "476843001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "129988002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "263505001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "145750003"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "363163004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "322944001"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "246327002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "81812000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "27897006"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "560757000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "218290003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "269105002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "461860000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "536183000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "236162007"
-    },
-    {
-        "answer": "yes",
-        "question_id": "143644002"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "482800009"
-    },
-    {
-        "answer": "yes",
-        "question_id": "123599001"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "427223005"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "548164004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "349098006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "313057000"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "91080001"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "403013003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "495993005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "393338001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "544006"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "469810002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "395283003"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "542145003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "493243004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "563885003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "391392008"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "41488000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "309160002"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "337815001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "82042005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "537954003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "186322000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "418109000"
-    },
-    {
-        "answer": "living room",
-        "question_id": "421433003"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "88412000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "396369001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "199389014"
-    },
-    {
-        "answer": "yes",
-        "question_id": "202273002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "388531014"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "281012001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "147872000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "423395002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "346112000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "436280005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "137950002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "67660002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "134016002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "497826010"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "382399008"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "308223001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "226197001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "91373002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "529806001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "67431000"
-    },
-    {
-        "answer": "eating",
-        "question_id": "223314007"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "27272001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "138656002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "119026001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "407274003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "150872001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "345466001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "337843000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "458932002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "551001001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "418070003"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "71877000"
-    },
-    {
-        "answer": "surfing",
+        "answer": "no",
         "question_id": "218678005"
     },
     {
-        "answer": "yes",
-        "question_id": "324390014"
-    },
-    {
-        "answer": "yes",
-        "question_id": "577355000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "222370004"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "115043004"
-    },
-    {
-        "answer": "wood",
-        "question_id": "94194012"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "434806000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "186730000"
-    },
-    {
-        "answer": "living room",
-        "question_id": "299952003"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "355179004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "64611006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "112988000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "284097001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "208028001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "571034002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "318130001"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "174258000"
-    },
-    {
-        "answer": "cat",
-        "question_id": "353149001"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "181886003"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "404923003"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "276840006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "171805002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "408950003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "158167001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "125936001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "228504004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "327807002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "22051000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "212077001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "149550001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "232315006"
-    },
-    {
-        "answer": "living room",
-        "question_id": "144635001"
-    },
-    {
-        "answer": "cat",
-        "question_id": "419735002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "444152002"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "67252000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "392990000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "145295001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "37688001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "279265007"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "315162001"
-    },
-    {
-        "answer": "cat",
-        "question_id": "207093001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "151742017"
-    },
-    {
-        "answer": "yes",
-        "question_id": "21167001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "238029061"
-    },
-    {
-        "answer": "yes",
-        "question_id": "492814000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "560718004"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "521956002"
-    },
-    {
-        "answer": "cat",
-        "question_id": "274292007"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "444028007"
-    },
-    {
-        "answer": "yes",
-        "question_id": "12085035"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "29136008"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "379120002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "129520000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "538198002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "213247002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "545958013"
-    },
-    {
-        "answer": "yes",
-        "question_id": "446861004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "238603002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "433505010"
-    },
-    {
-        "answer": "yes",
-        "question_id": "91610001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "533137002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "160351015"
-    },
-    {
-        "answer": "yes",
-        "question_id": "198004001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "375812002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "246878001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "210108003"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "482848002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "337899004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "51095004"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "245301000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "90802001"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "68080005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "275695004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "3711004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "111535001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "368602000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "464732002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "234164000"
-    },
-    {
-        "answer": "wood",
-        "question_id": "446743004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "329486004"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "544014"
-    },
-    {
-        "answer": "yes",
-        "question_id": "91416000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "144706002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "212384003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "335325003"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "504747008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "525420000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "4576009"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "349754003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "235302001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "581317002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "429834000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "154816000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "311964002"
-    },
-    {
-        "answer": "eating",
-        "question_id": "199003002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "314709015"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "28535002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "458510000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "269815004"
-    },
-    {
-        "answer": "wood",
-        "question_id": "159463001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "200745001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "427001003"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "261603000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "85881004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "345063000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "353748004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "253718006"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "574977001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "112941013"
-    },
-    {
-        "answer": "yes",
-        "question_id": "315219000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "205861001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "480643007"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "161861011"
-    },
-    {
-        "answer": "yes",
-        "question_id": "16905003"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "415770001"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "556230000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "478736003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "563625001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "87889003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "242779000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "381971001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "113720003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "385786000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "69224004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "434459003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "163728000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "520778001"
-    },
-    {
-        "answer": "cat",
-        "question_id": "163831000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "478736013"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "63549002"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "103631006"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "348447002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "281455038"
-    },
-    {
-        "answer": "yes",
-        "question_id": "448511008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "482720006"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "325505003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "157883001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "568502002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "215650002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "281625002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "236308002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "557459001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "528525001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "545583002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "346337003"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "538359001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "370513000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "363831005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "575222002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "23893000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "444626005"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "324158010"
-    },
-    {
-        "answer": "eating",
-        "question_id": "183155000"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "51040002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "135673013"
-    },
-    {
-        "answer": "yes",
-        "question_id": "507879002"
-    },
-    {
-        "answer": "eating",
-        "question_id": "200234001"
-    },
-    {
-        "answer": "eating",
-        "question_id": "316161001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "445002001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "182369001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "402357000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "158227000"
-    },
-    {
-        "answer": "eating",
-        "question_id": "571925001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "315702000"
-    },
-    {
-        "answer": "eating",
-        "question_id": "32677000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "233365001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "169682003"
-    },
-    {
-        "answer": "eating",
-        "question_id": "21161003"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "534275003"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "391656000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "542962000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "550173003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "229096000"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "318063000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "147195000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "408894001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "533464010"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "547062001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "486104003"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "342302002"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "560677001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "140017002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "3779000"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "21776002"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "546428012"
-    },
-    {
-        "answer": "yes",
-        "question_id": "18841001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "389549001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "449156005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "84493000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "454195005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "280930001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "89027001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "32952000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "272311000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "206231000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "256575000"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "183249000"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "299481012"
-    },
-    {
-        "answer": "yes",
-        "question_id": "419723002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "543034000"
-    },
-    {
-        "answer": "eating",
-        "question_id": "576822002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "321024005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "71618007"
-    },
-    {
-        "answer": "yes",
-        "question_id": "561729000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "553083000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "14869000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "577976006"
-    },
-    {
-        "answer": "yes",
-        "question_id": "120285001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "175867001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "327149004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "245432001"
-    },
-    {
-        "answer": "wood",
-        "question_id": "130485005"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "405296002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "86001004"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "11042000"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "314356007"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "144062003"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "255448000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "29357002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "219578000"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "577932022"
-    },
-    {
-        "answer": "yes",
-        "question_id": "294437026"
-    },
-    {
-        "answer": "yes",
-        "question_id": "149592003"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "537695001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "188918003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "59044001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "436138000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "46316000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "400709000"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "192007000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "6894001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "406147003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "298656001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "577512002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "421865000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "199669001"
-    },
-    {
-        "answer": "eating",
-        "question_id": "347953001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "230031001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "265725001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "51741005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "384726004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "492846000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "410265001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "381599002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "136722002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "132733000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "339703001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "173737009"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "545292004"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "507536005"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "411564003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "49259000"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "392915039"
-    },
-    {
-        "answer": "yes",
-        "question_id": "383950004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "287443000"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "448365001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "159790004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "551052002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "234719002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "43218016"
-    },
-    {
-        "answer": "yes",
-        "question_id": "547106004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "305800000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "505240001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "431197005"
-    },
-    {
-        "answer": "living room",
-        "question_id": "216962000"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "408859001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "165009000"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "410496000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "364157003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "499400002"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "439907002"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "286313005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "94746001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "74853003"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "486986002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "432488002"
-    },
-    {
-        "answer": "living room",
-        "question_id": "243478001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "419882000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "267521014"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "369840000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "286907001"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "436130002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "393284000"
-    },
-    {
-        "answer": "living room",
-        "question_id": "442031000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "292464003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "299305004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "302997000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "11042002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "559776000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "441511020"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "456552000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "541202002"
-    },
-    {
-        "answer": "living room",
-        "question_id": "244571002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "74832004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "352533000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "15746000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "522446003"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "554255000"
-    },
-    {
-        "answer": "frisbee",
-        "question_id": "420002005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "482158001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "371036001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "96988001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "449675026"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "98853000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "429025002"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "16546003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "52166001"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "181666002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "444531001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "158466000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "522637000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "179317005"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "92894000"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "141962001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "435034016"
-    },
-    {
-        "answer": "yes",
-        "question_id": "554620005"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "95833001"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "446497016"
-    },
-    {
-        "answer": "yes",
-        "question_id": "329568000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "44723002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "293002005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "515577000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "152774002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "368367005"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "76460001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "313359007"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "154090002"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "518177000"
-    },
-    {
-        "answer": "eating",
-        "question_id": "580746001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "457684003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "391161006"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "6818002"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "232244002"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "173968000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "289120002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "366852002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "18295003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "391642002"
-    },
-    {
-        "answer": "wood",
-        "question_id": "206620004"
-    },
-    {
-        "answer": "eating",
-        "question_id": "116083004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "22660001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "39963008"
-    },
-    {
-        "answer": "yes",
-        "question_id": "301718003"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "200267000"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "370138001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "129706003"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "121961001"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "385757002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "295114004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "575544001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "348584002"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "209682002"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "472648000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "58849001"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "298151003"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "482236002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "76417002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "249969003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "420422000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "359546002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "247639007"
-    },
-    {
-        "answer": "yes",
-        "question_id": "238385001"
-    },
-    {
-        "answer": "skateboard",
-        "question_id": "581357002"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "544855002"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "99518001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "203865002"
-    },
-    {
-        "answer": "surfing",
-        "question_id": "226173001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "156126002"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "518850003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "548538002"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "536444004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "437872007"
-    },
-    {
-        "answer": "yes",
-        "question_id": "356280004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "497626001"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "207458003"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "441196002"
-    },
-    {
-        "answer": "pizza",
-        "question_id": "462807004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "544122001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "446909004"
-    },
-    {
-        "answer": "yes",
-        "question_id": "293333006"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "498346000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "386958000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "7125003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "220858001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "408757004"
-    },
-    {
-        "answer": "sunny",
-        "question_id": "450695011"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "39592001"
-    },
-    {
-        "answer": "living room",
-        "question_id": "268322001"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "520752002"
-    },
-    {
-        "answer": "yes",
-        "question_id": "525354003"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "39731000"
-    },
-    {
-        "answer": "giraffe",
-        "question_id": "266920005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "209972003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "271607002"
+        "answer": "sandals",
+        "question_id": "136533004"
     },
     {
         "answer": "yes",
@@ -3781,55 +33,167 @@
     },
     {
         "answer": "yes",
-        "question_id": "230220002"
+        "question_id": "484938014"
     },
     {
-        "answer": "living room",
-        "question_id": "571450000"
+        "answer": "no",
+        "question_id": "209180008"
     },
     {
-        "answer": "yes",
-        "question_id": "35269004"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "400981000"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "348524002"
+        "answer": "no",
+        "question_id": "207458003"
     },
     {
         "answer": "yes",
-        "question_id": "363039003"
-    },
-    {
-        "answer": "eating",
-        "question_id": "96420001"
-    },
-    {
-        "answer": "bathroom",
-        "question_id": "252388000"
+        "question_id": "223699002"
     },
     {
         "answer": "yes",
-        "question_id": "121591002"
+        "question_id": "403693001"
     },
     {
-        "answer": "pizza",
-        "question_id": "387539003"
+        "answer": "yes",
+        "question_id": "506943006"
     },
     {
-        "answer": "eating",
-        "question_id": "535080002"
+        "answer": "yes",
+        "question_id": "450719001"
     },
     {
-        "answer": "tennis",
-        "question_id": "131869001"
+        "answer": "yes",
+        "question_id": "445002001"
     },
     {
-        "answer": "skateboard",
-        "question_id": "159790006"
+        "answer": "no",
+        "question_id": "4576009"
+    },
+    {
+        "answer": "no",
+        "question_id": "230454000"
+    },
+    {
+        "answer": "no",
+        "question_id": "498627001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "400709000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "36810002"
+    },
+    {
+        "answer": "no",
+        "question_id": "243896007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "460997003"
+    },
+    {
+        "answer": "no",
+        "question_id": "503707003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "472678014"
+    },
+    {
+        "answer": "no",
+        "question_id": "557596001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "221737002"
+    },
+    {
+        "answer": "no",
+        "question_id": "348584002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "207093001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "479848001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "352533000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "141962001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "320670005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "111535001"
+    },
+    {
+        "answer": "no",
+        "question_id": "269632002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "534275003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "154816000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "537954003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "458932002"
+    },
+    {
+        "answer": "no",
+        "question_id": "449156005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "49259000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "303706004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "478736003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "112988000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "118740002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "536343002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "223130000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "497032000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "155189000"
     },
     {
         "answer": "surfing",
@@ -3837,67 +201,71 @@
     },
     {
         "answer": "yes",
-        "question_id": "184698000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "238302009"
-    },
-    {
-        "answer": "baseball",
-        "question_id": "413955001"
-    },
-    {
-        "answer": "winter",
-        "question_id": "473075002"
-    },
-    {
-        "answer": "eating",
-        "question_id": "453981001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "21164003"
-    },
-    {
-        "answer": "yes",
-        "question_id": "291509001"
-    },
-    {
-        "answer": "living room",
-        "question_id": "88183003"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "68628000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "305803005"
-    },
-    {
-        "answer": "yes",
-        "question_id": "545101006"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "178984001"
-    },
-    {
-        "answer": "yes",
         "question_id": "519132003"
     },
     {
-        "answer": "yes",
-        "question_id": "531299016"
+        "answer": "no",
+        "question_id": "375812002"
     },
     {
         "answer": "yes",
-        "question_id": "411587001"
+        "question_id": "235302001"
     },
     {
-        "answer": "wood",
-        "question_id": "312289000"
+        "answer": "bathroom",
+        "question_id": "155546001"
+    },
+    {
+        "answer": "no",
+        "question_id": "533137002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "43218016"
+    },
+    {
+        "answer": "yes",
+        "question_id": "27208000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "577857001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "296524001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "542248001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "11042002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "458510000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "520752002"
+    },
+    {
+        "answer": "no",
+        "question_id": "306914001"
+    },
+    {
+        "answer": "stop",
+        "question_id": "59328002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "475990001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "324390014"
     },
     {
         "answer": "yes",
@@ -3905,66 +273,3698 @@
     },
     {
         "answer": "yes",
-        "question_id": "294832001"
-    },
-    {
-        "answer": "yes",
-        "question_id": "254919015"
-    },
-    {
-        "answer": "yes",
-        "question_id": "506943006"
-    },
-    {
-        "answer": "tennis",
-        "question_id": "49893002"
-    },
-    {
-        "answer": "skateboarding",
-        "question_id": "169356000"
-    },
-    {
-        "answer": "yes",
-        "question_id": "497032002"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "498627001"
-    },
-    {
-        "answer": "skiing",
-        "question_id": "151299003"
-    },
-    {
-        "answer": "kitchen",
-        "question_id": "124004008"
+        "question_id": "466090004"
     },
     {
         "answer": "yes",
         "question_id": "22168000"
     },
     {
+        "answer": "banana",
+        "question_id": "429834000"
+    },
+    {
+        "answer": "christmas",
+        "question_id": "51533000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "498346000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "174258000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "141343001"
+    },
+    {
+        "answer": "no",
+        "question_id": "420002005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "109907008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "410265001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "405216000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "285497000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "527038001"
+    },
+    {
+        "answer": "no",
+        "question_id": "178984001"
+    },
+    {
+        "answer": "sitting",
+        "question_id": "88183003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "414670000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "327149004"
+    },
+    {
+        "answer": "no",
+        "question_id": "386525001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "149550001"
+    },
+    {
+        "answer": "banana",
+        "question_id": "526778000"
+    },
+    {
+        "answer": "no",
+        "question_id": "161861031"
+    },
+    {
+        "answer": "yes",
+        "question_id": "106356002"
+    },
+    {
+        "answer": "no",
+        "question_id": "263505001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "161187003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "12085035"
+    },
+    {
+        "answer": "yes",
+        "question_id": "224509000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "160351015"
+    },
+    {
+        "answer": "yes",
+        "question_id": "564418002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "539079003"
+    },
+    {
+        "answer": "no",
+        "question_id": "238385001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "446861004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "557709000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "173737009"
+    },
+    {
+        "answer": "yes",
+        "question_id": "91416000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "356863023"
+    },
+    {
+        "answer": "yes",
+        "question_id": "499400002"
+    },
+    {
+        "answer": "no",
+        "question_id": "577355000"
+    },
+    {
+        "answer": "wood",
+        "question_id": "314140002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "242779000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "264180001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "305319007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "294585000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "109600002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "293002005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "90802001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "278313001"
+    },
+    {
+        "answer": "surfing",
+        "question_id": "145750003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "129520000"
+    },
+    {
+        "answer": "no",
+        "question_id": "203865002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "6771003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "337815001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "112941013"
+    },
+    {
+        "answer": "no",
+        "question_id": "552656001"
+    },
+    {
+        "answer": "no",
+        "question_id": "245432001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "95833001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "370513000"
+    },
+    {
+        "answer": "winter",
+        "question_id": "248655002"
+    },
+    {
+        "answer": "banana",
+        "question_id": "297396002"
+    },
+    {
+        "answer": "banana",
+        "question_id": "205861001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "56160002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "551001001"
+    },
+    {
+        "answer": "no",
+        "question_id": "22051000"
+    },
+    {
+        "answer": "skateboarding",
+        "question_id": "39731000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "275695004"
+    },
+    {
         "answer": "yes",
         "question_id": "43670002"
+    },
+    {
+        "answer": "train",
+        "question_id": "373713050"
+    },
+    {
+        "answer": "yes",
+        "question_id": "254789012"
+    },
+    {
+        "answer": "no",
+        "question_id": "360611001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "246878001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "436865004"
+    },
+    {
+        "answer": "no",
+        "question_id": "387916000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "426578003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "271177002"
+    },
+    {
+        "answer": "summer",
+        "question_id": "223314007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "91373002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "149115002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "121961001"
+    },
+    {
+        "answer": "surfing",
+        "question_id": "226173001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "341700002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "419723002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "383950004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "51181002"
+    },
+    {
+        "answer": "no",
+        "question_id": "560677001"
+    },
+    {
+        "answer": "wedding",
+        "question_id": "18841001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "329568000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "439907002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "289855004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "64264006"
+    },
+    {
+        "answer": "summer",
+        "question_id": "40036002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "386958000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "457461002"
+    },
+    {
+        "answer": "sunny",
+        "question_id": "421437002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "544014"
+    },
+    {
+        "answer": "yes",
+        "question_id": "284097001"
+    },
+    {
+        "answer": "walking",
+        "question_id": "261603000"
+    },
+    {
+        "answer": "no",
+        "question_id": "68080005"
+    },
+    {
+        "answer": "no",
+        "question_id": "29136008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "243495004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "410016004"
+    },
+    {
+        "answer": "no",
+        "question_id": "351140002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "280840002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "61773008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "46316000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "291538003"
+    },
+    {
+        "answer": "frisbee",
+        "question_id": "493321008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "436130002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "520941002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "231508001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "302318015"
+    },
+    {
+        "answer": "yes",
+        "question_id": "551052002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "314709002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "568082001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "545292004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "437872007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "288860003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "434459003"
+    },
+    {
+        "answer": "no",
+        "question_id": "310103001"
+    },
+    {
+        "answer": "no",
+        "question_id": "200267000"
+    },
+    {
+        "answer": "no",
+        "question_id": "161634005"
+    },
+    {
+        "answer": "no",
+        "question_id": "410496000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "302997000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "384726004"
+    },
+    {
+        "answer": "no",
+        "question_id": "161861011"
+    },
+    {
+        "answer": "yes",
+        "question_id": "292446001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "452793001"
+    },
+    {
+        "answer": "no",
+        "question_id": "51040002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "3711004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "96420001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "292464003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "216962000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "467107002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "385786000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "145295003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "281455038"
+    },
+    {
+        "answer": "no",
+        "question_id": "137950002"
+    },
+    {
+        "answer": "no",
+        "question_id": "227742001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "214184000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "566264000"
+    },
+    {
+        "answer": "no",
+        "question_id": "318130001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "269105002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "188918003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "298656001"
+    },
+    {
+        "answer": "no",
+        "question_id": "314356007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "482158001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "433059002"
+    },
+    {
+        "answer": "no",
+        "question_id": "339346000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "330262004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "287545001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "237669001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "550400001"
+    },
+    {
+        "answer": "kitchen",
+        "question_id": "299952003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "134016002"
+    },
+    {
+        "answer": "skateboarding",
+        "question_id": "337843000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "291509001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "446909004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "405296002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "328791001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "291298002"
+    },
+    {
+        "answer": "beach",
+        "question_id": "482236002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "348447002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "321333002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "212077001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "318124001"
+    },
+    {
+        "answer": "no",
+        "question_id": "304063000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "265742004"
+    },
+    {
+        "answer": "sandals",
+        "question_id": "252970008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "564355000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "51741005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "287443000"
+    },
+    {
+        "answer": "pug",
+        "question_id": "572042002"
+    },
+    {
+        "answer": "bathroom",
+        "question_id": "345252006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "87244003"
+    },
+    {
+        "answer": "apple",
+        "question_id": "504747008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "244571002"
+    },
+    {
+        "answer": "suit",
+        "question_id": "284341000"
+    },
+    {
+        "answer": "no",
+        "question_id": "524187000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "293888000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "528525001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "355179004"
+    },
+    {
+        "answer": "no",
+        "question_id": "379120002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "181666002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "243222003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "542549002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "571925001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "169347002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "476872001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "536200017"
+    },
+    {
+        "answer": "yes",
+        "question_id": "486104003"
+    },
+    {
+        "answer": "no",
+        "question_id": "154994002"
+    },
+    {
+        "answer": "no",
+        "question_id": "98853000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "415770001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "345401004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "349754003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "234719002"
+    },
+    {
+        "answer": "no",
+        "question_id": "86001004"
+    },
+    {
+        "answer": "no",
+        "question_id": "303713002"
+    },
+    {
+        "answer": "no",
+        "question_id": "89027001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "209682002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "236308002"
+    },
+    {
+        "answer": "no",
+        "question_id": "463217002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "453065000"
+    },
+    {
+        "answer": "no",
+        "question_id": "407274003"
+    },
+    {
+        "answer": "no",
+        "question_id": "102400002"
+    },
+    {
+        "answer": "no",
+        "question_id": "85881004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "136722002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "226498000"
+    },
+    {
+        "answer": "no",
+        "question_id": "363163004"
+    },
+    {
+        "answer": "no",
+        "question_id": "529806001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "146358002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "88412000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "557117002"
+    },
+    {
+        "answer": "no",
+        "question_id": "495993005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "561729000"
+    },
+    {
+        "answer": "no",
+        "question_id": "544006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "370331001"
+    },
+    {
+        "answer": "no",
+        "question_id": "293333006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "568425003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "303971000"
+    },
+    {
+        "answer": "no",
+        "question_id": "86202001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "410019002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "145831001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "492846000"
+    },
+    {
+        "answer": "summer",
+        "question_id": "347953001"
+    },
+    {
+        "answer": "surfing",
+        "question_id": "358903000"
+    },
+    {
+        "answer": "no",
+        "question_id": "299631000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "284552001"
+    },
+    {
+        "answer": "no",
+        "question_id": "397279002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "318238002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "163728000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "498368001"
+    },
+    {
+        "answer": "dog",
+        "question_id": "576084012"
+    },
+    {
+        "answer": "yes",
+        "question_id": "272311000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "230220002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "154090002"
+    },
+    {
+        "answer": "no",
+        "question_id": "178072003"
+    },
+    {
+        "answer": "no",
+        "question_id": "126137002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "233311004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "22660001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "16905003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "143644002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "483553001"
+    },
+    {
+        "answer": "sunny",
+        "question_id": "536444004"
+    },
+    {
+        "answer": "no",
+        "question_id": "368602000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "156572002"
+    },
+    {
+        "answer": "no",
+        "question_id": "427135020"
+    },
+    {
+        "answer": "yes",
+        "question_id": "169606001"
+    },
+    {
+        "answer": "no",
+        "question_id": "342302002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "310342003"
+    },
+    {
+        "answer": "no",
+        "question_id": "486986002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "219578000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "144333001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "391392008"
+    },
+    {
+        "answer": "baseball",
+        "question_id": "517855004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "309499008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "575544001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "322944001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "581317002"
+    },
+    {
+        "answer": "pizza",
+        "question_id": "300705004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "563885003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "271607002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "286907001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "497032002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "436138000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "520778001"
+    },
+    {
+        "answer": "no",
+        "question_id": "256195002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "325505003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "393338001"
+    },
+    {
+        "answer": "pug",
+        "question_id": "553083000"
+    },
+    {
+        "answer": "no",
+        "question_id": "117458003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "302452002"
+    },
+    {
+        "answer": "no",
+        "question_id": "204137002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "249969003"
+    },
+    {
+        "answer": "no",
+        "question_id": "151299003"
+    },
+    {
+        "answer": "no",
+        "question_id": "158466000"
+    },
+    {
+        "answer": "no",
+        "question_id": "63549002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "393271001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "162827001"
+    },
+    {
+        "answer": "no",
+        "question_id": "552504005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "381971001"
+    },
+    {
+        "answer": "no",
+        "question_id": "404923003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "232315006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "391161006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "5502001"
+    },
+    {
+        "answer": "no",
+        "question_id": "198004001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "314812001"
+    },
+    {
+        "answer": "no",
+        "question_id": "159790004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "492814000"
+    },
+    {
+        "answer": "stop",
+        "question_id": "399865002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "457693005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "571034002"
+    },
+    {
+        "answer": "snowboarding",
+        "question_id": "87889003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "478736013"
+    },
+    {
+        "answer": "yes",
+        "question_id": "301718003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "547062001"
+    },
+    {
+        "answer": "no",
+        "question_id": "302964001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "389812003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "574507000"
+    },
+    {
+        "answer": "no",
+        "question_id": "431256002"
+    },
+    {
+        "answer": "no",
+        "question_id": "147872000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "338159000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "461860000"
+    },
+    {
+        "answer": "no",
+        "question_id": "574977001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "420090005"
+    },
+    {
+        "answer": "no",
+        "question_id": "361147002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "191240003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "253742002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "576822002"
+    },
+    {
+        "answer": "no",
+        "question_id": "353748004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "304330000"
+    },
+    {
+        "answer": "no",
+        "question_id": "456552000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "61515005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "315162001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "44081006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "559776000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "101884001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "162362000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "100001000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "268322001"
+    },
+    {
+        "answer": "no",
+        "question_id": "187514001"
+    },
+    {
+        "answer": "pizza",
+        "question_id": "165009000"
+    },
+    {
+        "answer": "no",
+        "question_id": "458558000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "199389014"
+    },
+    {
+        "answer": "yes",
+        "question_id": "31660002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "460813002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "78026007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "144062003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "401556012"
+    },
+    {
+        "answer": "yes",
+        "question_id": "545958013"
+    },
+    {
+        "answer": "sitting",
+        "question_id": "571450000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "493243004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "550173003"
+    },
+    {
+        "answer": "no",
+        "question_id": "116083004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "170181003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "575194000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "85803000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "279265007"
+    },
+    {
+        "answer": "winter",
+        "question_id": "264423001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "313057000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "448511008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "58849001"
+    },
+    {
+        "answer": "no",
+        "question_id": "420422000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "91080001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "222195003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "67966000"
+    },
+    {
+        "answer": "no",
+        "question_id": "472387012"
+    },
+    {
+        "answer": "yes",
+        "question_id": "28535002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "47588001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "130485005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "238602000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "532983002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "115043004"
+    },
+    {
+        "answer": "no",
+        "question_id": "199995000"
+    },
+    {
+        "answer": "brown",
+        "question_id": "38355002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "256575000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "192007000"
+    },
+    {
+        "answer": "bathroom",
+        "question_id": "303867000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "447354001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "169682000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "366852002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "346112000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "157883001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "440508001"
+    },
+    {
+        "answer": "no",
+        "question_id": "281012001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "75101000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "469810002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "238029061"
+    },
+    {
+        "answer": "no",
+        "question_id": "321024005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "159854002"
+    },
+    {
+        "answer": "no",
+        "question_id": "94619000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "124116002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "462807004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "175867001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "557459001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "364642005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "162685002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "318063000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "556230000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "358427004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "476843001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "407945000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "157928002"
+    },
+    {
+        "answer": "no",
+        "question_id": "427001003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "542962000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "497392003"
+    },
+    {
+        "answer": "no",
+        "question_id": "577512002"
+    },
+    {
+        "answer": "no",
+        "question_id": "446497016"
+    },
+    {
+        "answer": "yes",
+        "question_id": "366493000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "52166001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "434873000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "110196002"
+    },
+    {
+        "answer": "no",
+        "question_id": "495852000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "67431000"
+    },
+    {
+        "answer": "army",
+        "question_id": "129706003"
+    },
+    {
+        "answer": "tennis",
+        "question_id": "506707005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "526962005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "74832004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "81812000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "400981000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "90387000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "474188002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "274066001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "280242011"
+    },
+    {
+        "answer": "no",
+        "question_id": "473075002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "391642002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "428161000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "167993001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "171805002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "345466001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "340247007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "219771002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "213247002"
+    },
+    {
+        "answer": "no",
+        "question_id": "276840006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "120285001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "190923000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "364157003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "255274000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "282328002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "141517004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "538359001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "421433003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "419735002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "391656000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "538054001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "545101006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "11042000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "243478001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "163831000"
+    },
+    {
+        "answer": "eating",
+        "question_id": "316161001"
+    },
+    {
+        "answer": "no",
+        "question_id": "388215002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "125617000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "403758006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "15746000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "435034016"
+    },
+    {
+        "answer": "banana",
+        "question_id": "197444009"
+    },
+    {
+        "answer": "no",
+        "question_id": "213403000"
+    },
+    {
+        "answer": "no",
+        "question_id": "169356000"
+    },
+    {
+        "answer": "no",
+        "question_id": "49893002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "315219000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "392632002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "444152002"
+    },
+    {
+        "answer": "pizza",
+        "question_id": "497593006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "423005002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "368367005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "362712002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "537695001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "206231000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "309160002"
+    },
+    {
+        "answer": "no",
+        "question_id": "181886003"
+    },
+    {
+        "answer": "summer",
+        "question_id": "580746001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "63309002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "497626001"
+    },
+    {
+        "answer": "no",
+        "question_id": "348524002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "67422000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "326959002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "18295003"
+    },
+    {
+        "answer": "no",
+        "question_id": "408894001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "402357000"
+    },
+    {
+        "answer": "tennis",
+        "question_id": "336695001"
+    },
+    {
+        "answer": "no",
+        "question_id": "551820000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "311964002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "501047002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "482848002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "39963008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "545583002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "84968001"
+    },
+    {
+        "answer": "no",
+        "question_id": "526425003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "544855002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "44520000"
+    },
+    {
+        "answer": "no",
+        "question_id": "482800009"
+    },
+    {
+        "answer": "no",
+        "question_id": "84130000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "125936001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "135673013"
+    },
+    {
+        "answer": "yes",
+        "question_id": "27731000"
+    },
+    {
+        "answer": "no",
+        "question_id": "436280005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "432488002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "507879002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "280930001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "138656002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "318124009"
+    },
+    {
+        "answer": "yes",
+        "question_id": "351081000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "427223005"
+    },
+    {
+        "answer": "black",
+        "question_id": "33008002"
+    },
+    {
+        "answer": "no",
+        "question_id": "70626005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "537611001"
+    },
+    {
+        "answer": "skateboarding",
+        "question_id": "173204006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "460632010"
+    },
+    {
+        "answer": "yes",
+        "question_id": "563625001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "547106004"
+    },
+    {
+        "answer": "no",
+        "question_id": "339703001"
+    },
+    {
+        "answer": "pug",
+        "question_id": "119026001"
+    },
+    {
+        "answer": "no",
+        "question_id": "254919022"
+    },
+    {
+        "answer": "yes",
+        "question_id": "577976006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "177496008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "453981001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "74067002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "203697001"
+    },
+    {
+        "answer": "no",
+        "question_id": "86125001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "200234001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "384337004"
+    },
+    {
+        "answer": "banana",
+        "question_id": "371036001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "569016000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "505240001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "230031001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "115459001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "265725001"
+    },
+    {
+        "answer": "sitting",
+        "question_id": "159944000"
+    },
+    {
+        "answer": "no",
+        "question_id": "254919015"
+    },
+    {
+        "answer": "yes",
+        "question_id": "176595002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "182369001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "542145003"
+    },
+    {
+        "answer": "no",
+        "question_id": "16546003"
+    },
+    {
+        "answer": "no",
+        "question_id": "327306002"
+    },
+    {
+        "answer": "apple",
+        "question_id": "77102002"
+    },
+    {
+        "answer": "summer",
+        "question_id": "183155000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "448998001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "254816000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "207886003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "534210002"
+    },
+    {
+        "answer": "no",
+        "question_id": "385757002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "144706002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "98801000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "383462030"
+    },
+    {
+        "answer": "banana",
+        "question_id": "381682001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "65113001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "199669001"
     },
     {
         "answer": "yes",
         "question_id": "517443001"
     },
     {
-        "answer": "surfing",
-        "question_id": "27208000"
+        "answer": "banana",
+        "question_id": "423618001"
     },
     {
-        "answer": "sunny",
-        "question_id": "399865002"
+        "answer": "yes",
+        "question_id": "429386007"
     },
     {
-        "answer": "surfing",
-        "question_id": "100001000"
+        "answer": "no",
+        "question_id": "471004000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "245301000"
+    },
+    {
+        "answer": "no",
+        "question_id": "89027005"
+    },
+    {
+        "answer": "no",
+        "question_id": "418109000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "402802000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "21001000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "381599002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "576701006"
+    },
+    {
+        "answer": "no",
+        "question_id": "27897006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "214009005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "403013003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "183249000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "452179000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "431197005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "543836002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "251794001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "129988002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "209898000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "76417002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "538198002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "138246000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "464682018"
+    },
+    {
+        "answer": "yes",
+        "question_id": "389549001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "64611006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "18442001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "313359007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "434510001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "130839002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "288313005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "335328001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "6818002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "174062000"
+    },
+    {
+        "answer": "snowboarding",
+        "question_id": "114579003"
+    },
+    {
+        "answer": "no",
+        "question_id": "331856017"
+    },
+    {
+        "answer": "no",
+        "question_id": "335325003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "236370003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "449259005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "69914001"
+    },
+    {
+        "answer": "palm",
+        "question_id": "145335002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "435005000"
+    },
+    {
+        "answer": "frisbee",
+        "question_id": "295114004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "96075000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "159790006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "145604002"
+    },
+    {
+        "answer": "skateboarding",
+        "question_id": "150649002"
+    },
+    {
+        "answer": "no",
+        "question_id": "457684003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "173968000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "32952000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "515577000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "84540001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "429025002"
+    },
+    {
+        "answer": "no",
+        "question_id": "203846000"
+    },
+    {
+        "answer": "no",
+        "question_id": "524047011"
+    },
+    {
+        "answer": "yes",
+        "question_id": "541202002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "150872001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "21164003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "74853003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "535080002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "370138001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "21167001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "264382000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "25715003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "89174002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "3779000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "312298001"
+    },
+    {
+        "answer": "palm",
+        "question_id": "431876001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "361172000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "257660003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "441196002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "238603002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "331049002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "516602000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "16716001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "578655006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "159463001"
+    },
+    {
+        "answer": "no",
+        "question_id": "434806000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "185201000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "468332001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "525420000"
+    },
+    {
+        "answer": "no",
+        "question_id": "441511020"
+    },
+    {
+        "answer": "yes",
+        "question_id": "124072002"
+    },
+    {
+        "answer": "summer",
+        "question_id": "186730000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "441814001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "518177000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "118584002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "418070003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "567536004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "527962001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "246327002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "193031000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "132733000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "467197000"
+    },
+    {
+        "answer": "no",
+        "question_id": "25282000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "214853004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "169682003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "392915039"
+    },
+    {
+        "answer": "wood",
+        "question_id": "94746001"
+    },
+    {
+        "answer": "winter",
+        "question_id": "137300002"
+    },
+    {
+        "answer": "no",
+        "question_id": "363039003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "536183000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "255158006"
+    },
+    {
+        "answer": "wedding",
+        "question_id": "487774002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "393284000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "581357002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "145567002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "152774002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "401901004"
+    },
+    {
+        "answer": "no",
+        "question_id": "188296002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "200116005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "546428012"
+    },
+    {
+        "answer": "no",
+        "question_id": "218290003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "338098011"
+    },
+    {
+        "answer": "yes",
+        "question_id": "199003002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "305803005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "519330000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "433505010"
+    },
+    {
+        "answer": "yes",
+        "question_id": "72507003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "445638002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "199681000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "228504004"
+    },
+    {
+        "answer": "no",
+        "question_id": "395283003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "498807002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "396369001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "294437026"
+    },
+    {
+        "answer": "yes",
+        "question_id": "294832001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "560757000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "84984006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "93685003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "94194012"
+    },
+    {
+        "answer": "no",
+        "question_id": "99518001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "521956002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "173825002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "527644001"
+    },
+    {
+        "answer": "summer",
+        "question_id": "266920005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "21161003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "158167001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "234164000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "232244002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "292024003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "220858001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "388037001"
     },
     {
         "answer": "yes",
         "question_id": "17031004"
+    },
+    {
+        "answer": "sandals",
+        "question_id": "479596000"
+    },
+    {
+        "answer": "no",
+        "question_id": "157592005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "252388000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "29357002"
+    },
+    {
+        "answer": "snowboarding",
+        "question_id": "491242004"
+    },
+    {
+        "answer": "no",
+        "question_id": "71877000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "29934003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "96988001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "208028001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "76460001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "562261002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "218811000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "479912000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "336600002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "533464010"
+    },
+    {
+        "answer": "yes",
+        "question_id": "524436004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "387539003"
+    },
+    {
+        "answer": "no",
+        "question_id": "308223001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "39592001"
+    },
+    {
+        "answer": "no",
+        "question_id": "15797001"
+    },
+    {
+        "answer": "no",
+        "question_id": "286313005"
+    },
+    {
+        "answer": "train",
+        "question_id": "408950003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "289120002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "378311001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "252342001"
+    },
+    {
+        "answer": "no",
+        "question_id": "548538002"
+    },
+    {
+        "answer": "no",
+        "question_id": "232262002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "222370004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "540372000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "227851001"
+    },
+    {
+        "answer": "no",
+        "question_id": "538458001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "115584003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "35269004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "207785001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "531047000"
+    },
+    {
+        "answer": "banana",
+        "question_id": "21776002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "44723002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "144635001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "209972003"
+    },
+    {
+        "answer": "dalmatian",
+        "question_id": "547345002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "123599001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "482720006"
+    },
+    {
+        "answer": "train",
+        "question_id": "522637000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "324158010"
+    },
+    {
+        "answer": "yes",
+        "question_id": "413955001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "302221004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "544122001"
+    },
+    {
+        "answer": "no",
+        "question_id": "462845005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "269815004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "493652001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "449675026"
+    },
+    {
+        "answer": "yes",
+        "question_id": "88252002"
+    },
+    {
+        "answer": "no",
+        "question_id": "415750002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "569450005"
+    },
+    {
+        "answer": "no",
+        "question_id": "468997007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "90052006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "45587003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "480643007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "337899004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "315702000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "500784000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "140017002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "521509012"
+    },
+    {
+        "answer": "yes",
+        "question_id": "78371005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "298151003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "251655000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "214123000"
+    },
+    {
+        "answer": "no",
+        "question_id": "68628000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "246005007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "67660002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "254167001"
+    },
+    {
+        "answer": "baseball",
+        "question_id": "233365001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "69224004"
+    },
+    {
+        "answer": "no",
+        "question_id": "554255000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "84493000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "153865002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "155317001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "446743004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "113701002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "504635007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "31442001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "386718001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "423395002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "497826010"
+    },
+    {
+        "answer": "yes",
+        "question_id": "491902008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "215650002"
+    },
+    {
+        "answer": "train",
+        "question_id": "41488000"
+    },
+    {
+        "answer": "baseball",
+        "question_id": "143359001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "228910000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "188891000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "103631006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "568502002"
+    },
+    {
+        "answer": "no",
+        "question_id": "186697001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "14869000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "522446003"
+    },
+    {
+        "answer": "banana",
+        "question_id": "209530002"
+    },
+    {
+        "answer": "no",
+        "question_id": "267521014"
+    },
+    {
+        "answer": "yes",
+        "question_id": "411587001"
+    },
+    {
+        "answer": "no",
+        "question_id": "285751002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "281625002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "560718004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "524822007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "476652003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "363831005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "305800000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "531299016"
+    },
+    {
+        "answer": "no",
+        "question_id": "479953008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "301827002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "483643003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "66008000"
+    },
+    {
+        "answer": "no",
+        "question_id": "551907000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "408757004"
+    },
+    {
+        "answer": "no",
+        "question_id": "516239001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "400794001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "6894001"
+    },
+    {
+        "answer": "no",
+        "question_id": "345063000"
+    },
+    {
+        "answer": "dalmatian",
+        "question_id": "388531014"
+    },
+    {
+        "answer": "yes",
+        "question_id": "202273002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "212384003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "383762002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "449990001"
+    },
+    {
+        "answer": "no",
+        "question_id": "448365001"
+    },
+    {
+        "answer": "no",
+        "question_id": "299481012"
+    },
+    {
+        "answer": "yes",
+        "question_id": "121591002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "544590001"
+    },
+    {
+        "answer": "tennis",
+        "question_id": "92985000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "221477001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "384215000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "27272001"
+    },
+    {
+        "answer": "skateboarding",
+        "question_id": "454776001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "179317005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "238302009"
+    },
+    {
+        "answer": "yes",
+        "question_id": "444531001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "421865000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "23893000"
+    },
+    {
+        "answer": "no",
+        "question_id": "281500005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "346337003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "20438001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "411564003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "575222002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "543034000"
+    },
+    {
+        "answer": "no",
+        "question_id": "545920000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "124004008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "333095001"
+    },
+    {
+        "answer": "no",
+        "question_id": "158227000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "168425001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "356280004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "472648000"
+    },
+    {
+        "answer": "no",
+        "question_id": "333000000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "230150001"
+    },
+    {
+        "answer": "no",
+        "question_id": "147195000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "554620005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "91610001"
+    },
+    {
+        "answer": "no",
+        "question_id": "497640002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "38938000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "82042005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "227399011"
+    },
+    {
+        "answer": "yes",
+        "question_id": "444626005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "186322000"
+    },
+    {
+        "answer": "no",
+        "question_id": "240102002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "71618007"
+    },
+    {
+        "answer": "no",
+        "question_id": "33005000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "464732002"
+    },
+    {
+        "answer": "no",
+        "question_id": "444631000"
+    },
+    {
+        "answer": "snowboarding",
+        "question_id": "147140001"
+    },
+    {
+        "answer": "no",
+        "question_id": "483722001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "329486004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "454195005"
+    },
+    {
+        "answer": "no",
+        "question_id": "12639005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "450695011"
+    },
+    {
+        "answer": "yes",
+        "question_id": "327807002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "247639007"
+    },
+    {
+        "answer": "no",
+        "question_id": "548164004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "312289000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "525354003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "33909000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "532126001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "561037001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "159667003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "196047002"
+    },
+    {
+        "answer": "no",
+        "question_id": "229096000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "151742017"
+    },
+    {
+        "answer": "bathroom",
+        "question_id": "415196001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "206620004"
+    },
+    {
+        "answer": "no",
+        "question_id": "282847004"
+    },
+    {
+        "answer": "no",
+        "question_id": "200745001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "218752004"
+    },
+    {
+        "answer": "sunny",
+        "question_id": "577932022"
+    },
+    {
+        "answer": "no",
+        "question_id": "131869001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "113720003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "365766004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "420466000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "304812004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "27975000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "552901001"
+    },
+    {
+        "answer": "no",
+        "question_id": "76721003"
+    },
+    {
+        "answer": "no",
+        "question_id": "67252000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "531070000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "217593004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "471842004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "255448000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "149592003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "89430011"
+    },
+    {
+        "answer": "yes",
+        "question_id": "192406000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "480624001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "50306001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "579911001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "406147003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "376773008"
+    },
+    {
+        "answer": "yes",
+        "question_id": "359546002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "505385002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "473237000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "184698000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "90280002"
+    },
+    {
+        "answer": "train",
+        "question_id": "442210001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "236162007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "219647002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "442031000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "299305004"
+    },
+    {
+        "answer": "banana",
+        "question_id": "507536005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "32677000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "382399008"
+    },
+    {
+        "answer": "no",
+        "question_id": "444028007"
+    },
+    {
+        "answer": "yes",
+        "question_id": "353149001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "522106001"
+    },
+    {
+        "answer": "skateboarding",
+        "question_id": "226197001"
+    },
+    {
+        "answer": "no",
+        "question_id": "369840000"
+    },
+    {
+        "answer": "train",
+        "question_id": "51095004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "29341001"
+    },
+    {
+        "answer": "stop",
+        "question_id": "40937003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "327532002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "314709015"
+    },
+    {
+        "answer": "no",
+        "question_id": "392990000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "253718006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "492077003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "310369001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "141673004"
+    },
+    {
+        "answer": "yes",
+        "question_id": "210108003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "48972000"
+    },
+    {
+        "answer": "no",
+        "question_id": "184241001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "298362001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "408859001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "195408005"
+    },
+    {
+        "answer": "yes",
+        "question_id": "518850003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "94052001"
+    },
+    {
+        "answer": "no",
+        "question_id": "145295001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "59044001"
+    },
+    {
+        "answer": "yes",
+        "question_id": "92894000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "156126002"
+    },
+    {
+        "answer": "yes",
+        "question_id": "419882000"
+    },
+    {
+        "answer": "yes",
+        "question_id": "349098006"
+    },
+    {
+        "answer": "yes",
+        "question_id": "7125003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "580284003"
+    },
+    {
+        "answer": "yes",
+        "question_id": "274292007"
     }
 ]

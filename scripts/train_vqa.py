@@ -74,7 +74,8 @@ def main():
     match cfg.TRAIN.CRITERION:
         case 'bce':
             criterion = torch.nn.BCELoss(reduction='sum')
-
+        case 'cross-entropy':
+            criterion = torch.nn.CrossEntropyLoss()
     match cfg.TRAIN.LR_SCHEDULER:
         case 'step':     
             step_sheduler = StepLR(optimizer, step_size=cfg.TRAIN.STEP_LR.STEP_SIZE, gamma=cfg.TRAIN.STEP_LR.GAMMA)
