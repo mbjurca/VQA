@@ -1,6 +1,10 @@
 TRAIN:
   EPOCHS: 200
   LR: 0.001
+  WARMUP: 2
+  STEP_LR:
+    STEP_SIZE: 40
+    GAMMA: 0.1
   ANNOTATIONS_FILE: '../datasets/miniCOCO_train_annotations.json'
   QUESTIONS_FILE: '../datasets/miniCOCO_train_questions.json'
   EARLY_STOPPING_PERFORMANCE_EPS: 0.1
@@ -9,6 +13,7 @@ TRAIN:
   ADAM:
     BETA_1: 0.9
     BETA_2: 0.98
+  GRAD_CLIP_NORM: 3
   BATCH_SIZE: 512  
 VAL:
   ANNOTATIONS_FILE: '../datasets/miniCOCO_val_annotations.json'

@@ -11,9 +11,10 @@ from configs import update_configs, get_configs
 from coco_vqa_dataset import VQA_dataset
 from VQA import VQA
 from function import train
-from torch.optim.lr_scheduler import StepLR
+from torch.optim.lr_scheduler import StepLR, LinearLR, SequentialLR
 from torch.utils.tensorboard import SummaryWriter
 import argparse
+from utils import WarmupThenScheduler
 
 DATASET_CFG_FILE = "../configs/dataset.yaml"
 MODEL_CFG_FILE = "../configs/model.yaml"
@@ -76,7 +77,13 @@ def main():
 
     match cfg.TRAIN.LR_SCHEDULER:
         case 'step':     
-            scheduler_lr = StepLR(optimizer, step_size=cfg.TRAIN.STEP_LR.STEP_SIZE, gamma=cfg.TRAIN.STEP_LR.GAMMA)
+            step_sheduler = StepLR(optimizer, step_size=cfg.TRAIN.STEP_LR.STEP_SIZE, gamma=cfg.TRAIN.STEP_LR.GAMMA)
+            scheduler_lr = WarmupThenScheduler(optimizer=optimizer,
+                                            warmup_epochs=cfg.TRAIN.WARMUP,
+                                            after_warmup_scheduler=step_sheduler,
+                                            final_lr=cfg.TRAIN.LR)
+            
+    grad_norm = cfg.TRAIN.GRAD_CLIP_NORM if cfg.TRAIN.GRAD_CLIP_NORM != None else None
 
     validation_dataset = VQA_dataset(dataset_file=cfg.DATASET.VAL_FILE,
                                      labels_to_ids_file=cfg.DATASET.TRAIN_LABELS_TO_IDS,
@@ -97,10 +104,12 @@ def main():
           config = cfg, 
           model = model,
           optimizer = optimizer,
+          grad_norm = grad_norm,
           criterion = criterion,
           scheduler_lr = scheduler_lr,
           device = device, 
-          writer=writer)
+          writer=writer, 
+          )
 
 
 if __name__ == '__main__':

@@ -9,8 +9,9 @@ from Evaluator import Evaluator
 from configs import update_configs, get_configs
 import torch.nn as nn
 import matplotlib.pyplot as plt
+from torch.nn.utils import clip_grad_norm_
 
-def train(train_dataloader, validation_dataloader, config, model, optimizer, criterion, scheduler_lr, device, writer):
+def train(train_dataloader, validation_dataloader, config, model, optimizer, grad_norm, criterion, scheduler_lr, device, writer):
     top_accuracies = []  # List to store the top accuracies
     top_models = []  # List to store the state dicts of the top models
     best_acc, best_loss = 0, float('inf')
@@ -36,9 +37,11 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
 
             loss.backward()
             train_loss.append(loss.item())
+            
+            if grad_norm != None:
+                clip_grad_norm_(model.parameters(), 3.0)  # You can adjust the value (3.0) as needed
 
             optimizer.step()
-            scheduler_lr.step()
 
             acc = accuracy(logits, labels)
             train_acc.append(acc)
@@ -50,6 +53,8 @@ def train(train_dataloader, validation_dataloader, config, model, optimizer, cri
                     "answer": prediction.item(),
                     "question_id": question_id
                 })
+        
+        scheduler_lr.step()
 
         print('Epoch {}/{}, Iter {}/{}, Train Loss: {:.3f}, Train Accuracy: {:.3f}'.format(epoch, config.TRAIN.EPOCHS, idx_batch,
                                                                                            len(train_dataloader),
